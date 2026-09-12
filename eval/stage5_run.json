@@ -1,0 +1,1788 @@
+{
+  "run_date": "2026-08-29",
+  "prompt_version": "stage4_final",
+  "prompt_hash": "a6ced047824f56d3",
+  "questions": 22,
+  "results": [
+    {
+      "question": "What is the minimum quantity threshold for anhydrous ammonia?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Ammonia, anhydrous)",
+        "and the question uses table words: minimum, quantity, threshold"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Ammonia, anhydrous",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\nThe minimum quantity for anhydrous ammonia is 4.50 tonnes at a minimum concentration of 10% (mass/mass) [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "The minimum quantity for anhydrous ammonia is 4.50 tonnes at a minimum concentration of 10% (mass/mass) [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2
+        ],
+        "problems": []
+      },
+      "id": "T1"
+    },
+    {
+      "question": "How much chlorine triggers the Environmental Emergency Regulations?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Chlorine)",
+        "and the question uses table words: triggers"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 173 (Chlorine)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Chlorine",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\nChlorine triggers the regulations at a minimum quantity of 1.13 tonnes at a minimum concentration of 10% (mass/mass) [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "Chlorine triggers the regulations at a minimum quantity of 1.13 tonnes at a minimum concentration of 10% (mass/mass) [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2
+        ],
+        "problems": []
+      },
+      "id": "T2"
+    },
+    {
+      "question": "What is the threshold for mercury?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Mercury)",
+        "and the question uses table words: threshold"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 153 (Mercury)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Mercury",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nThe threshold for mercury is a minimum quantity of 1.00 tonnes, and no minimum concentration applies [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "The threshold for mercury is a minimum quantity of 1.00 tonnes, and no minimum concentration applies [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2
+        ],
+        "problems": []
+      },
+      "id": "T3"
+    },
+    {
+      "question": "What is the UN number for chlorine?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Chlorine)",
+        "and the question uses table words: un"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 173 (Chlorine)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Chlorine",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nThe UN number for chlorine is 1017 [2].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "reference",
+            "sentence": "The UN number for chlorine is 1017 [2]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "reference": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1
+        ],
+        "problems": []
+      },
+      "id": "T4"
+    },
+    {
+      "question": "Is sodium chloride listed in Schedule 1?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "table words are present (listed, schedule) but no Schedule 1 substance is named",
+        "so the question is about the rules, not a row"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 2(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 2(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 6, item 1",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Figure 1. Environmental Emergency Regulations, 2019 – Quick Reference” (p. 17), part 1 of 4",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Section 2 - Substance Exclusions” (p. 147)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “2(2) (b) – Inhalation Hazards Present in a Mixture with a Vapour Pressure of Less than 1.33kPa” (p. 148)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: whether sodium chloride is listed in Schedule 1\n\nThe provided evidence does not contain information on whether sodium chloride is listed in Schedule 1.",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "whether sodium chloride is listed in Schedule 1",
+        "rows": [
+          {
+            "tier": "refusal",
+            "sentence": "The provided evidence does not contain information on whether sodium chloride is listed in Schedule 1."
+          }
+        ],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 1",
+          "Schedule 1"
+        ],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "T5"
+    },
+    {
+      "question": "How often must a facility conduct a simulation exercise?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 3",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 8",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When must the E2 Plan be exercised",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — What are the different types of E2 Plan exercises",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nLaw\n\nA responsible person must conduct simulation exercises in relation to each environmental emergency plan prepared under subsection 4(1):\n- each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated [1]; and\n- every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated [1].\n\nParagraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b) [1].\n\nGuidance\n\nThe plan must be exercised at least once every 365 days from the day the plan was brought into effect [4].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated [1]; and"
+          },
+          {
+            "tier": "law",
+            "sentence": "every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b) [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "The plan must be exercised at least once every 365 days from the day the plan was brought into effect [4]."
+          }
+        ],
+        "claims": 4,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 3,
+          "guidance": 1
+        },
+        "obligation_on_guidance": [
+          "The plan must be exercised at least once every 365 days from the day the plan was brought into effect [4]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 1",
+          "paragraph 4(2)(d)",
+          "paragraph 4(2)(e)",
+          "subsection 4(1)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "O1"
+    },
+    {
+      "question": "When must an environmental emergency plan be brought into effect?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 6",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 9",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 6.0 (p. 70), part 1 of 3",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When must the E2 Plan be exercised",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nLaw\nA responsible person must bring an environmental emergency plan into effect Within 12 months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1) [1].\n\nGuidance\n- For uncontained E2 substances: within 12 months of meeting or exceeding the quantity threshold in Schedule 1 of the E2 Regulations for that substance [4].\n- For E2 substances stored in a container system: within 12 months of meeting or exceeding both the substance quantity and the container capacity thresholds identified in Schedule 1 of the E2 Regulations [4].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A responsible person must bring an environmental emergency plan into effect Within 12 months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1) [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "For uncontained E2 substances: within 12 months of meeting or exceeding the quantity threshold in Schedule 1 of the E2 Regulations for that substance [4]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "For E2 substances stored in a container system: within 12 months of meeting or exceeding both the substance quantity and the container capacity thresholds identified in Schedule 1 of the E2 Regulations [4]."
+          }
+        ],
+        "claims": 3,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1,
+          "guidance": 2
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 1",
+          "subsection 4(1)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "O2"
+    },
+    {
+      "question": "When must a responsible person tell the Minister that the plan has been prepared?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 5",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 6",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 14",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 6.0 (p. 70), part 1 of 3",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.4.1 (p. 67), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 8.4 (p. 81)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nA responsible person must inform the Minister that they have prepared the plan or are using a previously prepared plan in accordance with subsection 4(3) by submitting a notice that contains the information referred to in Schedule 3 within six months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1) [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A responsible person must inform the Minister that they have prepared the plan or are using a previously prepared plan in accordance with subsection 4(3) by submitting a notice that contains the information referred to in Schedule 3 within six months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1) [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 3",
+          "subsection 4(1)",
+          "subsection 4(3)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "O3"
+    },
+    {
+      "question": "How long must records of simulation exercises be kept?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 21",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.3 (p. 77), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When must the E2 Plan be exercised",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.3.7 (p. 57), part 10 of 10",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nLaw:\nThe provided regulations do not specify how long records of simulation exercises must be kept.\n\nGuidance:\nRecords of simulation exercises, including both annual and full-scale exercises, must be stored onsite for seven years [4]. These records must be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility [5].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "uncited",
+            "sentence": "The provided regulations do not specify how long records of simulation exercises must be kept."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Records of simulation exercises, including both annual and full-scale exercises, must be stored onsite for seven years [4]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "These records must be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility [5]."
+          }
+        ],
+        "claims": 3,
+        "uncited": [
+          "The provided regulations do not specify how long records of simulation exercises must be kept."
+        ],
+        "cited_share": 0.6666666666666666,
+        "tiers": {
+          "uncited": 1,
+          "guidance": 2
+        },
+        "obligation_on_guidance": [
+          "Records of simulation exercises, including both annual and full-scale exercises, must be stored onsite for seven years [4].",
+          "These records must be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility [5]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "problems": []
+      },
+      "id": "O4"
+    },
+    {
+      "question": "How often must the environmental emergency plan be reviewed?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 6",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When should the E2 Plan be updated",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.4.4 (p. 68)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nGuidance:\nThe environmental emergency plan must be reviewed annually to determine its effectiveness [4], or annually at minimum [5].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "guidance",
+            "sentence": "The environmental emergency plan must be reviewed annually to determine its effectiveness [4], or annually at minimum [5]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "guidance": 1
+        },
+        "obligation_on_guidance": [
+          "The environmental emergency plan must be reviewed annually to determine its effectiveness [4], or annually at minimum [5]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "problems": []
+      },
+      "id": "O5"
+    },
+    {
+      "question": "What must an environmental emergency plan contain?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 2,
+      "sources": [
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 12",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Checklist for the Preparation of an E2 Plan” (p. 169), part 7 of 15",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC factsheet: Reporting an Environmental Emergency, “What Kind of Incident to Report:” (p. 1)",
+          "source_type": "guidance",
+          "as_of": "2019"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nThe environmental emergency plan must include:\n(a) a description of the substance's properties and characteristics and the maximum expected quantity of the substance at the facility; [1]\n(b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; [1]\n(c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; [1]\n(d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; [1]\n(e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; [1]\n(f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; [1]\n(g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; [1]\n(h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "(a) a description of the substance's properties and characteristics and the maximum expected quantity of the substance at the facility; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; [1]"
+          },
+          {
+            "tier": "uncited",
+            "sentence": "(h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an"
+          }
+        ],
+        "claims": 8,
+        "uncited": [
+          "(h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an"
+        ],
+        "cited_share": 0.875,
+        "tiers": {
+          "law": 7,
+          "uncited": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": [
+          "answer was cut off, so it cannot be complete"
+        ]
+      },
+      "id": "C1"
+    },
+    {
+      "question": "What information must be included in the notice about simulation exercises?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 9",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 3",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — What are the different types of E2 Plan exercises",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When must the E2 Plan be exercised",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nA notice submitted to the Minister within five years after the day on which the environmental emergency plan is brought into effect under section 6 must contain the following information concerning the simulation exercises: [1]\n- Confirmation that the annual simulation exercises referred to in paragraph 7(1)(a) of the Regulations were conducted [3].\n- For each full-scale simulation exercise conducted under paragraph 7(1)(b) of the Regulations: [2]\n(a) the date on which the full-scale simulation exercise was conducted; [2]\n(b) a description of the environmental emergency simulated during the full-scale simulation exercise; [2]\n(c) the name, CAS registry number and, if applicable, UN number of the substance in respect of which the full-scale simulation exercise was conducted and the hazard category to which that substance belongs; [2]\n(d) if applicable, a list of all the local authorities and local community or interest groups that were involved in the full-scale simulation exercise; and [2]\n(e) the name and position title of the person who was in charge of conducting the full-scale simulation exercise. [2]",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A notice submitted to the Minister within five years after the day on which the environmental emergency plan is brought into effect under section 6 must contain the following information concerning the simulation exercises: [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "Confirmation that the annual simulation exercises referred to in paragraph 7(1)(a) of the Regulations were conducted [3]."
+          },
+          {
+            "tier": "law",
+            "sentence": "For each full-scale simulation exercise conducted under paragraph 7(1)(b) of the Regulations: [2]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(a) the date on which the full-scale simulation exercise was conducted; [2]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) a description of the environmental emergency simulated during the full-scale simulation exercise; [2]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) the name, CAS registry number and, if applicable, UN number of the substance in respect of which the full-scale simulation exercise was conducted and the hazard category to which that substance belongs; [2]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(d) if applicable, a list of all the local authorities and local community or interest groups that were involved in the full-scale simulation exercise; and [2]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(e) the name and position title of the person who was in charge of conducting the full-scale simulation exercise. [2]"
+          }
+        ],
+        "claims": 8,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 8
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "paragraph 7(1)(a)",
+          "paragraph 7(1)(b)",
+          "section 6"
+        ],
+        "unused_evidence": [
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "C2"
+    },
+    {
+      "question": "Our facility stores 6 tonnes of anhydrous ammonia in a single tank with a maximum capacity of 10 tonnes. We are not a farming operation and no exclusion applies. What do we have to do?",
+      "route": "BOTH",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Ammonia, anhydrous)",
+        "the question states a quantity held ('6 tonnes'), so it asks what follows from it"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 1(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(e) – Agricultural Nutrients” (p. 155)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(d) - Propane” (p. 154)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Section 2 - Substance Exclusions” (p. 147)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Ammonia, anhydrous",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: the regulatory requirements or actions required for a facility storing a substance above its minimum quantity threshold.\n\nThe provided evidence does not contain the regulatory provisions that establish the duties or required actions for a facility when a substance is present. Although the minimum quantity for anhydrous ammonia is 4.50 tonnes [7], the section of the regulations that mandates what a facility must do when storing a substance above this threshold is not provided.",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "the regulatory requirements or actions required for a facility storing a substance above its minimum quantity threshold.",
+        "rows": [
+          {
+            "tier": "refusal",
+            "sentence": "The provided evidence does not contain the regulatory provisions that establish the duties or required actions for a facility when a substance is present."
+          },
+          {
+            "tier": "law",
+            "sentence": "Although the minimum quantity for anhydrous ammonia is 4.50 tonnes [7], the section of the regulations that mandates what a facility must do when storing a substance above this threshold is not provided."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "problems": [
+          "REFUSED but made 1 claim(s)"
+        ]
+      },
+      "id": "S1"
+    },
+    {
+      "question": "We store 6 tonnes of anhydrous ammonia at our facility. What do we have to do?",
+      "route": "BOTH",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Ammonia, anhydrous)",
+        "the question states a quantity held ('6 tonnes'), so it asks what follows from it"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 2,
+      "sources": [
+        {
+          "citation": "Schedule 6, item 1",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(e) – Agricultural Nutrients” (p. 155)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC factsheet: Reporting an Environmental Emergency, “Reporting an Environmental Emergency” (p. 1)",
+          "source_type": "guidance",
+          "as_of": "2019"
+        },
+        {
+          "citation": "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Ammonia, anhydrous",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "Wait, let's make sure we don't hit any length limits or make it too complex.\nLet's check if we can make the list items in 4(2) even more compact while keeping the exact words for conditions.\nWait, Rule 5: \"If the question asks what a provision requires and that provision is a list, give every item in it, one short line each, with its letter.\"\nBut the question does NOT ask what a provision requires. It asks \"We store 6 tonnes of anhydrous ammonia at our facility. What do we have to do?\".\nSo we don't necessarily have to list every item of 4(2) if we can just summarize it, or we can list it. But wait, \"A requirement stated without its condition is a WRONG answer, not a short one\".\nIf we list it, we must include all conditions.\nLet's look at the list in 4(2) again. It is very long. Is it safer to list it?\nYes, because if we don't list it, we might miss some requirements. But wait, does the user even have to prepare an E2 plan?\nAccording to [5], they only have to prepare it \"Within 6 months of meeting or exceeding both the substance quantity and container capacity thresholds or only the quantity threshold for a substance that is not held in a container system\".\nSince we don't know if they meet the container capacity threshold or if it's not held in a container system, we don't know if they have to prepare it.\nBut we can state: \"If both the substance quantity and container capacity thresholds are met, or if only the quantity threshold is met for a substance not held in a container system, an environmental emergency plan must be prepared [5]. This plan must include:\" and then list the items.\nWait, is there a simpler way?\nLet's look at the guidance first.\nAccording to guidance:\nQuantities of anhydrous ammonia located at a farming operation for on-site use as an agricultural nutrient are excluded from maximum quantity calculations, provided they are used at the site where they are located and not stored for retail distribution or for use at other farming operations [4].\n\nIf thresholds are met or exceeded, the following notices",
+      "report": {
+        "status": "MISSING",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "uncited",
+            "sentence": "Wait, let's make sure we don't hit any length limits or make it too complex."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Let's check if we can make the list items in 4(2) even more compact while keeping the exact words for conditions."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Wait, Rule 5: \"If the question asks what a provision requires and that provision is a list, give every item in it, one short line each, with its letter.\""
+          },
+          {
+            "tier": "uncited",
+            "sentence": "But the question does NOT ask what a provision requires."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "It asks \"We store 6 tonnes of anhydrous ammonia at our facility."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "So we don't necessarily have to list every item of 4(2) if we can just summarize it, or we can list it."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "But wait, \"A requirement stated without its condition is a WRONG answer, not a short one\"."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "If we list it, we must include all conditions."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Let's look at the list in 4(2) again."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Yes, because if we don't list it, we might miss some requirements."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "But wait, does the user even have to prepare an E2 plan?"
+          },
+          {
+            "tier": "guidance",
+            "sentence": "According to [5], they only have to prepare it \"Within 6 months of meeting or exceeding both the substance quantity and container capacity thresholds or only the quantity threshold for a substance that is not held in a container system\"."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Since we don't know if they meet the container capacity threshold or if it's not held in a container system, we don't know if they have to prepare it."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "But we can state: \"If both the substance quantity and container capacity thresholds are met, or if only the quantity threshold is met for a substance not held in a container system, an environmental emergency plan must be prepared [5]."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "This plan must include:\" and then list the items."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Wait, is there a simpler way?"
+          },
+          {
+            "tier": "uncited",
+            "sentence": "Let's look at the guidance first."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Quantities of anhydrous ammonia located at a farming operation for on-site use as an agricultural nutrient are excluded from maximum quantity calculations, provided they are used at the site where they are located and not stored for retail distribution or for use at other farming operations [4]."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "If thresholds are met or exceeded, the following notices"
+          }
+        ],
+        "claims": 19,
+        "uncited": [
+          "Wait, let's make sure we don't hit any length limits or make it too complex.",
+          "Let's check if we can make the list items in 4(2) even more compact while keeping the exact words for conditions.",
+          "Wait, Rule 5: \"If the question asks what a provision requires and that provision is a list, give every item in it, one short line each, with its letter.\"",
+          "But the question does NOT ask what a provision requires.",
+          "It asks \"We store 6 tonnes of anhydrous ammonia at our facility.",
+          "So we don't necessarily have to list every item of 4(2) if we can just summarize it, or we can list it.",
+          "But wait, \"A requirement stated without its condition is a WRONG answer, not a short one\".",
+          "If we list it, we must include all conditions.",
+          "Let's look at the list in 4(2) again.",
+          "Yes, because if we don't list it, we might miss some requirements.",
+          "But wait, does the user even have to prepare an E2 plan?",
+          "Since we don't know if they meet the container capacity threshold or if it's not held in a container system, we don't know if they have to prepare it.",
+          "This plan must include:\" and then list the items.",
+          "Wait, is there a simpler way?",
+          "Let's look at the guidance first.",
+          "If thresholds are met or exceeded, the following notices"
+        ],
+        "cited_share": 0.15789473684210525,
+        "tiers": {
+          "uncited": 16,
+          "guidance": 3
+        },
+        "obligation_on_guidance": [
+          "According to [5], they only have to prepare it \"Within 6 months of meeting or exceeding both the substance quantity and container capacity thresholds or only the quantity threshold for a substance that is not held in a container system\".",
+          "But we can state: \"If both the substance quantity and container capacity thresholds are met, or if only the quantity threshold is met for a substance not held in a container system, an environmental emergency plan must be prepared [5]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "problems": [
+          "answer was cut off, so it cannot be complete",
+          "no STATUS line"
+        ]
+      },
+      "id": "S4"
+    },
+    {
+      "question": "We are closing a facility for two years. What must we submit?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 16",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nA responsible person who intends to cease operations for a period of one year or more at a facility where a substance is located, for any purpose other than maintenance, must submit a notice containing the information referred to in Schedule 7 to the Minister at least 30 days before the day on which operations are to cease, or as soon as feasible in the case of extraordinary circumstances such as fire, major accident, vandalism, natural disaster or act of terrorism [1].\n\nThe notice must be submitted through the E2 Online Reporting System, which is accessed through ECCC’s Single Window Information Management (SWIM) system [6]. If you own several facilities, you must submit separate notices for each facility [5].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A responsible person who intends to cease operations for a period of one year or more at a facility where a substance is located, for any purpose other than maintenance, must submit a notice containing the information referred to in Schedule 7 to the Minister at least 30 days before the day on which operations are to cease, or as soon as feasible in the case of extraordinary circumstances such as fire, major accident, vandalism, natural disaster or act of terrorism [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "The notice must be submitted through the E2 Online Reporting System, which is accessed through ECCC’s Single Window Information Management (SWIM) system [6]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "If you own several facilities, you must submit separate notices for each facility [5]."
+          }
+        ],
+        "claims": 3,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1,
+          "guidance": 2
+        },
+        "obligation_on_guidance": [
+          "The notice must be submitted through the E2 Online Reporting System, which is accessed through ECCC’s Single Window Information Management (SWIM) system [6].",
+          "If you own several facilities, you must submit separate notices for each facility [5]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 7"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          4
+        ],
+        "problems": []
+      },
+      "id": "S2"
+    },
+    {
+      "question": "Our facility is being sold to another company. Do we have to notify the Minister?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 17",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 20",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1 (p. 18)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nIf there is a transfer of the ownership of a facility where a substance is located, a responsible person must, if a notice has been submitted under subsection 3(1) in respect of the substance, submit a notice containing the information referred to in Schedule 7 to the Minister on or before the date of the transfer [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "If there is a transfer of the ownership of a facility where a substance is located, a responsible person must, if a notice has been submitted under subsection 3(1) in respect of the substance, submit a notice containing the information referred to in Schedule 7 to the Minister on or before the date of the transfer [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 7",
+          "subsection 3(1)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "S3"
+    },
+    {
+      "question": "What penalty applies if a facility fails to submit a notice on time?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 14",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: penalties for failing to submit a notice on time\n\nThe provided evidence does not contain information regarding penalties for failing to submit a notice on time.",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "penalties for failing to submit a notice on time",
+        "rows": [
+          {
+            "tier": "refusal",
+            "sentence": "The provided evidence does not contain information regarding penalties for failing to submit a notice on time."
+          }
+        ],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "U1"
+    },
+    {
+      "question": "How much does it cost to submit a Schedule 2 notice?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "table words are present (schedule) but no Schedule 1 substance is named",
+        "so the question is about the rules, not a row"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 2, item 1",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(5)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 22), part 3 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: the cost to submit a Schedule 2 notice",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "the cost to submit a Schedule 2 notice",
+        "rows": [],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 2"
+        ],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "U2"
+    },
+    {
+      "question": "Which substances must be reported to the National Pollutant Release Inventory?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 3(5)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 4(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 2(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC factsheet: Reporting an Environmental Emergency, “What Kind of Incident to Report:” (p. 1)",
+          "source_type": "guidance",
+          "as_of": "2019"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 8.3 (p. 81)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 8.3.1 (p. 81)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: substances that must be reported to the National Pollutant Release Inventory",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "substances that must be reported to the National Pollutant Release Inventory",
+        "rows": [],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "U3"
+    },
+    {
+      "question": "Do the Environmental Emergency Regulations apply in Quebec?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "CEPA 1999, section 193",
+          "source_type": "act",
+          "as_of": "2026-03-31"
+        },
+        {
+          "citation": "section 1(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 18",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 8.6.1 (p. 82)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 1.0 (p. 12), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Figure 1. Environmental Emergency Regulations, 2019 – Quick Reference” (p. 17), part 1 of 4",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nFor the purposes of these Regulations, paragraph 201(1)(a) of the Act applies only in relation to an environmental emergency that\n(a) has or may have an immediate or long-term harmful effect on the environment; [3]\n(b) constitutes or may constitute a danger to the environment on which human life depends; or [3]\n(c) constitutes or may constitute a danger in Canada to human life or health. [3]\nThe person who is designated to be provided with a written report respecting the occurrence of an environmental emergency involving a substance that is on the list referred to in section 2 is the Regional Director, Environmental Enforcement Directorate, Enforcement Branch, Department of the Environment, in the region where the environmental emergency occurs [3].\n\nGuidance adds that if an environmental emergency occurs in Quebec, immediate verbal notification must take place by calling 1-514-283-2333 or 1-866-283-2333 [4].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "uncited",
+            "sentence": "For the purposes of these Regulations, paragraph 201(1)(a) of the Act applies only in relation to an environmental emergency that"
+          },
+          {
+            "tier": "law",
+            "sentence": "(a) has or may have an immediate or long-term harmful effect on the environment; [3]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) constitutes or may constitute a danger to the environment on which human life depends; or [3]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) constitutes or may constitute a danger in Canada to human life or health. [3]"
+          },
+          {
+            "tier": "law",
+            "sentence": "The person who is designated to be provided with a written report respecting the occurrence of an environmental emergency involving a substance that is on the list referred to in section 2 is the Regional Director, Environmental Enforcement Directorate, Enforcement Branch, Department of the Environment, in the region where the environmental emergency occurs [3]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Guidance adds that if an environmental emergency occurs in Quebec, immediate verbal notification must take place by calling 1-514-283-2333 or 1-866-283-2333 [4]."
+          }
+        ],
+        "claims": 6,
+        "uncited": [
+          "For the purposes of these Regulations, paragraph 201(1)(a) of the Act applies only in relation to an environmental emergency that"
+        ],
+        "cited_share": 0.8333333333333334,
+        "tiers": {
+          "uncited": 1,
+          "law": 4,
+          "guidance": 1
+        },
+        "obligation_on_guidance": [
+          "Guidance adds that if an environmental emergency occurs in Quebec, immediate verbal notification must take place by calling 1-514-283-2333 or 1-866-283-2333 [4]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "paragraph 201(1)(a)",
+          "section 2"
+        ],
+        "unused_evidence": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "U4"
+    },
+    {
+      "question": "Does an Ontario Environmental Compliance Approval satisfy the E2 plan requirement?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "CEPA 1999, section 199(5)",
+          "source_type": "act",
+          "as_of": "2026-03-31"
+        },
+        {
+          "citation": "Schedule 3, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “APPENDIX 7 Checklist to Prepare an E2 Plan” (p. 163)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Checklist for the Preparation of an E2 Plan” (p. 167), part 5 of 15",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 10.0 (p. 86)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: PARTIAL\nNOT COVERED: whether an Ontario Environmental Compliance Approval specifically satisfies the E2 plan requirement\n\nWhere a person uses a plan under subsection (4) that does not meet all of the requirements of the notice, the person shall:\n(a) amend the plan so that it meets all of those requirements; or\n(b) prepare an additional environmental emergency plan that meets the remainder of those requirements [1].\n\nIf the environmental emergency plan is based on an existing plan, the plan must include a statement as to whether the existing plan was:\n(a) prepared on a voluntary basis;\n(b) prepared for another government; or\n(c) prepared under another Act of Parliament [2].\n\nIf the existing plan was prepared for another government or prepared under another Act of Parliament, the plan must include the name of the government or the Act of Parliament [2].",
+      "report": {
+        "status": "PARTIAL",
+        "not_covered": "whether an Ontario Environmental Compliance Approval specifically satisfies the E2 plan requirement",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "(a) amend the plan so that it meets all of those requirements; or",
+            "carried": true
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) prepare an additional environmental emergency plan that meets the remainder of those requirements [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) prepared under another Act of Parliament [2]."
+          },
+          {
+            "tier": "law",
+            "sentence": "If the existing plan was prepared for another government or prepared under another Act of Parliament, the plan must include the name of the government or the Act of Parliament [2]."
+          }
+        ],
+        "claims": 4,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 4
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "P1"
+    },
+    {
+      "question": "Can we use our corporate emergency response plan as the E2 plan?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.5-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 4(3)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 3, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 2 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Checklist for the Preparation of an E2 Plan” (p. 169), part 7 of 15",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: PARTIAL\nNOT COVERED: whether a corporate emergency response plan specifically can be used as an environmental emergency plan\n\nA responsible person may use an environmental emergency plan that has been prepared on a voluntary basis, or for another government or under another Act of Parliament, if that plan meets the requirements of subsection (2) or is amended so that it meets those requirements [1].\n\nIf the environmental emergency plan is based on an existing plan, a statement as to whether the existing plan was\n(a) prepared on a voluntary basis;\n(b) prepared for another government; or\n(c) prepared under another Act of Parliament [3].\n\nIf the existing plan was prepared for another government or prepared under another Act of Parliament, the name of the government or the Act of Parliament must be included [3].\n\nThe environmental emergency plan must be site-specific, meaning that if a regulatee owns several facilities, they must prepare a plan and submit separate notices and reports for each facility [4]. A single plan may deal with one or more substances as long as it addresses the full range of potential hazards present on the site and the elements of prevention, preparedness, response and recovery for identified scenarios [4].",
+      "report": {
+        "status": "PARTIAL",
+        "not_covered": "whether a corporate emergency response plan specifically can be used as an environmental emergency plan",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A responsible person may use an environmental emergency plan that has been prepared on a voluntary basis, or for another government or under another Act of Parliament, if that plan meets the requirements of subsection (2) or is amended so that it meets those requirements [1]."
+          },
+          {
+            "tier": "uncited",
+            "sentence": "If the environmental emergency plan is based on an existing plan, a statement as to whether the existing plan was"
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) prepared under another Act of Parliament [3]."
+          },
+          {
+            "tier": "law",
+            "sentence": "If the existing plan was prepared for another government or prepared under another Act of Parliament, the name of the government or the Act of Parliament must be included [3]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "The environmental emergency plan must be site-specific, meaning that if a regulatee owns several facilities, they must prepare a plan and submit separate notices and reports for each facility [4]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "A single plan may deal with one or more substances as long as it addresses the full range of potential hazards present on the site and the elements of prevention, preparedness, response and recovery for identified scenarios [4]."
+          }
+        ],
+        "claims": 6,
+        "uncited": [
+          "If the environmental emergency plan is based on an existing plan, a statement as to whether the existing plan was"
+        ],
+        "cited_share": 0.8333333333333334,
+        "tiers": {
+          "law": 3,
+          "uncited": 1,
+          "guidance": 2
+        },
+        "obligation_on_guidance": [
+          "The environmental emergency plan must be site-specific, meaning that if a regulatee owns several facilities, they must prepare a plan and submit separate notices and reports for each facility [4]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "id": "P2"
+    }
+  ]
+}

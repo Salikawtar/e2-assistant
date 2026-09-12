@@ -1,0 +1,13 @@
+id,family,question,expected,got,passed,missing_facts,missing_cites,claims,uncited,route
+H1,threshold,What is the minimum quantity threshold for benzene?,ANSWERED,ANSWERED,True,,,1,0,LOOKUP
+H2,threshold,How much acrolein triggers the Environmental Emergency Regulations?,ANSWERED,ANSWERED,True,,,1,0,LOOKUP
+H3,obligation,What must a record of a simulation exercise contain?,ANSWERED,ANSWERED,True,,,3,0,RETRIEVE
+H4,obligation,How often must the notice containing the Schedule 2 information be resubmitted?,ANSWERED,ANSWERED,True,,,5,0,RETRIEVE
+H5,obligation,Where must a copy of the environmental emergency plan be kept?,ANSWERED,ANSWERED,True,,,3,0,RETRIEVE
+H6,obligation,How must information required under the Regulations be submitted to the Minister?,ANSWERED,ANSWERED,True,,,6,0,RETRIEVE
+H7,contents,What facility information must be included in a Schedule 6 notice?,ANSWERED,ANSWERED,True,,,7,0,RETRIEVE
+H8,situational,Our tank was already in place before these Regulations came into force. When was our first notice due?,ANSWERED,ANSWERED,True,,,2,0,RETRIEVE
+H9,situational,The quantity of benzene at our facility has been below the threshold for a full year. What must we do?,ANSWERED,ANSWERED,True,,,3,0,BOTH
+H10,partial,We hire an outside contractor to run our simulation exercises. Does that satisfy section 7?,PARTIAL,PARTIAL,True,,,1,0,RETRIEVE
+H11,unanswerable,How many environmental emergency plans has ECCC received to date?,REFUSED,REFUSED,True,,,0,0,RETRIEVE
+H12,unanswerable,Which provinces have an equivalency agreement with the federal government for these Regulations?,REFUSED,REFUSED,True,,,0,0,RETRIEVE

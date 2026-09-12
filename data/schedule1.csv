@@ -1,250 +1,250 @@
-part,item,cas_number,substance_name,min_concentration_pct,min_quantity_tonnes,hazard_category,hazard_category_meaning
-1,1,56-23-5,Tetrachloromethane,10,0.22,A,aquatically toxic
-1,2,57-14-7,"1,1-Dimethylhydrazine",10,6.80,I,inhalation hazard
-1,3,60-29-7,Ethyl ether,1,4.50,E,explosion hazard
-1,4,60-34-4,Methylhydrazine,10,6.80,I,inhalation hazard
-1,5,67-66-3,Chloroform,10,9.10,I,inhalation hazard
-1,6,71-43-2,Benzene,1,10,C,combustible
-1,7,74-82-8,Methane,1,4.50,E,explosion hazard
-1,8,74-83-9,Methyl bromide,10,2.27,I,inhalation hazard
-1,9,74-84-0,Ethane,1,4.50,E,explosion hazard
-1,10,74-85-1,Ethylene,1,4.50,E,explosion hazard
-1,11,74-86-2,Acetylene,1,4.50,E,explosion hazard
-1,12,74-87-3,Methyl chloride,10,4.50,I,inhalation hazard
-1,13,74-88-4,Methyl iodide,10,4.50,I,inhalation hazard
-1,14,74-89-5,Methylamine,1,4.50,E,explosion hazard
-1,15,74-90-8,Hydrogen cyanide,10,1.13,I,inhalation hazard
-1,16,74-93-1,Methyl mercaptan,10,4.50,I,inhalation hazard
-1,17,74-98-6,Propane,1,4.50,E,explosion hazard
-1,18,74-99-7,Methylacetylene,1,4.50,E,explosion hazard
-1,19,75-00-3,Ethyl chloride,1,4.50,E,explosion hazard
-1,20,75-01-4,Vinyl chloride,1,4.50,E,explosion hazard
-1,21,75-02-5,Vinyl fluoride,1,4.50,E,explosion hazard
-1,22,75-04-7,Ethylamine,1,4.50,E,explosion hazard
-1,23,75-07-0,Acetaldehyde,1,4.50,E,explosion hazard
-1,24,75-08-1,Ethyl mercaptan,1,4.50,E,explosion hazard
-1,25,75-09-2,Dichloromethane,1,9.10,I,inhalation hazard
-1,26,75-15-0,Carbon disulfide,10,9.10,I,inhalation hazard
-1,27,75-18-3,Dimethyl sulfide,1,150,C,combustible
-1,28,75-19-4,Cyclopropane,1,4.50,E,explosion hazard
-1,29,75-21-8,Ethylene oxide,10,4.50,I,inhalation hazard
-1,30,75-28-5,Isobutane,1,4.50,E,explosion hazard
-1,31,75-29-6,2-Chloropropane,1,4.50,E,explosion hazard
-1,32,75-31-0,Isopropylamine,1,4.50,E,explosion hazard
-1,33,75-35-4,Vinylidene chloride,1,4.50,E,explosion hazard
-1,34,75-37-6,"1,1-Difluoroethane",1,4.50,E,explosion hazard
-1,35,75-38-7,"1,1-Difluoroethylene",1,4.50,E,explosion hazard
-1,36,75-44-5,Phosgene,1,0.22,I,inhalation hazard
-1,37,75-50-3,Trimethylamine,1,4.50,E,explosion hazard
-1,38,75-55-8,Propyleneimine,10,4.50,I,inhalation hazard
-1,39,75-56-9,Methyloxirane,10,4.50,I,inhalation hazard
-1,40,75-64-9,tert-Butylamine,1,150,C,combustible
-1,41,75-74-1,Tetramethyl lead,10,4.50,I,inhalation hazard
-1,42,75-76-3,Tetramethylsilane,1,4.50,E,explosion hazard
-1,43,75-77-4,Trimethylchlorosilane,10,4.50,I,inhalation hazard
-1,44,75-78-5,Dimethyldichlorosilane,10,2.27,I,inhalation hazard
-1,45,75-79-6,Methyltrichlorosilane,10,2.27,I,inhalation hazard
-1,46,76-06-2,Trichloronitromethane,10,2.27,I,inhalation hazard
-1,47,78-00-2,Tetraethyl lead,10,2.27,I,inhalation hazard
-1,48,78-78-4,2-Methylbutane,1,4.50,E,explosion hazard
-1,49,78-79-5,"1,3-Butadiene, 2-methyl-",1,4.50,E,explosion hazard
-1,50,78-82-0,Isobutyronitrile,10,9.10,I,inhalation hazard
-1,51,79-01-6,Trichloroethylene,10,1.13,A,aquatically toxic
-1,52,79-06-1,2-Propenamide,10,9.10,A,aquatically toxic
-1,53,79-22-1,Methyl chloroformate,10,2.27,I,inhalation hazard
-1,54,79-38-9,Trifluorochloroethylene,1,4.50,E,explosion hazard
-1,55,80-05-7,"Phenol, 4,4’-(1-methylethylidene)bis-",10,4.50,A,aquatically toxic
-1,56,91-08-7,"Toluene-2,6-diisocyanate",10,4.50,I,inhalation hazard
-1,57,91-20-3,Naphthalene,10,4.50,A,aquatically toxic
-1,58,91-94-1,"3,3’-Dichlorobenzidine",10,1.13,A,aquatically toxic
-1,59,100-41-4,Ethylbenzene,1,7000,C,combustible
-1,60,100-42-5,Styrene,10,4.50,E,explosion hazard
-1,61,100-44-7,"Benzene, (chloromethyl)-",10,4.50,A,aquatically toxic
-1,62,104-40-5,p-Nonylphenol,10,1.13,A,aquatically toxic
-1,63,106-89-8,"Oxirane, (chloromethyl)-",10,9.10,I,inhalation hazard
-1,64,106-97-8,Butane,1,4.50,E,explosion hazard
-1,65,106-98-9,1-Butene,1,4.50,E,explosion hazard
-1,66,106-99-0,"1,3-Butadiene",1,4.50,E,explosion hazard
-1,67,107-00-6,Ethylacetylene,1,4.50,E,explosion hazard
-1,68,107-01-7,2-Butene,1,4.50,E,explosion hazard
-1,69,107-02-8,Acrolein,10,2.27,I,inhalation hazard
-1,70,107-05-1,Allyl chloride,10,9.10,I,inhalation hazard
-1,71,107-06-2,"1,2-Dichloroethane",10,6.80,I,inhalation hazard
-1,72,107-07-3,2-Chloroethanol,10,4.50,I,inhalation hazard
-1,73,107-11-9,Allylamine,10,4.50,I,inhalation hazard
-1,74,107-12-0,Propionitrile,10,4.50,I,inhalation hazard
-1,75,107-13-1,Acrylonitrile,10,9.10,I,inhalation hazard
-1,76,107-15-3,Ethylenediamine,10,9.10,I,inhalation hazard
-1,77,107-18-6,Allyl alcohol,10,6.80,I,inhalation hazard
-1,78,107-25-5,Vinyl methyl ether,1,4.50,E,explosion hazard
-1,79,107-30-2,Chloromethyl methyl ether,10,2.27,I,inhalation hazard
-1,80,107-31-3,Methyl formate,1,4.50,E,explosion hazard
-1,81,108-05-4,Vinyl acetate,10,6.80,I,inhalation hazard
-1,82,108-23-6,Isopropyl chloroformate,10,6.80,I,inhalation hazard
-1,83,108-88-3,Toluene,1,2500,C,combustible
-1,84,108-91-8,Cyclohexylamine,10,6.80,I,inhalation hazard
-1,85,108-95-2,Phenol,10,9.10,I,inhalation hazard
-1,86,109-61-5,Propyl chloroformate,10,6.80,I,inhalation hazard
-1,87,109-66-0,Pentane,1,4.50,E,explosion hazard
-1,88,109-67-1,1-Pentene,1,4.50,E,explosion hazard
-1,89,109-92-2,Vinyl ethyl ether,1,4.50,E,explosion hazard
-1,90,109-95-5,Ethyl nitrite,1,4.50,E,explosion hazard
-1,91,110-00-9,Furan,10,2.27,I,inhalation hazard
-1,92,110-49-6,"Ethanol, 2-methoxy-, acetate",10,9.10,A,aquatically toxic
-1,93,110-54-3,Hexane,10,4.50,A,aquatically toxic
-1,94,110-82-7,Cyclohexane,1,550,C,combustible
-1,95,110-89-4,Piperidine,10,6.80,I,inhalation hazard
-1,96,111-15-9,"Ethanol, 2-ethoxy-, acetate",10,9.10,A,aquatically toxic
-1,97,115-07-1,Propylene,1,4.50,E,explosion hazard
-1,98,115-10-6,Dimethyl ether,1,4.50,E,explosion hazard
-1,99,115-11-7,2-Methylpropene,1,4.50,E,explosion hazard
-1,100,116-14-3,Tetrafluoroethylene,1,4.50,E,explosion hazard
-1,101,120-80-9,"1,2-Benzenediol",10,4.50,A,aquatically toxic
-1,102,123-31-9,"1,4-Benzenediol",10,0.22,A,aquatically toxic
-1,103,123-73-9,"Crotonaldehyde, (E)-",10,9.10,I,inhalation hazard
-1,104,123-91-1,"1,4-Dioxane",1,9.10,I,inhalation hazard
-1,105,124-40-3,Dimethylamine,1,4.50,E,explosion hazard
-1,106,126-73-8,"Phosphoric acid, tributyl ester",10,4.50,A,aquatically toxic
-1,107,126-98-7,Methylacrylonitrile,10,4.50,I,inhalation hazard
-1,108,127-18-4,Tetrachloroethylene,10,1.13,A,aquatically toxic
-1,109,151-56-4,Ethyleneimine,10,4.50,I,inhalation hazard
-1,110,302-01-2,Hydrazine,10,6.80,I,inhalation hazard
-1,111,353-42-4,Boron trifluoride dimethyl etherate,10,6.80,I,inhalation hazard
-1,112,373-02-4,Nickel acetate,10,0.22,A,aquatically toxic
-1,113,460-19-5,Cyanogen,1,4.50,E,explosion hazard
-1,114,463-49-0,Propadiene,1,4.50,E,explosion hazard
-1,115,463-51-4,Ketene,1,0.22,I,inhalation hazard
-1,116,463-58-1,Carbonyl sulfide,1,4.50,E,explosion hazard
-1,117,463-82-1,"2,2-Dimethylpropane",1,4.50,E,explosion hazard
-1,118,504-60-9,"1,3-Pentadiene",1,4.50,E,explosion hazard
-1,119,506-68-3,Cyanogen bromide,10,4.50,I,inhalation hazard
-1,120,506-77-4,Cyanogen chloride,10,4.50,I,inhalation hazard
-1,121,509-14-8,Tetranitromethane,10,4.50,I,inhalation hazard
-1,122,542-88-1,Bis(chloromethyl) ether,1,0.45,I,inhalation hazard
-1,123,556-64-9,Methyl thiocyanate,10,9.10,I,inhalation hazard
-1,124,557-98-2,2-Chloropropene,1,4.50,E,explosion hazard
-1,125,563-45-1,3-Methyl-1-butene,1,4.50,E,explosion hazard
-1,126,563-46-2,2-Methyl-1-butene,1,4.50,E,explosion hazard
-1,127,584-84-9,"Toluene-2,4-diisocyanate",10,4.50,I,inhalation hazard
-1,128,590-18-1,"2-Butene, (Z)-",1,4.50,E,explosion hazard
-1,129,590-21-6,1-Chloropropene,1,4.50,E,explosion hazard
-1,130,594-42-3,Perchloromethyl mercaptan,10,4.50,I,inhalation hazard
-1,131,598-73-2,Bromotrifluoroethylene,1,4.50,E,explosion hazard
-1,132,624-64-6,"2-Butene, (E)-",1,4.50,E,explosion hazard
-1,133,624-83-9,Methyl isocyanate,10,4.50,I,inhalation hazard
-1,134,627-20-3,"2-Pentene, (Z)-",1,4.50,E,explosion hazard
-1,135,630-08-0,Carbon monoxide,10,6.80,I,inhalation hazard
-1,136,646-04-8,"2-Pentene, (E)-",1,4.50,E,explosion hazard
-1,137,689-97-4,1-Buten-3-yne,1,4.50,E,explosion hazard
-1,138,732-26-3,"Phenol, 2,4,6-tris(1,1-dimethylethyl)-",10,0.22,A,aquatically toxic
-1,139,814-68-6,Acryloyl chloride,10,2.27,I,inhalation hazard
-1,140,1303-28-2,Arsenic pentoxide,10,0.22,A,aquatically toxic
-1,141,1306-19-0,Cadmium oxide,10,0.22,A,aquatically toxic
-1,142,1306-23-6,Cadmium sulfide,10,0.22,A,aquatically toxic
-1,143,1313-99-1,Nickel oxide,10,0.22,A,aquatically toxic
-1,144,1314-62-1,Vanadium pentoxide,10,0.22,A,aquatically toxic
-1,145,1327-53-3,Arsenic trioxide,10,0.22,A,aquatically toxic
-1,146,1330-20-7,Xylenes,1,8000,C,combustible
-1,147,1333-74-0,Hydrogen,1,4.50,E,explosion hazard
-1,148,1333-82-0,Chromium trioxide,10,0.22,A,aquatically toxic
-1,149,2551-62-4,Sulfur hexafluoride,10,9.10,I,inhalation hazard
-1,150,4109-96-0,Dichlorosilane,1,4.50,E,explosion hazard
-1,151,4170-30-3,Crotonaldehyde,10,9.10,I,inhalation hazard
-1,152,6484-52-2,"Ammonium nitrate, solid",60,20,O,oxidizer that may explode
-1,153,7439-97-6,Mercury,N/A,1.00,I,inhalation hazard
-1,154,7440-38-2,Arsenic,10,0.22,A,aquatically toxic
-1,155,7446-09-5,Sulfur dioxide,10,2.27,I,inhalation hazard
-1,156,7446-11-9,Sulfur trioxide,10,4.50,I,inhalation hazard
-1,157,7550-45-0,Titanium tetrachloride,10,1.13,I,inhalation hazard
-1,158,7616-94-6,Perchloryl fluoride,10,6.80,I,inhalation hazard
-1,159,7637-07-2,Boron trifluoride,10,2.27,I,inhalation hazard
-1,160,7646-79-9,Cobalt chloride,10,0.22,A,aquatically toxic
-1,161,7647-01-0,"Hydrogen chloride, anhydrous",10,2.27,I,inhalation hazard
-1,162,7664-39-3,"Hydrogen fluoride, anhydrous",1,0.45,I,inhalation hazard
-1,163,7664-41-7,"Ammonia, anhydrous",10,4.50,I,inhalation hazard
-1,164,7718-54-9,Nickel chloride,10,0.22,A,aquatically toxic
-1,165,7719-09-7,Thionyl chloride,10,6.80,I,inhalation hazard
-1,166,7719-12-2,Phosphorus trichloride,10,6.80,I,inhalation hazard
-1,167,7723-14-0,Phosphorus,N/A,1.00,I,inhalation hazard
-1,168,7726-95-6,Bromine,10,4.50,I,inhalation hazard
-1,169,7775-09-9,Sodium chlorate,10,10,O,oxidizer that may explode
-1,170,7775-11-3,Sodium chromate,10,0.22,A,aquatically toxic
-1,171,7778-43-0,"Sodium arsenate, dibasic",10,0.22,A,aquatically toxic
-1,172,7782-41-4,Fluorine,1,0.45,I,inhalation hazard
-1,173,7782-50-5,Chlorine,10,1.13,I,inhalation hazard
-1,174,7783-06-4,Hydrogen sulfide,10,4.50,I,inhalation hazard
-1,175,7783-07-5,Hydrogen selenide,1,0.22,I,inhalation hazard
-1,176,7783-60-0,Sulfur tetrafluoride,10,1.13,I,inhalation hazard
-1,177,7784-34-1,Arsenous trichloride,10,6.80,I,inhalation hazard
-1,178,7784-42-1,Arsine,1,0.45,I,inhalation hazard
-1,179,7784-46-5,Sodium arsenite,10,0.22,A,aquatically toxic
-1,180,7786-81-4,Nickel(II) sulfate,10,0.22,A,aquatically toxic
-1,181,7789-00-6,Potassium chromate,10,0.22,A,aquatically toxic
-1,182,7790-98-9,Ammonium perchlorate,1,3.40,O,oxidizer that may explode
-1,183,7791-21-1,Dichlorine oxide,1,4.50,E,explosion hazard
-1,184,7803-51-2,Phosphine,10,2.27,I,inhalation hazard
-1,185,7803-52-3,Stibine,10,2.27,I,inhalation hazard
-1,186,7803-62-5,Silane,1,4.50,E,explosion hazard
-1,187,8002-05-9,Petroleum crude oil,1,2500,F,pool fire hazard
-1,188,8006-14-2,Liquefied natural gas,1,4.50,E,explosion hazard
-1,189,8006-61-9,Unleaded gasoline,1,150,C,combustible
-1,190,8014-95-7,"Sulfuric acid, fuming",N/A,4.50,I,inhalation hazard
-1,191,8030-30-6,Naphtha,1,50,C,combustible
-1,192,10025-78-2,Trichlorosilane,1,4.50,E,explosion hazard
-1,193,10025-87-3,Phosphorus oxychloride,10,2.27,I,inhalation hazard
-1,194,10035-10-6,Hydrogen bromide,10,1.13,I,inhalation hazard
-1,195,10048-95-0,"Sodium arsenate, dibasic, heptahydrate",10,0.22,A,aquatically toxic
-1,196,10049-04-4,Chlorine dioxide,1,0.45,I,inhalation hazard
-1,197,10101-97-0,"Nickel(II) sulfate, hexahydrate",10,0.22,A,aquatically toxic
-1,198,10102-43-9,Nitric oxide,10,4.50,I,inhalation hazard
-1,199,10102-44-0,Nitrogen dioxide,10,1.13,I,inhalation hazard
-1,200,10108-64-2,Cadmium chloride,10,0.22,A,aquatically toxic
-1,201,10124-36-4,Cadmium sulfate,10,0.22,A,aquatically toxic
-1,202,10294-34-5,Boron trichloride,10,2.27,I,inhalation hazard
-1,203,10588-01-9,Sodium dichromate,10,0.22,A,aquatically toxic
-1,204,13138-45-9,Nickel nitrate,10,0.22,A,aquatically toxic
-1,205,13463-39-3,Nickel carbonyl,1,0.45,I,inhalation hazard
-1,206,13463-40-6,Iron pentacarbonyl,10,1.13,I,inhalation hazard
-1,207,13478-00-7,"Nickel(II) nitrate, hexahydrate",10,0.22,A,aquatically toxic
-1,208,15699-18-0,Nickel ammonium sulfate,10,0.22,A,aquatically toxic
-1,209,17540-75-9,"Phenol, 2,6-bis(1,1-dimethylethyl)-4-(1-methylpropyl)-",10,0.22,A,aquatically toxic
-1,210,19287-45-7,Diborane,10,1.13,I,inhalation hazard
-1,211,20816-12-0,Osmium tetroxide,1,0.22,I,inhalation hazard
-1,212,25154-52-3,Nonylphenol,10,1.13,A,aquatically toxic
-1,213,25167-67-3,Butene,1,4.50,E,explosion hazard
-1,214,26471-62-5,Toluene diisocyanate,10,4.50,I,inhalation hazard
-1,215,41556-26-7,"Decanedioic acid, bis(1,2,2,6,6-pentamethyl-4-piperidinyl) ester",10,1.13,A,aquatically toxic
-1,216,64741-47-5,"Natural gas condensates, petroleum",1,340,C,combustible
-1,217,64741-48-6,"Natural gas, petroleum, raw liquid mix",1,4.50,E,explosion hazard
-1,218,64741-86-2,"Distillates, petroleum, sweetened middle",1,2500,F,pool fire hazard
-1,219,64741-87-3,"Naphtha, petroleum, sweetened",1,4.50,E,explosion hazard
-1,220,64742-80-9,"Distillates, petroleum, hydrodesulfurized middle",1,2500,F,pool fire hazard
-1,221,68334-30-5,"Fuels, diesel",1,2500,F,pool fire hazard
-1,222,68476-30-2,"Fuel oil, No. 2",1,2500,F,pool fire hazard
-1,223,68476-31-3,"Fuel oil, No. 4",1,2500,F,pool fire hazard
-1,224,68476-33-5,"Fuel oil, residual",1,2500,F,pool fire hazard
-1,225,68476-34-6,"Fuels, diesel, No. 2",1,2500,F,pool fire hazard
-1,226,68527-27-5,"Naphtha, petroleum, full-range alkylate, butane-containing",1,80,C,combustible
-1,227,68553-00-4,"Fuel oil, No. 6",1,2500,F,pool fire hazard
-1,228,68919-39-1,Natural gas condensates,1,45,C,combustible
-1,229,72102-55-7,"Methylium, [4-(dimethylamino)phenyl]bis[4-(ethylamino)-3-methylphenyl]-, acetate",10,0.22,A,aquatically toxic
-1,230,81741-28-8,Tributyl tetradecyl phosphonium chloride,10,0.22,A,aquatically toxic
-1,231,84852-15-3,"4-Nonylphenol, branched",10,1.13,A,aquatically toxic
-1,232,86290-81-5,Gasoline (motor fuel),1,150,C,combustible
-1,233,101316-57-8,"Distillates, petroleum, hydrodesulfurized full-range middle",1,2500,F,pool fire hazard
-1,234,128683-25-0,"Crude oil, oil sand",1,2500,F,pool fire hazard
-2,1,50-00-0,"Formaldehyde, solution",10,6.80,I,inhalation hazard
-2,2,64-19-7,Acetic acid,95,6.80,I,inhalation hazard
-2,3,74-90-8,Hydrocyanic acid,10,1.13,I,inhalation hazard
-2,4,79-21-0,Peracetic acid,10,4.50,I,inhalation hazard
-2,5,1336-21-6,Ammonium hydroxide,20,9.10,I,inhalation hazard
-2,6,6484-52-2,"Ammonium nitrate, solution",81,20,O,oxidizer that may explode
-2,7,7647-01-0,Hydrochloric acid,30,6.80,I,inhalation hazard
-2,8,7664-39-3,Hydrofluoric acid,50,0.45,I,inhalation hazard
-2,9,7664-41-7,Ammonia solution,20,9.10,I,inhalation hazard
-2,10,7697-37-2,Nitric acid,80,6.80,I,inhalation hazard
-2,11,7722-84-1,Hydrogen peroxide,52,3.40,O,oxidizer that may explode
-2,12,7738-94-5,Chromic acid,10,0.22,A,aquatically toxic
-2,13,7778-39-4,Arsenic acid,10,0.22,A,aquatically toxic
-2,14,7790-94-5,Chlorosulfuric acid,10,2.27,I,inhalation hazard
-2,15,10035-10-6,Hydrobromic acid,10,1.13,I,inhalation hazard
+part,item,cas_number,substance_name,min_concentration_pct,min_quantity_tonnes,hazard_category,hazard_category_meaning,un_number,un_matched_by
+1,1,56-23-5,Tetrachloromethane,10,0.22,A,aquatically toxic,1846,name
+1,2,57-14-7,"1,1-Dimethylhydrazine",10,6.80,I,inhalation hazard,1163,name
+1,3,60-29-7,Ethyl ether,1,4.50,E,explosion hazard,1155,name
+1,4,60-34-4,Methylhydrazine,10,6.80,I,inhalation hazard,1244,name
+1,5,67-66-3,Chloroform,10,9.10,I,inhalation hazard,1888,name
+1,6,71-43-2,Benzene,1,10,C,combustible,1114,name
+1,7,74-82-8,Methane,1,4.50,E,explosion hazard,1971 & 1972,name
+1,8,74-83-9,Methyl bromide,10,2.27,I,inhalation hazard,1062,name
+1,9,74-84-0,Ethane,1,4.50,E,explosion hazard,1035 & 1961,name
+1,10,74-85-1,Ethylene,1,4.50,E,explosion hazard,1038 & 1962,name
+1,11,74-86-2,Acetylene,1,4.50,E,explosion hazard,1001,name
+1,12,74-87-3,Methyl chloride,10,4.50,I,inhalation hazard,1063,name
+1,13,74-88-4,Methyl iodide,10,4.50,I,inhalation hazard,2644,name
+1,14,74-89-5,Methylamine,1,4.50,E,explosion hazard,1061,name
+1,15,74-90-8,Hydrogen cyanide,10,1.13,I,inhalation hazard,"1051, 1613 & 1614",name
+1,16,74-93-1,Methyl mercaptan,10,4.50,I,inhalation hazard,1064,name
+1,17,74-98-6,Propane,1,4.50,E,explosion hazard,1978,name
+1,18,74-99-7,Methylacetylene,1,4.50,E,explosion hazard,1060,name
+1,19,75-00-3,Ethyl chloride,1,4.50,E,explosion hazard,1037,name
+1,20,75-01-4,Vinyl chloride,1,4.50,E,explosion hazard,1086,name
+1,21,75-02-5,Vinyl fluoride,1,4.50,E,explosion hazard,1860,name
+1,22,75-04-7,Ethylamine,1,4.50,E,explosion hazard,1036 & 2270,name
+1,23,75-07-0,Acetaldehyde,1,4.50,E,explosion hazard,1089,name
+1,24,75-08-1,Ethyl mercaptan,1,4.50,E,explosion hazard,2363,name
+1,25,75-09-2,Dichloromethane,1,9.10,I,inhalation hazard,1593,name
+1,26,75-15-0,Carbon disulfide,10,9.10,I,inhalation hazard,1131,name
+1,27,75-18-3,Dimethyl sulfide,1,150,C,combustible,1164,name
+1,28,75-19-4,Cyclopropane,1,4.50,E,explosion hazard,1027,name
+1,29,75-21-8,Ethylene oxide,10,4.50,I,inhalation hazard,1040,name
+1,30,75-28-5,Isobutane,1,4.50,E,explosion hazard,1969,name
+1,31,75-29-6,2-Chloropropane,1,4.50,E,explosion hazard,1027,name
+1,32,75-31-0,Isopropylamine,1,4.50,E,explosion hazard,1221,name
+1,33,75-35-4,Vinylidene chloride,1,4.50,E,explosion hazard,1303,name
+1,34,75-37-6,"1,1-Difluoroethane",1,4.50,E,explosion hazard,1030,name
+1,35,75-38-7,"1,1-Difluoroethylene",1,4.50,E,explosion hazard,1959,name
+1,36,75-44-5,Phosgene,1,0.22,I,inhalation hazard,1076,name
+1,37,75-50-3,Trimethylamine,1,4.50,E,explosion hazard,1083 & 1297,name
+1,38,75-55-8,Propyleneimine,10,4.50,I,inhalation hazard,1921,name
+1,39,75-56-9,Methyloxirane,10,4.50,I,inhalation hazard,1280,name
+1,40,75-64-9,tert-Butylamine,1,150,C,combustible,1125,name
+1,41,75-74-1,Tetramethyl lead,10,4.50,I,inhalation hazard,,name
+1,42,75-76-3,Tetramethylsilane,1,4.50,E,explosion hazard,2749,name
+1,43,75-77-4,Trimethylchlorosilane,10,4.50,I,inhalation hazard,1298,name
+1,44,75-78-5,Dimethyldichlorosilane,10,2.27,I,inhalation hazard,1162,name
+1,45,75-79-6,Methyltrichlorosilane,10,2.27,I,inhalation hazard,1250,name
+1,46,76-06-2,Trichloronitromethane,10,2.27,I,inhalation hazard,1580,name
+1,47,78-00-2,Tetraethyl lead,10,2.27,I,inhalation hazard,1649,name
+1,48,78-78-4,2-Methylbutane,1,4.50,E,explosion hazard,1265,name
+1,49,78-79-5,"1,3-Butadiene, 2-methyl-",1,4.50,E,explosion hazard,1218,name
+1,50,78-82-0,Isobutyronitrile,10,9.10,I,inhalation hazard,2284,name
+1,51,79-01-6,Trichloroethylene,10,1.13,A,aquatically toxic,1710,name
+1,52,79-06-1,2-Propenamide,10,9.10,A,aquatically toxic,2074 & 3426,name
+1,53,79-22-1,Methyl chloroformate,10,2.27,I,inhalation hazard,1238,name
+1,54,79-38-9,Trifluorochloroethylene,1,4.50,E,explosion hazard,1082,name
+1,55,80-05-7,"Phenol, 4,4’-(1-methylethylidene)bis-",10,4.50,A,aquatically toxic,,cas
+1,56,91-08-7,"Toluene-2,6-diisocyanate",10,4.50,I,inhalation hazard,2078,name
+1,57,91-20-3,Naphthalene,10,4.50,A,aquatically toxic,2304,name
+1,58,91-94-1,"3,3’-Dichlorobenzidine",10,1.13,A,aquatically toxic,,cas
+1,59,100-41-4,Ethylbenzene,1,7000,C,combustible,1175,name
+1,60,100-42-5,Styrene,10,4.50,E,explosion hazard,2055,name
+1,61,100-44-7,"Benzene, (chloromethyl)-",10,4.50,A,aquatically toxic,1738,name
+1,62,104-40-5,p-Nonylphenol,10,1.13,A,aquatically toxic,,name
+1,63,106-89-8,"Oxirane, (chloromethyl)-",10,9.10,I,inhalation hazard,2023,name
+1,64,106-97-8,Butane,1,4.50,E,explosion hazard,1011,name
+1,65,106-98-9,1-Butene,1,4.50,E,explosion hazard,1012,name
+1,66,106-99-0,"1,3-Butadiene",1,4.50,E,explosion hazard,1010,name
+1,67,107-00-6,Ethylacetylene,1,4.50,E,explosion hazard,2452,name
+1,68,107-01-7,2-Butene,1,4.50,E,explosion hazard,1055,name
+1,69,107-02-8,Acrolein,10,2.27,I,inhalation hazard,1092,name
+1,70,107-05-1,Allyl chloride,10,9.10,I,inhalation hazard,1100,name
+1,71,107-06-2,"1,2-Dichloroethane",10,6.80,I,inhalation hazard,1184,name
+1,72,107-07-3,2-Chloroethanol,10,4.50,I,inhalation hazard,1135,name
+1,73,107-11-9,Allylamine,10,4.50,I,inhalation hazard,2334,name
+1,74,107-12-0,Propionitrile,10,4.50,I,inhalation hazard,2404,name
+1,75,107-13-1,Acrylonitrile,10,9.10,I,inhalation hazard,1093,name
+1,76,107-15-3,Ethylenediamine,10,9.10,I,inhalation hazard,1604,name
+1,77,107-18-6,Allyl alcohol,10,6.80,I,inhalation hazard,1098,name
+1,78,107-25-5,Vinyl methyl ether,1,4.50,E,explosion hazard,1087,name
+1,79,107-30-2,Chloromethyl methyl ether,10,2.27,I,inhalation hazard,1339,name
+1,80,107-31-3,Methyl formate,1,4.50,E,explosion hazard,1243,name
+1,81,108-05-4,Vinyl acetate,10,6.80,I,inhalation hazard,1301,name
+1,82,108-23-6,Isopropyl chloroformate,10,6.80,I,inhalation hazard,2407,name
+1,83,108-88-3,Toluene,1,2500,C,combustible,1294,name
+1,84,108-91-8,Cyclohexylamine,10,6.80,I,inhalation hazard,2357,name
+1,85,108-95-2,Phenol,10,9.10,I,inhalation hazard,"1671, 2312 & 2821",name
+1,86,109-61-5,Propyl chloroformate,10,6.80,I,inhalation hazard,2740,name
+1,87,109-66-0,Pentane,1,4.50,E,explosion hazard,1265,name
+1,88,109-67-1,1-Pentene,1,4.50,E,explosion hazard,1108,name
+1,89,109-92-2,Vinyl ethyl ether,1,4.50,E,explosion hazard,1302,name
+1,90,109-95-5,Ethyl nitrite,1,4.50,E,explosion hazard,1194,name
+1,91,110-00-9,Furan,10,2.27,I,inhalation hazard,2389,name
+1,92,110-49-6,"Ethanol, 2-methoxy-, acetate",10,9.10,A,aquatically toxic,1189,name
+1,93,110-54-3,Hexane,10,4.50,A,aquatically toxic,1208,name
+1,94,110-82-7,Cyclohexane,1,550,C,combustible,1145,name
+1,95,110-89-4,Piperidine,10,6.80,I,inhalation hazard,2401,name
+1,96,111-15-9,"Ethanol, 2-ethoxy-, acetate",10,9.10,A,aquatically toxic,1172,name
+1,97,115-07-1,Propylene,1,4.50,E,explosion hazard,1077,name
+1,98,115-10-6,Dimethyl ether,1,4.50,E,explosion hazard,1033,name
+1,99,115-11-7,2-Methylpropene,1,4.50,E,explosion hazard,1055,name
+1,100,116-14-3,Tetrafluoroethylene,1,4.50,E,explosion hazard,1081,name
+1,101,120-80-9,"1,2-Benzenediol",10,4.50,A,aquatically toxic,2811,name
+1,102,123-31-9,"1,4-Benzenediol",10,0.22,A,aquatically toxic,2662,name
+1,103,123-73-9,"Crotonaldehyde, (E)-",10,9.10,I,inhalation hazard,1143,name
+1,104,123-91-1,"1,4-Dioxane",1,9.10,I,inhalation hazard,1165,name
+1,105,124-40-3,Dimethylamine,1,4.50,E,explosion hazard,1032 & 1160,name
+1,106,126-73-8,"Phosphoric acid, tributyl ester",10,4.50,A,aquatically toxic,2810,name
+1,107,126-98-7,Methylacrylonitrile,10,4.50,I,inhalation hazard,3079,name
+1,108,127-18-4,Tetrachloroethylene,10,1.13,A,aquatically toxic,1897,name
+1,109,151-56-4,Ethyleneimine,10,4.50,I,inhalation hazard,1185,name
+1,110,302-01-2,Hydrazine,10,6.80,I,inhalation hazard,2029,name
+1,111,353-42-4,Boron trifluoride dimethyl etherate,10,6.80,I,inhalation hazard,2965,name
+1,112,373-02-4,Nickel acetate,10,0.22,A,aquatically toxic,,name
+1,113,460-19-5,Cyanogen,1,4.50,E,explosion hazard,1026,name
+1,114,463-49-0,Propadiene,1,4.50,E,explosion hazard,2200,name
+1,115,463-51-4,Ketene,1,0.22,I,inhalation hazard,,name
+1,116,463-58-1,Carbonyl sulfide,1,4.50,E,explosion hazard,2204,name
+1,117,463-82-1,"2,2-Dimethylpropane",1,4.50,E,explosion hazard,2044,name
+1,118,504-60-9,"1,3-Pentadiene",1,4.50,E,explosion hazard,,name
+1,119,506-68-3,Cyanogen bromide,10,4.50,I,inhalation hazard,1889,name
+1,120,506-77-4,Cyanogen chloride,10,4.50,I,inhalation hazard,1589,name
+1,121,509-14-8,Tetranitromethane,10,4.50,I,inhalation hazard,1510,name
+1,122,542-88-1,Bis(chloromethyl) ether,1,0.45,I,inhalation hazard,2249,name
+1,123,556-64-9,Methyl thiocyanate,10,9.10,I,inhalation hazard,,name
+1,124,557-98-2,2-Chloropropene,1,4.50,E,explosion hazard,2456,name
+1,125,563-45-1,3-Methyl-1-butene,1,4.50,E,explosion hazard,2561,name
+1,126,563-46-2,2-Methyl-1-butene,1,4.50,E,explosion hazard,2459,name
+1,127,584-84-9,"Toluene-2,4-diisocyanate",10,4.50,I,inhalation hazard,2078,name
+1,128,590-18-1,"2-Butene, (Z)-",1,4.50,E,explosion hazard,1055,name
+1,129,590-21-6,1-Chloropropene,1,4.50,E,explosion hazard,,name
+1,130,594-42-3,Perchloromethyl mercaptan,10,4.50,I,inhalation hazard,1670,name
+1,131,598-73-2,Bromotrifluoroethylene,1,4.50,E,explosion hazard,2419,name
+1,132,624-64-6,"2-Butene, (E)-",1,4.50,E,explosion hazard,1055,name
+1,133,624-83-9,Methyl isocyanate,10,4.50,I,inhalation hazard,2480,name
+1,134,627-20-3,"2-Pentene, (Z)-",1,4.50,E,explosion hazard,,name
+1,135,630-08-0,Carbon monoxide,10,6.80,I,inhalation hazard,1016,name
+1,136,646-04-8,"2-Pentene, (E)-",1,4.50,E,explosion hazard,,name
+1,137,689-97-4,1-Buten-3-yne,1,4.50,E,explosion hazard,,name
+1,138,732-26-3,"Phenol, 2,4,6-tris(1,1-dimethylethyl)-",10,0.22,A,aquatically toxic,,name
+1,139,814-68-6,Acryloyl chloride,10,2.27,I,inhalation hazard,,name
+1,140,1303-28-2,Arsenic pentoxide,10,0.22,A,aquatically toxic,1559,name
+1,141,1306-19-0,Cadmium oxide,10,0.22,A,aquatically toxic,,name
+1,142,1306-23-6,Cadmium sulfide,10,0.22,A,aquatically toxic,,name
+1,143,1313-99-1,Nickel oxide,10,0.22,A,aquatically toxic,,name
+1,144,1314-62-1,Vanadium pentoxide,10,0.22,A,aquatically toxic,2862,name
+1,145,1327-53-3,Arsenic trioxide,10,0.22,A,aquatically toxic,1561,name
+1,146,1330-20-7,Xylenes,1,8000,C,combustible,1307,name
+1,147,1333-74-0,Hydrogen,1,4.50,E,explosion hazard,1966,name
+1,148,1333-82-0,Chromium trioxide,10,0.22,A,aquatically toxic,1463 & 1755,name
+1,149,2551-62-4,Sulfur hexafluoride,10,9.10,I,inhalation hazard,1080,name
+1,150,4109-96-0,Dichlorosilane,1,4.50,E,explosion hazard,2189,name
+1,151,4170-30-3,Crotonaldehyde,10,9.10,I,inhalation hazard,1143,name
+1,152,6484-52-2,"Ammonium nitrate, solid",60,20,O,oxidizer that may explode,"1942, 2067, 2068, 2069, 2070, 2071, 2072 & 2426",name
+1,153,7439-97-6,Mercury,N/A,1.00,I,inhalation hazard,2809,name
+1,154,7440-38-2,Arsenic,10,0.22,A,aquatically toxic,1558,name
+1,155,7446-09-5,Sulfur dioxide,10,2.27,I,inhalation hazard,1079,name
+1,156,7446-11-9,Sulfur trioxide,10,4.50,I,inhalation hazard,1829,name
+1,157,7550-45-0,Titanium tetrachloride,10,1.13,I,inhalation hazard,1838,name
+1,158,7616-94-6,Perchloryl fluoride,10,6.80,I,inhalation hazard,3083,name
+1,159,7637-07-2,Boron trifluoride,10,2.27,I,inhalation hazard,1008,name
+1,160,7646-79-9,Cobalt chloride,10,0.22,A,aquatically toxic,3288,name
+1,161,7647-01-0,"Hydrogen chloride, anhydrous",10,2.27,I,inhalation hazard,1789,name
+1,162,7664-39-3,"Hydrogen fluoride, anhydrous",1,0.45,I,inhalation hazard,1052,name
+1,163,7664-41-7,"Ammonia, anhydrous",10,4.50,I,inhalation hazard,2073 & 2672,name
+1,164,7718-54-9,Nickel chloride,10,0.22,A,aquatically toxic,,name
+1,165,7719-09-7,Thionyl chloride,10,6.80,I,inhalation hazard,1836,name
+1,166,7719-12-2,Phosphorus trichloride,10,6.80,I,inhalation hazard,1809,name
+1,167,7723-14-0,Phosphorus,N/A,1.00,I,inhalation hazard,2447,name
+1,168,7726-95-6,Bromine,10,4.50,I,inhalation hazard,1744,name
+1,169,7775-09-9,Sodium chlorate,10,10,O,oxidizer that may explode,1495,name
+1,170,7775-11-3,Sodium chromate,10,0.22,A,aquatically toxic,,name
+1,171,7778-43-0,"Sodium arsenate, dibasic",10,0.22,A,aquatically toxic,1685,name
+1,172,7782-41-4,Fluorine,1,0.45,I,inhalation hazard,1045,name
+1,173,7782-50-5,Chlorine,10,1.13,I,inhalation hazard,1017,name
+1,174,7783-06-4,Hydrogen sulfide,10,4.50,I,inhalation hazard,1053,name
+1,175,7783-07-5,Hydrogen selenide,1,0.22,I,inhalation hazard,2202,name
+1,176,7783-60-0,Sulfur tetrafluoride,10,1.13,I,inhalation hazard,2418,name
+1,177,7784-34-1,Arsenous trichloride,10,6.80,I,inhalation hazard,1560,name
+1,178,7784-42-1,Arsine,1,0.45,I,inhalation hazard,2188,name
+1,179,7784-46-5,Sodium arsenite,10,0.22,A,aquatically toxic,1686 & 2027,name
+1,180,7786-81-4,Nickel(II) sulfate,10,0.22,A,aquatically toxic,,name
+1,181,7789-00-6,Potassium chromate,10,0.22,A,aquatically toxic,,name
+1,182,7790-98-9,Ammonium perchlorate,1,3.40,O,oxidizer that may explode,1442,name
+1,183,7791-21-1,Dichlorine oxide,1,4.50,E,explosion hazard,,name
+1,184,7803-51-2,Phosphine,10,2.27,I,inhalation hazard,2199,name
+1,185,7803-52-3,Stibine,10,2.27,I,inhalation hazard,2676,name
+1,186,7803-62-5,Silane,1,4.50,E,explosion hazard,2203,name
+1,187,8002-05-9,Petroleum crude oil,1,2500,F,pool fire hazard,1267,name
+1,188,8006-14-2,Liquefied natural gas,1,4.50,E,explosion hazard,1972,name
+1,189,8006-61-9,Unleaded gasoline,1,150,C,combustible,1203,name
+1,190,8014-95-7,"Sulfuric acid, fuming",N/A,4.50,I,inhalation hazard,1831,name
+1,191,8030-30-6,Naphtha,1,50,C,combustible,1268,name
+1,192,10025-78-2,Trichlorosilane,1,4.50,E,explosion hazard,1295,name
+1,193,10025-87-3,Phosphorus oxychloride,10,2.27,I,inhalation hazard,1810,name
+1,194,10035-10-6,Hydrogen bromide,10,1.13,I,inhalation hazard,1048 & 1788,name
+1,195,10048-95-0,"Sodium arsenate, dibasic, heptahydrate",10,0.22,A,aquatically toxic,1685,name
+1,196,10049-04-4,Chlorine dioxide,1,0.45,I,inhalation hazard,,name
+1,197,10101-97-0,"Nickel(II) sulfate, hexahydrate",10,0.22,A,aquatically toxic,,name
+1,198,10102-43-9,Nitric oxide,10,4.50,I,inhalation hazard,1660,name
+1,199,10102-44-0,Nitrogen dioxide,10,1.13,I,inhalation hazard,1067,name
+1,200,10108-64-2,Cadmium chloride,10,0.22,A,aquatically toxic,,name
+1,201,10124-36-4,Cadmium sulfate,10,0.22,A,aquatically toxic,,name
+1,202,10294-34-5,Boron trichloride,10,2.27,I,inhalation hazard,1741,name
+1,203,10588-01-9,Sodium dichromate,10,0.22,A,aquatically toxic,,name
+1,204,13138-45-9,Nickel nitrate,10,0.22,A,aquatically toxic,2725,name
+1,205,13463-39-3,Nickel carbonyl,1,0.45,I,inhalation hazard,1259,name
+1,206,13463-40-6,Iron pentacarbonyl,10,1.13,I,inhalation hazard,1994,name
+1,207,13478-00-7,"Nickel(II) nitrate, hexahydrate",10,0.22,A,aquatically toxic,2725,name
+1,208,15699-18-0,Nickel ammonium sulfate,10,0.22,A,aquatically toxic,,name
+1,209,17540-75-9,"Phenol, 2,6-bis(1,1-dimethylethyl)-4-(1-methylpropyl)-",10,0.22,A,aquatically toxic,,name
+1,210,19287-45-7,Diborane,10,1.13,I,inhalation hazard,1911,name
+1,211,20816-12-0,Osmium tetroxide,1,0.22,I,inhalation hazard,2471,name
+1,212,25154-52-3,Nonylphenol,10,1.13,A,aquatically toxic,,name
+1,213,25167-67-3,Butene,1,4.50,E,explosion hazard,1012,name
+1,214,26471-62-5,Toluene diisocyanate,10,4.50,I,inhalation hazard,2078,name
+1,215,41556-26-7,"Decanedioic acid, bis(1,2,2,6,6-pentamethyl-4-piperidinyl) ester",10,1.13,A,aquatically toxic,,name
+1,216,64741-47-5,"Natural gas condensates, petroleum",1,340,C,combustible,1268,name
+1,217,64741-48-6,"Natural gas, petroleum, raw liquid mix",1,4.50,E,explosion hazard,1268,name
+1,218,64741-86-2,"Distillates, petroleum, sweetened middle",1,2500,F,pool fire hazard,1268,name
+1,219,64741-87-3,"Naphtha, petroleum, sweetened",1,4.50,E,explosion hazard,1268,name
+1,220,64742-80-9,"Distillates, petroleum, hydrodesulfurized middle",1,2500,F,pool fire hazard,1268,name
+1,221,68334-30-5,"Fuels, diesel",1,2500,F,pool fire hazard,1202,name
+1,222,68476-30-2,"Fuel oil, No. 2",1,2500,F,pool fire hazard,1202,name
+1,223,68476-31-3,"Fuel oil, No. 4",1,2500,F,pool fire hazard,1202,name
+1,224,68476-33-5,"Fuel oil, residual",1,2500,F,pool fire hazard,1202,name
+1,225,68476-34-6,"Fuels, diesel, No. 2",1,2500,F,pool fire hazard,1202,name
+1,226,68527-27-5,"Naphtha, petroleum, full-range alkylate, butane-containing",1,80,C,combustible,1268,name
+1,227,68553-00-4,"Fuel oil, No. 6",1,2500,F,pool fire hazard,1202,name
+1,228,68919-39-1,Natural gas condensates,1,45,C,combustible,1268,name
+1,229,72102-55-7,"Methylium, [4-(dimethylamino)phenyl]bis[4-(ethylamino)-3-methylphenyl]-, acetate",10,0.22,A,aquatically toxic,,name
+1,230,81741-28-8,Tributyl tetradecyl phosphonium chloride,10,0.22,A,aquatically toxic,,name
+1,231,84852-15-3,"4-Nonylphenol, branched",10,1.13,A,aquatically toxic,,name
+1,232,86290-81-5,Gasoline (motor fuel),1,150,C,combustible,1203,name
+1,233,101316-57-8,"Distillates, petroleum, hydrodesulfurized full-range middle",1,2500,F,pool fire hazard,1268,name
+1,234,128683-25-0,"Crude oil, oil sand",1,2500,F,pool fire hazard,1267,name
+2,1,50-00-0,"Formaldehyde, solution",10,6.80,I,inhalation hazard,1198 & 2209,name
+2,2,64-19-7,Acetic acid,95,6.80,I,inhalation hazard,2789 & 2790,name
+2,3,74-90-8,Hydrocyanic acid,10,1.13,I,inhalation hazard,"1051, 1613 & 1614",name
+2,4,79-21-0,Peracetic acid,10,4.50,I,inhalation hazard,3107,name
+2,5,1336-21-6,Ammonium hydroxide,20,9.10,I,inhalation hazard,"2672, 2073 & 3318",name
+2,6,6484-52-2,"Ammonium nitrate, solution",81,20,O,oxidizer that may explode,"1942, 2067, 2068, 2069, 2070, 2071, 2072 & 2426",name
+2,7,7647-01-0,Hydrochloric acid,30,6.80,I,inhalation hazard,1789,name
+2,8,7664-39-3,Hydrofluoric acid,50,0.45,I,inhalation hazard,1790,name
+2,9,7664-41-7,Ammonia solution,20,9.10,I,inhalation hazard,2073 & 2672,name
+2,10,7697-37-2,Nitric acid,80,6.80,I,inhalation hazard,2031 & 2032,name
+2,11,7722-84-1,Hydrogen peroxide,52,3.40,O,oxidizer that may explode,2015,name
+2,12,7738-94-5,Chromic acid,10,0.22,A,aquatically toxic,1463 & 1755,name
+2,13,7778-39-4,Arsenic acid,10,0.22,A,aquatically toxic,1553 & 1554,name
+2,14,7790-94-5,Chlorosulfuric acid,10,2.27,I,inhalation hazard,1754,name
+2,15,10035-10-6,Hydrobromic acid,10,1.13,I,inhalation hazard,1048 & 1788,name

@@ -1,0 +1,964 @@
+{
+  "run_date": "2026-09-04",
+  "measuring": "stage6_rule6",
+  "prompt_hash": "83d127c083df0f2a",
+  "model_pin": "models/gemini-3.8-flash",
+  "results": [
+    {
+      "question": "What is the minimum quantity threshold for benzene?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Benzene)",
+        "and the question uses table words: minimum, quantity, threshold"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 6 (Benzene)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Benzene",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\nThe minimum quantity threshold for benzene is 10 tonnes at a minimum concentration of 1% (mass/mass) [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "The minimum quantity threshold for benzene is 10 tonnes at a minimum concentration of 1% (mass/mass) [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) Schedule 1\nBenzene - Schedule 1, Part 1, item 6\n    CAS number            : 71-43-2\n    minimum concentration 1% (mass/mass)\n    minimum quantity      : 10 tonnes\n    hazard category       : C (combustible)\n\n[2] (reference) ECCC list of hazardous substances\nBenzene (CAS 71-43-2) - UN number 1114.\nSource: ECCC list of hazardous substances. The Environmental Emergency Regulations do not assign UN numbers; Schedule 2, item 3(c) requires a UN number to be reported if applicable.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H1"
+    },
+    {
+      "question": "How much acrolein triggers the Environmental Emergency Regulations?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Acrolein)",
+        "and the question uses table words: triggers"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 69 (Acrolein)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Acrolein",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\nAcrolein has a minimum quantity of 2.27 tonnes at a minimum concentration of 10% (mass/mass) [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "Acrolein has a minimum quantity of 2.27 tonnes at a minimum concentration of 10% (mass/mass) [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) Schedule 1\nAcrolein - Schedule 1, Part 1, item 69\n    CAS number            : 107-02-8\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 2.27 tonnes\n    hazard category       : I (inhalation hazard)\n\n[2] (reference) ECCC list of hazardous substances\nAcrolein (CAS 107-02-8) - UN number 1092.\nSource: ECCC list of hazardous substances. The Environmental Emergency Regulations do not assign UN numbers; Schedule 2, item 3(c) requires a UN number to be reported if applicable.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H2"
+    },
+    {
+      "question": "What must a record of a simulation exercise contain?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 8",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 3",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.3 (p. 77), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — What are the different types of E2 Plan exercises",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nAfter each simulation exercise is conducted in relation to the environmental emergency plan, the responsible person must prepare a record that contains:\n- the date [1];\n- a summary of the simulation exercise [1];\n- the results of the simulation exercise [1]; and\n- any modifications to be made to the plan as a result of the simulation exercise [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "a summary of the simulation exercise [1];"
+          },
+          {
+            "tier": "law",
+            "sentence": "the results of the simulation exercise [1]; and"
+          },
+          {
+            "tier": "law",
+            "sentence": "any modifications to be made to the plan as a result of the simulation exercise [1]."
+          }
+        ],
+        "claims": 3,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 3
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 8\n8 After each simulation exercise is conducted in relation to the environmental emergency plan, a responsible person must prepare a record that contains the date, a summary and the results of the simulation exercise and any modifications to be made to the plan as a result of the simulation exercise.\n\n[2] (regulation) section 7\n7 (1) A responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) as follows: (a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated; and (b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated. Cycle for simulation exercises (2) For the purposes of paragraph (1)(a), a simulation exercise conducted in respect of a substance belonging to a given hazard category must simulate a different environmental emergency for each subsequent simulation exercise until all of the environmental emergencies identified under paragraph 4(2)(d) for each of the substances belonging to that hazard category have been simulated, after which the environmental emergencies must be cycled through again. Exception (3) Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b).\n\n[3] (regulation) Schedule 5, item 3\nSCHEDULE 5, item 3. 3 The following information for each full-scale simulation exercise conducted under paragraph 7(1)(b) of the Regulations: (a) the date on which the full-scale simulation exercise was conducted; (b) a description of the environmental emergency simulated during the full-scale simulation exercise; (c) the name, CAS registry number and, if applicable, UN number of the substance in respect of which the full-scale simulation exercise was conducted and the hazard category to which that substance belongs; (d) if applicable, a list of all the local authorities and local community or interest groups that were involved in the full-scale simulation exercise; and (e) the name and position title of the person who was in charge of conducting the full-scale simulation exercise.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)\n7.0 Simulation Exercises. Environmental emergency exercises involve a simulation relating to an emergency scenario that has been identified in the E2 Plan. Exercising the E2 Plan provides those who are responsible for the facility with valuable information regarding their readiness and ability to respond to one or multiple elements of an environmental emergency. The E2 Regulations require that E2 Plans be exercised on an annual basis. A full-scale exercise must also be conducted every five years. Based on the outcome of these exercises, the E2 plans must be reviewed and updated, as required. The responsible person is required to keep a record of these annual and full-scale simulation exercises, including the date, a summary of the exercise, the results of the exercise, and any modifications made to the plan as a result. ECCC recommends that an appropriate exercise design process be composed of the following four main steps: 1. Planning the annual exercise(s); 2. Conducting the exercise(s); 3. Evaluating and reporting on the outcomes; and 4. Updating the E2 Plan(s) with lessons learned. The main objective is to ensure that all aspects of the E2 Plan are fully evaluated over the five-year testing cycle. Further information on exercising emergency response plans can be found in some of the suggested references in Appendix 6. Guidance on performing exercises with mixtures can be found in Appendix 2 of this document.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.3 (p. 77), part 1 of 2\n7.3 Record keeping and Reporting. Once the full-scale exercise is completed, a Notice Regarding Simulation Exercises Conducted in Relation to an E2 Plan (Schedule 5) must be submitted through the online reporting system. This notice will also ask for confirmation that the annual simulation exercises have been conducted in the previous years. Please note that because the full scale exercise is not required to be completed until after the E2 Plan has been brought into effect, the reporting system will not generate the appropriate notice until after the notice referred to in Schedule 4 (Information to Be Submitted in the Notice Regarding the Bringing Into Effect of an Environmental Emergency Plan) has been submitted. Additional information on the submission of notices to ECCC can be found in Section 4.1.4 of this document. In addition to the E2 Plan, the following records are also required to be kept at the facility: - A record of the simulation exercises undertaken, including both annual and full- scale exercises. The record for each exercise must include: the date the exercise took place, a summary of the exercise, and the results of the exercise. Any modifications required to the E2 Plan that were identified during the exercise must also be recorded. - A record of the dates of the annual review of the E2 Plan by the responsible person. If necessary, the E2 Plan must also be updated to ensure that it continues to meet regulatory requirements. Note that these records are not required to be submitted to ECCC, but must be stored onsite for seven years. They may be verified through site inspections. ECCC recommends an Appendix be placed within the E2 plan to record this information so it can be presented for inspection upon request. Other methods of records management\n\n[6] (guidance) ECCC guidance: simulation exercises — What are the different types of E2 Plan exercises\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. What are the different types of E2 Plan exercises. There are two main types of simulation exercises: the annual simulation which is administrative in nature, and the full-scale simulation which is action-based and must occur within five years of the E2 Plan implementation. All exercises must be site-specific and follow specific criteria depending on the type of exercise. Annual simulation exercise – This is an exercise that simulates the response to an environmental emergency that involves the release of one Schedule 1 substance from each of the hazard categories present at the facility. Examples that fulfill the requirements include: - Drills – These are supervised activities that allow emergency response team members to validate a specific operation or function, usually focused on one or two key skills such as shutdown procedures or valve operation. Drills can also be used to determine if plans can be executed as designed, to assess whether more training is required, or to reinforce best practices. - Tabletop exercises – This type of exercise is presented by a facilitator in an informal setting with no hands-on practice or fieldwork. This type of exercise is intended to generate discussion about various issues regarding a hypothetical, simulated emergency. Tabletop exercises can boost general awareness, validate plans and procedures, rehearse concepts, and/or assess the types of systems needed to guide the prevention of, protection from, mitigation of, response to, and recovery from a defined incident. - Functional exercises – These exercises provide a more realistic simulation of an emergency compared to a tabletop exercise. They are typically conducted in “real-time” in a classroom setting or a designated site for a Command Post. The Command Post Team “takes action” – making decisions, simulating the deployment of resources, and responding to new developments. In comparison to a full-scale exercise, a functional exercise involves fewer participants and the movement of personnel and equipment is simulated. Full-Scale simulation exercise – This is an action-based simulation exercise requiring the deployment of personnel, resources and equipment. The scenario must involve at least one Schedule 1 substance located at the facility. Full-scale exercises are typically the most complex and resource-intensive because they are staged in a realistic field environment with equipment deployment and involve many participants performing assigned tasks in real-time. Full-scale exercises give the team an opportunity to practice and validate their plans, policies, and a wide variety of the skills covered in response team training. Volunteers may play the role of victims and mock injuries can be staged. These exercises may involve other agencies, although role-players representing other agencies can be used if desired.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H3"
+    },
+    {
+      "question": "How often must the notice containing the Schedule 2 information be resubmitted?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "table words are present (schedule) but no Schedule 1 substance is named",
+        "so the question is about the rules, not a row"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 13",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 14",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 2 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 22), part 3 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nIf a notice has been submitted under subsection 3(1), a responsible person must submit a new notice to the Minister that contains the information referred to in Schedule 2 no later than five years after the day on which the most recent notice containing that information was submitted [1].\n\nGuidance adds that the information must be confirmed at least once every five years, even if there is no need to edit any information [4]. Guidance also states the notice must be edited and resubmitted within 60 days of:\n- Any changes to the facility information [4] (or after reported company information has changed [5]);\n- Any changes to the maximum expected quantity of a substance [4] (or if it has increased by 10% or more [5]); or\n- An increase of 10% or more in the capacity of the largest container system [4] (or maximum capacity has increased by 10% or more [5]).",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "If a notice has been submitted under subsection 3(1), a responsible person must submit a new notice to the Minister that contains the information referred to in Schedule 2 no later than five years after the day on which the most recent notice containing that information was submitted [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Guidance adds that the information must be confirmed at least once every five years, even if there is no need to edit any information [4]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Any changes to the facility information [4] (or after reported company information has changed [5]);"
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Any changes to the maximum expected quantity of a substance [4] (or if it has increased by 10% or more [5]); or"
+          },
+          {
+            "tier": "guidance",
+            "sentence": "An increase of 10% or more in the capacity of the largest container system [4] (or maximum capacity has increased by 10% or more [5])."
+          }
+        ],
+        "claims": 5,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1,
+          "guidance": 4
+        },
+        "obligation_on_guidance": [
+          "Guidance adds that the information must be confirmed at least once every five years, even if there is no need to edit any information [4]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 2",
+          "subsection 3(1)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 13\n13 If a notice has been submitted under subsection 3(1), a responsible person must submit a new notice to the Minister that contains the information referred to in Schedule 2 no later than five years after the day on which the most recent notice containing that information was submitted.\n\n[2] (regulation) section 14\n14 If a notice has been submitted under section 9, a responsible person must submit a new notice to the Minister that contains the information referred to in Schedule 5 no later than five years after the day on which the most recent notice containing that information was submitted.\n\n[3] (regulation) section 3(1)\n3(1) (1) A responsible person must, within 90 days after the day on which either of the following situations occurs, submit to the Minister a notice containing the information referred to in Schedule 2 for each facility at which a substance is located: (a) the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 2 of 8\n4.1.4 Description of Notices and Reports. The responsible person is required to confirm the information contained in their facility’s Schedule 2 notice at least once every five years, even if there is no need to edit any information. It will also need to be edited and resubmitted within 60 days of: - Any changes to the facility information; - Any changes to the maximum expected quantity of a substance; or - An increase of 10% or more in the capacity of the largest container system. Editing the required information in the Schedule 2 notice is accomplished by locating the Schedule 2 on the dashboard of the E2 Online Reporting System and using the “Edit” function (pencil icon). The user should be sure to select the most appropriate reasons for the edit on the drop down list as it may affect the system and the deadlines. Options include Year 5 Review and Amendment. Schedule 3: Notice Regarding the Preparation of an Environmental Emergency Plan The submission of the Notice Regarding the Preparation of an Environmental Emergency Plan informs ECCC that the facility has finished developing their E2 Plan. It includes details such as: the nature of the facility’s operations, the contribution of local authorities and the local community to the development of the plan, the date the plan was prepared, the predicted impact distances of both the worst-case scenario and alternate worst-case scenario, and, if applicable, a description of the area around the facility that may be impacted by the alternate worst-case scenario. Please note that the E2 Plan itself is not included in the submission, but must be kept readily available onsite. A blank Schedule 3 submission page should be generated in the E2 Online Reporting System and automatically added to a facility’s dashboard if the system determines that it\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2\n4.1.2 What and when do I need to report to ECCC?. The following table provides a list of all of the Notices of Submission and the written report that may need to be provided to ECCC, along with the associated Schedule in the E2 Regulations that identifies the required information, and the legislated timelines for their submission. The thresholds referred to in the table can be found in column 4 of Schedule 1 of the E2 Regulations. More detailed information on the contents of the Notices and written report and their online submission can be found in Section 4.1.4 of this document. Table 2. Requirements for the Submission of Notices and Reports to ECCC Schedule Title of Notice / Report Timeline for Submission Within 90 days of meeting or exceeding the substance quantity or container capacity threshold, and every 5 years thereafter. Notice Regarding Substance Schedule 2 If applicable, within 60 days after the reported Located at Facility company information has changed or either of the maximum expected quantity or maximum capacity has increased by 10% or more Within 6 months of meeting or exceeding both the Notice Regarding the Preparation substance quantity and container capacity Schedule 3 of an Environmental Emergency thresholds or only the quantity threshold for a Plan substance that is not held in a container system Within 12 months of meeting or exceeding both the Notice Regarding the Bringing substance quantity and container capacity Schedule 4 into Effect of an Environmental thresholds or only the quantity threshold for a Emergency Plan substance that is not in a container system Notice Regarding Simulation Exercises Conducted in Relation Within 5 years after the day on which the E2 plan is Schedule 5 to an Environmental Emergency brought into effect, and every 5 years thereafter Plan\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 22), part 3 of 8\n4.1.4 Description of Notices and Reports. is necessary, based on the responses in the Schedule 2 submission. If that does not occur, it can also be added manually by the user. Please note that the information displayed on the Facility Information page of the Schedule 3 notice is pre-populated based on the information in the Schedule 2 notice and cannot be modified. If this information needs to be changed, the Schedule 2 notice must be edited and then re-submitted. Once the Schedule 3 notice has been submitted, it can still be edited by the user to: - Add missing information for substances; - Add information for substances that now require an E2 Plan; and - Modify information contained in the E2 Plans. Schedule 4: Notice Regarding the Bringing Into Effect of an Environmental Emergency Plan This notice provides ECCC with the date on which an E2 Plan is complete and ready to be implemented in the event of an environmental emergency at the facility. After a Schedule 3 notice has been submitted in the E2 Online Reporting System, a blank Schedule 4 submission page should be created automatically and added to a facility’s dashboard. If this does not occur, it can also be manually added by the user. Please note that the information displayed on the Facility Information page of the Schedule 4 notice is pre-populated based on the information in the Schedule 2 notice and cannot be modified. If this information needs to be changed, the Schedule 2 notice must be edited and then re-submitted. Once the Schedule 4 notice has been submitted, it can still be edited by the user to: - Add missing information for substances; - Add information for substances that now require an E2 Plan; and - Edit information regarding the bringing into effect of E2 Plans.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H4"
+    },
+    {
+      "question": "Where must a copy of the environmental emergency plan be kept?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 11",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "CEPA 1999, section 199(1)",
+          "source_type": "act",
+          "as_of": "2026-03-31"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.4.3 (p. 68)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.3.3 (p. 31), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nA responsible person must make a copy of the environmental emergency plan readily available at the facility referred to in subsection 4(1) and at any other place where a copy of the plan needs to be kept for consultation by the individuals who are to carry it out [1].\n\nUnder guidance, components of the plan can be located within multiple binders or files, and electronic file storage may be acceptable under certain circumstances [4]. The responsible person decides where to store documentation, but must ensure all information completing the plan is accessible to those required to carry it out under any circumstances, regardless of whether individuals are able to access functioning electronic devices [4].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A responsible person must make a copy of the environmental emergency plan readily available at the facility referred to in subsection 4(1) and at any other place where a copy of the plan needs to be kept for consultation by the individuals who are to carry it out [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Under guidance, components of the plan can be located within multiple binders or files, and electronic file storage may be acceptable under certain circumstances [4]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "The responsible person decides where to store documentation, but must ensure all information completing the plan is accessible to those required to carry it out under any circumstances, regardless of whether individuals are able to access functioning electronic devices [4]."
+          }
+        ],
+        "claims": 3,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1,
+          "guidance": 2
+        },
+        "obligation_on_guidance": [
+          "The responsible person decides where to store documentation, but must ensure all information completing the plan is accessible to those required to carry it out under any circumstances, regardless of whether individuals are able to access functioning electronic devices [4]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "subsection 4(1)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 11\n11 A responsible person must make a copy of the environmental emergency plan readily available at the facility referred to in subsection 4(1) and at any other place where a copy of the plan needs to be kept for consultation by the individuals who are to carry it out.\n\n[2] (regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.\n\n[3] (act) CEPA 1999, section 199(1)\n199(1) (1) The Minister may at any time publish in the Canada Gazette, and in any other manner that the Minister considers appropriate, a notice requiring any person or class of persons described in the notice to prepare and implement an environmental emergency plan respecting the prevention of, preparedness for, response to or recovery from an environmental emergency in respect of (a) a substance or group of substances specified in Part 1 or 2 of the list of toxic substances in Schedule 1; or (b) a substance or group of substances in relation to which there has been published in the Canada Gazette (i) a statement of the Ministers under paragraph 77(6)(b) indicating that the measure that they propose to take, as confirmed or amended, is a recommendation that the substance be added to Part 1 or 2 of the list of toxic substances in Schedule 1, or (ii) a copy of an order proposed to be made under subsection 90(1).\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.4.3 (p. 68)\n5.4.3 Location of E2 Plan Documentation. In order to comply with section 11 of the E2 Regulations, the responsible person must keep the E2 Plan readily available at the facility for the individuals who are responsible to execute the plan, as well as at any other location where the plan may need to be consulted by these individuals. Components of the E2 Plan can be located within multiple binders or files. Electronic file storage may also be acceptable under certain circumstances. The decision as to where to store documentation rests with the responsible person, who must ensure that all of the information that completes the E2 Plan is accessible to those that are required to carry out the plan, under any circumstances, regardless of whether or not the individuals are able to access functioning electronic devices.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2\n5.0 Environmental Emergency Plans. The E2 Regulations require facilities that meet or exceed established container capacity and / or quantity thresholds for E2 substances to develop an Environmental Emergency Plan (E2 Plan). The complexity of an E2 Plan may vary depending upon the circumstances, but the following basic factors always need to be taken into consideration: - The E2 Plan must be site specific. If a regulatee owns several facilities, they must prepare an E2 Plan and submit separate notices and reports for each facility. - A single E2 Plan may deal with one or more substances as long as it addresses the full range of potential hazards present on the site and the elements of prevention, preparedness, response and recovery for identified E2 scenarios. - Site specific training and emergency response equipment must be identified in the E2 Plan - The E2 Plan must contain a process for notification of environmental emergencies with members of the public who may be adversely affected. - Records of annual simulation exercises and any subsequent updates to the E2 Plan must be kept at the facility. Who Should Prepare an E2 Plan? An E2 Plan is required of any person who owns or has the charge, management or control of any of the regulated substances located at a facility, under certain conditions. To see if you are required to prepare, implement and carry out an E2 Plan, refer to Section 4 of these Guidelines. It is important to realize that it is the Notice Regarding the Preparation of an Environmental Emergency Plan (Schedule 3) and the Notice Regarding the Bringing into Effect of an Environmental Emergency Plan (Schedule 4) that are submitted to ECCC and NOT the E2 Plan itself. However, E2 Plans can be requested by ECCC’s Enforcement Branch to conduct a compliance inspection.\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.3.3 (p. 31), part 1 of 2\n5.3.3 Management and Administration of the E2 Plan. Regulatory Aspects Addressed in the Administration Section 10 A responsible person must review and, if necessary, update the environmental emergency plan at least once a year to ensure that it continues to meet the requirements of subsection 4(2) and keep a record of the date of the review. 11 A responsible person must make a copy of the environmental emergency plan readily available at the facility referred to in subsection 4(1) and at any other place where a copy of the plan needs to be kept for consultation by the individuals who are to carry it out. Although not a regulatory requirement that must be included in the E2 Plan, the facility must review the E2 Plan annually (at a minimum) and update it as necessary. This section could contain a description of the planning process used to develop, implement, and maintain the E2 Plan, including: a) *A description of the E2 Plan Development Team (if applicable) and/or the title/position of the person who is responsible for coordinating the development and administration of the plan. b) *A description of the organizational structure showing the lines of authority and the position titles responsible for performing activities associated with the development, implementation and maintenance of the E2 Plan. This should include but not necessarily be limited to the responsible person and primary and secondary facility contacts. c) *A description of the process and schedule for the review, evaluation, and update of the E2 Plan. Updates may also be required to take into account: lessons learned from real incidents or simulation exercises; changes in factors such as operational, organizational, personnel, or regulatory requirements; or changes in facility hazard risk levels. (Note that although this is a requirement of Section 10",
+      "law_available": true,
+      "truncated": false,
+      "id": "H5"
+    },
+    {
+      "question": "How must information required under the Regulations be submitted to the Minister?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 20",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 19",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 14",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 2 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nInformation required to be submitted to the Minister under the Regulations must be submitted electronically in the form and format specified by the Minister and bear the electronic signature of the person who is required to submit the information or of their authorized representative [1]. \n\nIf the Minister has not specified a form and format or if it is not feasible to submit the information electronically because of circumstances beyond the person’s control, the information must be submitted on paper in the form and format specified by the Minister, if any, and be signed by the person or their authorized representative [1].\n\nThe submitted information must be accompanied by a certification, signed and dated by the person who is required to submit the information or by their authorized representative, stating that the information is accurate and complete [2]. If the certification is provided by an authorized representative, the authorized representative must provide their name, telephone number and email address [2].\n\nGuidance:\nSchedules must be submitted through the E2 Online Reporting System accessed via ECCC’s Single Window Information Management (SWIM) system, which requires obtaining a GCKey or using a sign in partner [6]. Regulatees who own several facilities must submit separate notices for each facility [5].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "Information required to be submitted to the Minister under the Regulations must be submitted electronically in the form and format specified by the Minister and bear the electronic signature of the person who is required to submit the information or of their authorized representative [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "If the Minister has not specified a form and format or if it is not feasible to submit the information electronically because of circumstances beyond the person’s control, the information must be submitted on paper in the form and format specified by the Minister, if any, and be signed by the person or their authorized representative [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "The submitted information must be accompanied by a certification, signed and dated by the person who is required to submit the information or by their authorized representative, stating that the information is accurate and complete [2]."
+          },
+          {
+            "tier": "law",
+            "sentence": "If the certification is provided by an authorized representative, the authorized representative must provide their name, telephone number and email address [2]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Schedules must be submitted through the E2 Online Reporting System accessed via ECCC’s Single Window Information Management (SWIM) system, which requires obtaining a GCKey or using a sign in partner [6]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Regulatees who own several facilities must submit separate notices for each facility [5]."
+          }
+        ],
+        "claims": 6,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 4,
+          "guidance": 2
+        },
+        "obligation_on_guidance": [
+          "Schedules must be submitted through the E2 Online Reporting System accessed via ECCC’s Single Window Information Management (SWIM) system, which requires obtaining a GCKey or using a sign in partner [6].",
+          "Regulatees who own several facilities must submit separate notices for each facility [5]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          3,
+          4
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 20\n20 (1) Any information that is required to be submitted to the Minister under these Regulations must be submitted electronically in the form and format specified by the Minister and bear the electronic signature of the person who is required to submit the information or of their authorized representative. Electronic submission — written report of environmental emergency (2) Any written report provided under paragraph 201(1)(a) of the Act to an enforcement officer or the person referred to in subsection 18(2) must be submitted electronically in the form and format specified by the Minister and bear the electronic signature of the person who is required to submit the report or of their authorized representative. Submission on paper (3) If the Minister has not specified a form and format or if it is not feasible to submit the information or report electronically because of circumstances beyond the person’s control, the information or report, as the case may be, must be submitted on paper in the form and format specified by the Minister, if any, and be signed by the person or their authorized representative.\n\n[2] (regulation) section 19\n19 (1) Any information that is required to be submitted under these Regulations, and any written report provided under paragraph 201(1)(a) of the Act, must be accompanied by a certification, signed and dated by the person who is required to submit the information or provide the report, or by their authorized representative, stating that the information or report is accurate and complete. Additional information (2) If the certification is provided by an authorized representative, the authorized representative must provide their name, telephone number and email address.\n\n[3] (regulation) section 14\n14 If a notice has been submitted under section 9, a responsible person must submit a new notice to the Minister that contains the information referred to in Schedule 5 no later than five years after the day on which the most recent notice containing that information was submitted.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 2 of 2\n4.1.3 How to report to ECCC. Information collected under the E2 Regulations, 2019 may be released to public safety authorities and, under limited circumstances, to other federal departments, and levels of government in Canada. Additionally, facility names and location(s) (city) may be made available to the public, if required, through the open data government portal. A regulatee requiring additional protection of their information may submit a written request to the Minister under section 313 of the Canadian Environmental Protection Act 1999. For more information, please consult the Access to Information Act, Privacy Act, and the Canadian Environmental Protection Act.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)\n4.1.1 Reporting to ECCC. The E2 Regulations stipulate that any required information be provided to ECCC through a Notice of Submission or written report. Many of these notices were identified in the quick reference diagram on the previous page. The information to be included in each notice or report is identified in Schedules 2 through 8 of the E2 Regulations. This information allows the Department to fulfil its mandate by keeping a record of potential risks to the environment and human health within Canada as identified in CEPA 1999. IMPORTANT: Do you own several facilities? You must submit separate notices and Do you own several facilities? reports for each facility. You must submit separate notices and keep separate records for each facility.\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 1 of 2\n4.1.3 How to report to ECCC. All schedules must be submitted through the E2 Online Reporting System which is accessed through ECCC’s Single Window Information Management (SWIM) system. The E2 Online Reporting System represents a modern and convenient way to submit and update information related to regulated facilities, hazardous substances, and environmental emergency planning. It sends email reminders to registered users to inform them of upcoming deadlines for the submission of information; and acts as a mechanism for the submission of electronic written reports when an environmental emergency occurs. In order to use the system, a facility must have a sign in partner or obtain a GCKey. They may then be required to obtain permission for the E2 Regulations application. This process could take several days. Detailed step-by-step guidance on how to navigate SWIM and operate the E2 Online Reporting System can be found at: https://www.canada.ca/en/environment-climate- change/services/environmental-emergencies-program/regulations/filing-notice.html. Regional offices may also be contacted for assistance at: ec.ue_gigue2_swim.ec@canada.ca A facility that has E2 substances onsite, but that is not required to register in the E2 Online Reporting System may submit a written report regarding an environmental emergency through the following public link: https://pollution-waste.canada.ca/spill-reporting. Protecting Confidential Information Environment and Climate Change Canada is committed to upholding its obligations with respect to confidentiality in accordance with the Access to Information Act and Privacy Act. Therefore, the information submitted by a regulatee will be kept confidential to the extent permitted under the Acts.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H6"
+    },
+    {
+      "question": "What facility information must be included in a Schedule 6 notice?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "table words are present (schedule) but no Schedule 1 substance is named",
+        "so the question is about the rules, not a row"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 6, item 1",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 2, item 1",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 6, item 3",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nA Schedule 6 notice must include the following information respecting the facility: [1]\n(a) its name; [1]\n(b) its civic address or, if it does not have a civic address, a description of its location; [1]\n(c) the latitude and longitude of the main entrance of the facility, expressed in decimal degrees to five decimal places; [1]\n(d) the name, CAS registry number and, if applicable, UN number of the substance in question; [1]\n(e) the quantity of the substance that remains at the facility on the day on which the notice is submitted; [1]\n(f) the maximum capacity of the largest container system in which the substance is contained that remains at the facility on the day on which the notice is submitted; and [1]\n(g) the name, position title, email address, telephone number and fax number of the responsible person and those of the primary and alternate contact persons. [1]",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A Schedule 6 notice must include the following information respecting the facility: [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) its civic address or, if it does not have a civic address, a description of its location; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) the latitude and longitude of the main entrance of the facility, expressed in decimal degrees to five decimal places; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(d) the name, CAS registry number and, if applicable, UN number of the substance in question; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(e) the quantity of the substance that remains at the facility on the day on which the notice is submitted; [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(f) the maximum capacity of the largest container system in which the substance is contained that remains at the facility on the day on which the notice is submitted; and [1]"
+          },
+          {
+            "tier": "law",
+            "sentence": "(g) the name, position title, email address, telephone number and fax number of the responsible person and those of the primary and alternate contact persons. [1]"
+          }
+        ],
+        "claims": 7,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 7
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 6"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) Schedule 6, item 1\nSCHEDULE 6, item 1. 1 The following information respecting the facility: (a) its name; (b) its civic address or, if it does not have a civic address, a description of its location; (c) the latitude and longitude of the main entrance of the facility, expressed in decimal degrees to five decimal places; (d) the name, CAS registry number and, if applicable, UN number of the substance in question; (e) the quantity of the substance that remains at the facility on the day on which the notice is submitted; (f) the maximum capacity of the largest container system in which the substance is contained that remains at the facility on the day on which the notice is submitted; and (g) the name, position title, email address, telephone number and fax number of the responsible person and those of the primary and alternate contact persons.\n\n[2] (regulation) Schedule 2, item 1\nSCHEDULE 2, item 1. 1 The following information respecting the facility: (a) its name; (b) its civic address or, if it does not have a civic address, a description of its location; (c) the latitude and longitude of the main entrance of the facility, expressed in decimal degrees to five decimal places; (d) the range, among the following ranges, that best reflects the maximum number of people that work there: (i) 0 to 4, (ii) 5 to 19, (iii) 20 to 49, (iv) 50 to 99, (v) 100 to 299, (vi) 300 to 499, or (vii) 500 or more; (e) the name, position title, email address, telephone number and fax number of the responsible person and those of the primary and alternate contact persons; and (f) the North American Industry Classification System (NAICS) codes, consisting of at least four digits, that describe the operations at the facility.\n\n[3] (regulation) Schedule 6, item 3\nSCHEDULE 6, item 3. 3 An explanation as to why there was a change in the quantity or the maximum capacity.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8\n4.1.4 Description of Notices and Reports. A description of the various types of notices and reports that a regulatee might be required to submit to ECCC is provided below. Schedule 2: Notice Regarding Substances Located at a Facility This notice is required to provide basic information regarding a facility that has regulated substances onsite. It includes: the name and location of the facility, the number of people onsite, contact information, the concentration and maximum expected quantity of any E2 substances onsite, and, if applicable, the capacity of the largest container system in which the substance resides. Please note that the term maximum expected quantity is an estimate of the maximum quantity of a substance, both contained and uncontained, that will be onsite during the calendar year in all storage places and processes, including pipes. The word “expected” implies an estimate or forecast; therefore, the amount needs to be reported within 90 days from the time a threshold is expected to be reached or exceeded, not at the point when actual quantities are known. The effective date on this notice determines the due date of many of the other notices required under the E2 Regulations. Once this notice has been submitted online, the date(s) cannot be modified by the user. Therefore, care should be taken to ensure that the effective date is accurately entered. The required dates for submission are as follows: - August 24, 2019 if a facility was captured by the previous version of the Environmental Emergency Regulations; or - The date on which the total maximum expected quantity of the substance reached or exceeded the threshold; and/or - The date on which the maximum capacity of the largest container system reached or exceeded the threshold.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8\n4.1.4 Description of Notices and Reports. notice every five years. It is recommended that the user review all of their previously submitted notices in order to fully understand the impact of the associated changes. Schedule 7: Notice of Cessation of Operations or Transfer of Ownership Submission of this notice informs ECCC that either the facility will stop its operation for one year or more, for reasons other than maintenance; or that the ownership of the facility has changed. In the latter case, the regulatee is required to provide the date of the transfer, and the name of the new owner. A Schedule 7 submission is not created automatically by the E2 Online Reporting System; it must be added by the user in the dashboard. The system will not allow this to occur until after a Schedule 2 notice has been submitted. Please note that the information displayed on the Facility Information page of the Schedule 7 notice is pre-populated based on the information in the Schedule 2 notice and cannot be modified. If this information needs to be changed, the Schedule 2 notice must be edited and then re-submitted. Once submitted, the information in the Schedule 7 notice can be modified at any time. The submission of a Schedule 7 notice modifies a facility’s information such that it is no longer considered Active in the system. It also causes the E2 Online Reporting System to automatically update and archive any previously submitted Schedules along with the status of the facility. Should a facility wish to change their status to Active in the system at some point in the future, they must make the request through a Regional Compliance Promotion Officer, who can be reached at: ec.ue_gigue2_swim.ec@canada.ca. Note that if the facility has transferred ownership, the new owners will have to resubmit\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2\n4.1.2 What and when do I need to report to ECCC?. The following table provides a list of all of the Notices of Submission and the written report that may need to be provided to ECCC, along with the associated Schedule in the E2 Regulations that identifies the required information, and the legislated timelines for their submission. The thresholds referred to in the table can be found in column 4 of Schedule 1 of the E2 Regulations. More detailed information on the contents of the Notices and written report and their online submission can be found in Section 4.1.4 of this document. Table 2. Requirements for the Submission of Notices and Reports to ECCC Schedule Title of Notice / Report Timeline for Submission Within 90 days of meeting or exceeding the substance quantity or container capacity threshold, and every 5 years thereafter. Notice Regarding Substance Schedule 2 If applicable, within 60 days after the reported Located at Facility company information has changed or either of the maximum expected quantity or maximum capacity has increased by 10% or more Within 6 months of meeting or exceeding both the Notice Regarding the Preparation substance quantity and container capacity Schedule 3 of an Environmental Emergency thresholds or only the quantity threshold for a Plan substance that is not held in a container system Within 12 months of meeting or exceeding both the Notice Regarding the Bringing substance quantity and container capacity Schedule 4 into Effect of an Environmental thresholds or only the quantity threshold for a Emergency Plan substance that is not in a container system Notice Regarding Simulation Exercises Conducted in Relation Within 5 years after the day on which the E2 plan is Schedule 5 to an Environmental Emergency brought into effect, and every 5 years thereafter Plan",
+      "law_available": true,
+      "truncated": false,
+      "id": "H7"
+    },
+    {
+      "question": "Our tank was already in place before these Regulations came into force. When was our first notice due?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 22",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When must the E2 Plan be exercised",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nIf either of the situations described in paragraph 3(1)(a) or (b) occurs in respect of a facility before the day on which these Regulations come into force—namely, if the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance, or a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance—a responsible person must submit the notice referred to in subsection 3(1) containing the information referred to in Schedule 2 to the Minister within 90 days after the day on which these Regulations come into force [1][3].\n\nGuidance adds that the required date for submission was August 24, 2019 if the facility was captured by the previous version of the Environmental Emergency Regulations [4].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "If either of the situations described in paragraph 3(1)(a) or (b) occurs in respect of a facility before the day on which these Regulations come into force—namely, if the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance, or a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance—a responsible person must submit the notice referred to in subsection 3(1) containing the information referred to in Schedule 2 to the Minister within 90 days after the day on which these Regulations come into force [1][3]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Guidance adds that the required date for submission was August 24, 2019 if the facility was captured by the previous version of the Environmental Emergency Regulations [4]."
+          }
+        ],
+        "claims": 2,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1,
+          "guidance": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 1",
+          "Schedule 2",
+          "paragraph 3(1)(a)",
+          "subsection 3(1)"
+        ],
+        "unused_evidence": [
+          2,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 3(1)\n3(1) (1) A responsible person must, within 90 days after the day on which either of the following situations occurs, submit to the Minister a notice containing the information referred to in Schedule 2 for each facility at which a substance is located: (a) the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.\n\n[2] (regulation) section 15\n15 (1) If a notice has been submitted under subsection 3(1) in respect of a substance located at a facility, a responsible person must submit a notice to the Minister if (a) the total quantity of the substance located at the facility is, for a period of one year, less than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is, for a period of one year, no longer found in a container system at the facility that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance. Time limit for submission (2) The notice must contain the information referred to in Schedule 6 and be submitted no later than 60 days after the end of the period referred to in paragraph (1)(a) or (b), as the case may be.\n\n[3] (regulation) section 22\n22 For the purposes of section 3, if either of the situations described in paragraph 3(1)(a) or (b) occurs in respect of a facility before the day on which these Regulations come into force, a responsible person must submit the notice referred to in subsection 3(1) to the Minister within 90 days after the day on which these Regulations come into force.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8\n4.1.4 Description of Notices and Reports. A description of the various types of notices and reports that a regulatee might be required to submit to ECCC is provided below. Schedule 2: Notice Regarding Substances Located at a Facility This notice is required to provide basic information regarding a facility that has regulated substances onsite. It includes: the name and location of the facility, the number of people onsite, contact information, the concentration and maximum expected quantity of any E2 substances onsite, and, if applicable, the capacity of the largest container system in which the substance resides. Please note that the term maximum expected quantity is an estimate of the maximum quantity of a substance, both contained and uncontained, that will be onsite during the calendar year in all storage places and processes, including pipes. The word “expected” implies an estimate or forecast; therefore, the amount needs to be reported within 90 days from the time a threshold is expected to be reached or exceeded, not at the point when actual quantities are known. The effective date on this notice determines the due date of many of the other notices required under the E2 Regulations. Once this notice has been submitted online, the date(s) cannot be modified by the user. Therefore, care should be taken to ensure that the effective date is accurately entered. The required dates for submission are as follows: - August 24, 2019 if a facility was captured by the previous version of the Environmental Emergency Regulations; or - The date on which the total maximum expected quantity of the substance reached or exceeded the threshold; and/or - The date on which the maximum capacity of the largest container system reached or exceeded the threshold.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2\n4.1.2 What and when do I need to report to ECCC?. The following table provides a list of all of the Notices of Submission and the written report that may need to be provided to ECCC, along with the associated Schedule in the E2 Regulations that identifies the required information, and the legislated timelines for their submission. The thresholds referred to in the table can be found in column 4 of Schedule 1 of the E2 Regulations. More detailed information on the contents of the Notices and written report and their online submission can be found in Section 4.1.4 of this document. Table 2. Requirements for the Submission of Notices and Reports to ECCC Schedule Title of Notice / Report Timeline for Submission Within 90 days of meeting or exceeding the substance quantity or container capacity threshold, and every 5 years thereafter. Notice Regarding Substance Schedule 2 If applicable, within 60 days after the reported Located at Facility company information has changed or either of the maximum expected quantity or maximum capacity has increased by 10% or more Within 6 months of meeting or exceeding both the Notice Regarding the Preparation substance quantity and container capacity Schedule 3 of an Environmental Emergency thresholds or only the quantity threshold for a Plan substance that is not held in a container system Within 12 months of meeting or exceeding both the Notice Regarding the Bringing substance quantity and container capacity Schedule 4 into Effect of an Environmental thresholds or only the quantity threshold for a Emergency Plan substance that is not in a container system Notice Regarding Simulation Exercises Conducted in Relation Within 5 years after the day on which the E2 plan is Schedule 5 to an Environmental Emergency brought into effect, and every 5 years thereafter Plan\n\n[6] (guidance) ECCC guidance: simulation exercises — When must the E2 Plan be exercised\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. When must the E2 Plan be exercised. Annual simulation exercise: - The first annual simulation exercise must be completed within one year of the E2 Plan being brought into effect (as per Section 6 & 7(1)(a)) - For an annual simulation exercise, if your facility has Schedule 1 substances from more than one of the six hazard categories, you must simulate one environmental emergency from each hazard category. For example, if you have substances from three hazard categories, you must test all three during the annual simulation exercise - If your facility has more than one Schedule 1 substance from the same hazard category, you must simulate one environmental emergency identified in the E2 Plan for one substance in that hazard category. A different substance should be selected each year - The E2 Plan must then be exercised at least once every 365 days from the day the plan was brought into effect. A different environmental emergency scenario must be exercised each subsequent year so that all of the environmental emergencies identified in the E2 Plan have been simulated - Notices are not required for annual simulations, however, records need to be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility Full-Scale simulation exercise: - A full-scale simulation involving deployment of equipment and resources must be completed within five years of the E2 Plan being brought into effect (as per Section 7(1)(b) - Only one Schedule 1 substance at the facility is required to be part of the full-scale simulation exercise. This substance can be from any of the six hazard categories - Once the full-scale exercise is completed, a Notice Regarding Simulation Exercises Conducted in Relation to an E2 Plan (Schedule 5) must be submitted - The annual simulation exercise is not required in the same year a full-scale simulation is conducted",
+      "law_available": true,
+      "truncated": false,
+      "id": "H8"
+    },
+    {
+      "question": "The quantity of benzene at our facility has been below the threshold for a full year. What must we do?",
+      "route": "BOTH",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Benzene)",
+        "the question asks what is required (must)"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 6, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.3.6 (p. 50), part 5 of 5",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Section 2 - Substance Exclusions” (p. 147)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Schedule 1, Part 1, item 6 (Benzene)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC list of hazardous substances - UN number for Benzene",
+          "source_type": "reference",
+          "as_of": "2016-01-14"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nIf a notice has been submitted under subsection 3(1) in respect of benzene located at the facility, a responsible person must submit a notice to the Minister if the total quantity of the substance located at the facility is, for a period of one year, less than 10 tonnes at a minimum concentration of 1% (mass/mass) [1][7]. \n\nThe notice must contain the information referred to in Schedule 6, which includes the day on which the quantity of the substance or the maximum capacity of the largest container system in which the substance is contained decreased to below the threshold set out in subsection 3(1) of the Regulations [1][2]. \n\nThe notice must be submitted no later than 60 days after the end of the period of one year [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "If a notice has been submitted under subsection 3(1) in respect of benzene located at the facility, a responsible person must submit a notice to the Minister if the total quantity of the substance located at the facility is, for a period of one year, less than 10 tonnes at a minimum concentration of 1% (mass/mass) [1][7]."
+          },
+          {
+            "tier": "law",
+            "sentence": "The notice must contain the information referred to in Schedule 6, which includes the day on which the quantity of the substance or the maximum capacity of the largest container system in which the substance is contained decreased to below the threshold set out in subsection 3(1) of the Regulations [1][2]."
+          },
+          {
+            "tier": "law",
+            "sentence": "The notice must be submitted no later than 60 days after the end of the period of one year [1]."
+          }
+        ],
+        "claims": 3,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 3
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "Schedule 6",
+          "subsection 3(1)"
+        ],
+        "unused_evidence": [
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 15\n15 (1) If a notice has been submitted under subsection 3(1) in respect of a substance located at a facility, a responsible person must submit a notice to the Minister if (a) the total quantity of the substance located at the facility is, for a period of one year, less than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is, for a period of one year, no longer found in a container system at the facility that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance. Time limit for submission (2) The notice must contain the information referred to in Schedule 6 and be submitted no later than 60 days after the end of the period referred to in paragraph (1)(a) or (b), as the case may be.\n\n[2] (regulation) Schedule 6, item 2\nSCHEDULE 6, item 2. 2 The day on which the quantity of the substance or the maximum capacity of the largest container system in which the substance is contained decreased to below the threshold set out in subsection 3(1) of the Regulations.\n\n[3] (regulation) section 3(1)\n3(1) (1) A responsible person must, within 90 days after the day on which either of the following situations occurs, submit to the Minister a notice containing the information referred to in Schedule 2 for each facility at which a substance is located: (a) the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.3.6 (p. 50), part 5 of 5\n5.3.6 Prevention and Mitigation. they are no longer subject to the E2 Regulations - Replacing tanks with new ones that have a capacity that is below the threshold limit (which precludes them from E2 reporting; and - Separating connected containers by remote valves, which has the effect of reducing the capacity of the container system and eliminates the obligation to prepare an E2 Plan.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Section 2 - Substance Exclusions” (p. 147)\nSection 2 - Substance Exclusions. Although a chemical may be identified by a CAS# in Schedule 1 of the E2 Regulations, if it meets any of the criteria listed in sections 2(2)(a) to 2(2)(j) of the E2 Regulations, it is not considered to be a regulated substance. Therefore, when any of the exemptions in Section 2 of the E2 Regulations apply to a facility: - The amount of the excluded chemical need not be considered in the determination of the maximum expected quantity of that substance onsite; and - There is no need to submit a verbal or written report in the event of any accidental releases of that specific chemical under Section 18 of the E2 Regulations. Please note that other reporting requirements may exist under other pieces of legislation or by a different jurisdiction (i.e., Provincial/Territorial/Municipal). For example, Facility A expects to have a maximum quantity of 20 tonnes of propane onsite in a given year. Propane is identified by a CAS# in Schedule 1 of the E2 Regulations, and is normally considered to be a regulated substance. Of that 20 tonnes of propane, 16 tonnes are regulated under the Transportation of Dangerous Goods Act, and therefore meet the exclusion criteria in section 2(2) (d) of the E2 Regulations. The maximum expected quantity of propane for the site is therefore calculated as: 20 tonnes – 16 tonnes (excluded amount) = 4 tonnes Since 4 tonnes is lower than the quantity threshold of 4.5 tonnes for propane, there is no requirement for the submission of a Schedule 2 notice. If an accidental release of any propane that is covered by the exclusion occurs, there is no need to report under the E2 Regulations If an accidental release of any propane that is not covered by the exclusion occurs, both a verbal and written report are required under Section 18 of the E2 Regulations.\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8\n4.1.4 Description of Notices and Reports. A description of the various types of notices and reports that a regulatee might be required to submit to ECCC is provided below. Schedule 2: Notice Regarding Substances Located at a Facility This notice is required to provide basic information regarding a facility that has regulated substances onsite. It includes: the name and location of the facility, the number of people onsite, contact information, the concentration and maximum expected quantity of any E2 substances onsite, and, if applicable, the capacity of the largest container system in which the substance resides. Please note that the term maximum expected quantity is an estimate of the maximum quantity of a substance, both contained and uncontained, that will be onsite during the calendar year in all storage places and processes, including pipes. The word “expected” implies an estimate or forecast; therefore, the amount needs to be reported within 90 days from the time a threshold is expected to be reached or exceeded, not at the point when actual quantities are known. The effective date on this notice determines the due date of many of the other notices required under the E2 Regulations. Once this notice has been submitted online, the date(s) cannot be modified by the user. Therefore, care should be taken to ensure that the effective date is accurately entered. The required dates for submission are as follows: - August 24, 2019 if a facility was captured by the previous version of the Environmental Emergency Regulations; or - The date on which the total maximum expected quantity of the substance reached or exceeded the threshold; and/or - The date on which the maximum capacity of the largest container system reached or exceeded the threshold.\n\n[7] (regulation) Schedule 1\nBenzene - Schedule 1, Part 1, item 6\n    CAS number            : 71-43-2\n    minimum concentration 1% (mass/mass)\n    minimum quantity      : 10 tonnes\n    hazard category       : C (combustible)\n\n[8] (reference) ECCC list of hazardous substances\nBenzene (CAS 71-43-2) - UN number 1114.\nSource: ECCC list of hazardous substances. The Environmental Emergency Regulations do not assign UN numbers; Schedule 2, item 3(c) requires a UN number to be reported if applicable.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H9"
+    },
+    {
+      "question": "We hire an outside contractor to run our simulation exercises. Does that satisfy section 7?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 9",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.1 (p. 72), part 1 of 3",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.4 (p. 79), part 2 of 3",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: PARTIAL\nNOT COVERED: whether hiring an outside contractor satisfies the requirement that a responsible person conduct simulation exercises under section 7\n\nA responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) [1]. The regulation does not state whether hiring an outside contractor satisfies this requirement [1].",
+      "report": {
+        "status": "PARTIAL",
+        "not_covered": "whether hiring an outside contractor satisfies the requirement that a responsible person conduct simulation exercises under section 7",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "A responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) [1]."
+          },
+          {
+            "tier": "refusal",
+            "sentence": "The regulation does not state whether hiring an outside contractor satisfies this requirement [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [
+          "section 7",
+          "subsection 4(1)"
+        ],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 7\n7 (1) A responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) as follows: (a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated; and (b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated. Cycle for simulation exercises (2) For the purposes of paragraph (1)(a), a simulation exercise conducted in respect of a substance belonging to a given hazard category must simulate a different environmental emergency for each subsequent simulation exercise until all of the environmental emergencies identified under paragraph 4(2)(d) for each of the substances belonging to that hazard category have been simulated, after which the environmental emergencies must be cycled through again. Exception (3) Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b).\n\n[2] (regulation) section 9\n9 A responsible person must, within five years after the day on which the environmental emergency plan is brought into effect under section 6, submit a notice to the Minister containing the information referred to in Schedule 5 concerning the simulation exercises conducted in relation to an environmental emergency plan.\n\n[3] (regulation) Schedule 5, item 2\nSCHEDULE 5, item 2. 2 Confirmation that the annual simulation exercises referred to in paragraph 7(1)(a) of the Regulations were conducted.\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)\n7.0 Simulation Exercises. Environmental emergency exercises involve a simulation relating to an emergency scenario that has been identified in the E2 Plan. Exercising the E2 Plan provides those who are responsible for the facility with valuable information regarding their readiness and ability to respond to one or multiple elements of an environmental emergency. The E2 Regulations require that E2 Plans be exercised on an annual basis. A full-scale exercise must also be conducted every five years. Based on the outcome of these exercises, the E2 plans must be reviewed and updated, as required. The responsible person is required to keep a record of these annual and full-scale simulation exercises, including the date, a summary of the exercise, the results of the exercise, and any modifications made to the plan as a result. ECCC recommends that an appropriate exercise design process be composed of the following four main steps: 1. Planning the annual exercise(s); 2. Conducting the exercise(s); 3. Evaluating and reporting on the outcomes; and 4. Updating the E2 Plan(s) with lessons learned. The main objective is to ensure that all aspects of the E2 Plan are fully evaluated over the five-year testing cycle. Further information on exercising emergency response plans can be found in some of the suggested references in Appendix 6. Guidance on performing exercises with mixtures can be found in Appendix 2 of this document.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.1 (p. 72), part 1 of 3\n7.1 Annual Simulation Exercises. The following section details the requirements of Section 7(1)(a) of the E2 Regulations and does not pertain to the full scale exercise that must be conducted once every five years. Information on full scale exercises can be found in Section 7.2 of this document. Simulation exercises may take many forms. The responsible person must exercise their professional judgement to determine which types of exercises are best suited for their facility. They should also take into consideration any lessons learned from previous exercises. Factors to be taken into account include, but are not limited to: the purpose of the exercise, the time of year, the availability of resources, and any site specific or operational limitations. Examples of simulation exercises include the following: Drills are supervised activities that provide the opportunity for emergency - response team members to validate a specific operation or function, usually focused on one or two key skills (e.g., shutdown procedures, valve operation, etc.). They can also be used to: determine whether plans can be executed as designed, assess whether more training is required, or reinforce best practices. - Tabletop exercises are table-based activities typically held in an informal setting and presented by a facilitator. This type of exercise is intended to generate discussion of various issues regarding a hypothetical, simulated emergency. Tabletop exercises can be used to enhance general awareness of sensitive areas, validate plans and procedures, rehearse concepts and, assess the types of systems needed to guide the prevention of, preparedness for, response to and recovery from a defined incident. - Functional exercises fall between a tabletop exercise and a full-scale exercise.\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.4 (p. 79), part 2 of 3\n7.4 Frequently Asked Questions Related to Exercises. Answer: If a facility is simulating an exercise to meet the requirements of another regulation, this exercise can be used for the purpose of the E2 Regulations as long as it simulates a scenario identified in the E2 Plan and fulfills all of the E2 regulatory requirements for exercising an E2 Plan. The detailed record and summary of the results of the simulation exercise should also specify all of the regulations that this exercise was meant to satisfy.. Question: If a facility has to do a simulation exercise for an aquatic hazard, but it is situated in an industrial sector with no aqueous receptor, is an annual exercise still required? Answer: In this situation, modelling of any passive mitigation measures used to contain the substance should be done to ensure that they are functionally able to perform as expected in the event of an environmental emergency. The assessment(s) should also cover any secondary hazards that are associated with the substance. If the release scenarios still do not result in an environmental emergency then exercising is not required. However, the notice referred to in Schedule 5 must still be submitted, clearly indicating why the exercise did not take place. The passive mitigation measures should also be reviewed at least every five years to ensure that they remain appropriate. Question: If two facilities have mutual aid agreements in place, can a full-scale exercise at one facility be documented for the second facility as well? Answer: The full-scale exercise is site specific. It requires the deployment of personnel, resources and equipment based on the procedures described in the E2 Plan. ECCC also encourages participation of the local first response community where possible. As a result, facilities subject to the E2 planning",
+      "law_available": true,
+      "truncated": false,
+      "id": "H10"
+    },
+    {
+      "question": "How many environmental emergency plans has ECCC received to date?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 3, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 10",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — Introduction",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 10.0 (p. 86)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC factsheet: Reporting an Environmental Emergency, “How to Report:” (p. 2)",
+          "source_type": "guidance",
+          "as_of": "2019"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: the number of environmental emergency plans ECCC has received to date",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "the number of environmental emergency plans ECCC has received to date",
+        "rows": [],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.\n\n[2] (regulation) Schedule 3, item 2\nSCHEDULE 3, item 2. 2 (1) If the environmental emergency plan is based on an existing plan, a statement as to whether the existing plan was (a) prepared on a voluntary basis; (b) prepared for another government; or (c) prepared under another Act of Parliament. (2) If the existing plan was prepared for another government or prepared under another Act of Parliament, the name of the government or the Act of Parliament.\n\n[3] (regulation) section 10\n10 A responsible person must review and, if necessary, update the environmental emergency plan at least once a year to ensure that it continues to meet the requirements of subsection 4(2) and keep a record of the date of the review.\n\n[4] (guidance) ECCC guidance: simulation exercises — Introduction\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. Introduction. The Environmental Emergency Regulations, 2019 require that a facility prepare and exercise an environmental emergency plan (E2 Plan). The E2 Plan must be created within six months, and implemented within one year of the facility becoming subject to the Regulations. The first annual simulation exercise must be completed within the first year of the E2 Plan implementation. Environmental emergency plan simulation exercises (PDF)\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 10.0 (p. 86)\n10.0 Compliance and Enforcement. ECCC evaluates the accuracy and completeness of the notices and reports submitted under the E2 Regulations. This evaluation assists the Department in determining: - whether the regulatee must submit E2 Plan reports and notifications; - when the regulatee must submit E2 Plan reports and notifications; and - whether ECCC should refer possible situations of non-compliance to enforcement officers for investigation. As part of an ongoing monitoring process, ECCC may request that copies of E2 Plans be submitted to the Department for review. Such action will help ECCC determine whether environmental emergency planning is adequate and being properly interpreted. Ongoing auditing of E2 Plans is also necessary to assess the effectiveness of the E2 Plans in protecting Canadians’ safety and security\n\n[6] (guidance) ECCC factsheet: Reporting an Environmental Emergency, “How to Report:” (p. 2)\nHow to Report:. Reports must be submitted through the Environmental Emergency Reporting System: https://ec.ss.ec.gc.ca",
+      "law_available": true,
+      "truncated": false,
+      "id": "H11"
+    },
+    {
+      "question": "Which provinces have an equivalency agreement with the federal government for these Regulations?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.8-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 1(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 19",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "CEPA 1999, section 204",
+          "source_type": "act",
+          "as_of": "2026-03-31"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “2(2) (d) – Substances Regulated under the Transportation of Dangerous Goods Act or the Canada Shipping Act” (p. 151)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 8.6.1 (p. 82)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 2 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: Which provinces have an equivalency agreement with the federal government for these Regulations.",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "Which provinces have an equivalency agreement with the federal government for these Regulations.",
+        "rows": [],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "context": "[1] (regulation) section 1(1)\n1(1) (1) The following definitions apply in these Regulations. Act means the Canadian Environmental Protection Act, 1999. (Loi) CAS registry number means the identification number assigned to a substance by the Chemical Abstracts Service, a division of the American Chemical Society. (numéro d’enregistrement CAS) container system means any receptacle or network of receptacles that is used to contain a substance — including any connected pipelines or piping — except any part of that network that is automatically or remotely segregated from the rest of the network by shut-off valves, or other mechanisms, in the event of any environmental emergency. (système de réservoirs) simulation exercise means an exercise simulating the response to an environmental emergency involving the release of a substance. (exercice de simulation) facility means a property on which one or more fixed onshore installations are located and where a substance is present. (installation) full-scale simulation exercise means an action-based simulation exercise requiring the deployment of personnel, resources and equipment. (exercice général de simulation) maximum capacity means, in respect of a container system, its full physical capacity, expressed in tonnes, including any capacity that is beyond the safe-fill limit set by the manufacturer of the receptacles that comprise the container system. (capacité maximale) responsible person means any person who owns or has the charge, management or control of a substance that is located at a facility. (responsable)\n\n[2] (regulation) section 19\n19 (1) Any information that is required to be submitted under these Regulations, and any written report provided under paragraph 201(1)(a) of the Act, must be accompanied by a certification, signed and dated by the person who is required to submit the information or provide the report, or by their authorized representative, stating that the information or report is accurate and complete. Additional information (2) If the certification is provided by an authorized representative, the authorized representative must provide their name, telephone number and email address.\n\n[3] (act) CEPA 1999, section 204\n204 (1) The Minister may establish, in cooperation with the governments of the provinces and aboriginal governments and government departments or agencies, a national system for the notification and reporting of environmental emergencies. Copies (2) Subject to section 314, any person may have access to and a copy of any information contained in the national system established under subsection (1).\n\n[4] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), “2(2) (d) – Substances Regulated under the Transportation of Dangerous Goods Act or the Canada Shipping Act” (p. 151)\n2(2) (d) – Substances Regulated under the Transportation of Dangerous Goods Act or the Canada Shipping Act. The exclusion reads as follows: A substance that is regulated under the Transportation of Dangerous Goods Act, 1992 or the Canada Shipping Act, 2001; Any substance that is regulated under either the Transportation of Dangerous Goods Act, 1992, or the Canada Shipping Act, 2001, is exempt from the E2 Regulations, regardless of the quantity or length of time it is located at a facility. Once these Acts no longer apply to the substance, the E2 Regulations become applicable. It is incumbent on the responsible person to know whether or not the substances for which they have care and control are subject to these Acts. If there is any doubt, Transport Canada can be contacted for assistance.\n\n[5] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 8.6.1 (p. 82)\n8.6.1 Verbal Notification. Immediate verbal notification must take place by calling the applicable phone number identified in the table below which is associated with the province or territory where the environmental emergency occurred. Please note that verbal notification requirements under other regulations may also apply. Table 7. Regional Contact Information Province 24-hour Telephone Line Newfoundland and Labrador 1-709-772-2083 or 1-800-563-9089 Prince Edward Island 1-902-426-6030 or 1-800-565-1633 Nova Scotia 1-902-426-6030 or 1-800-565-1633 New Brunswick 1-902-426-6030 or 1-800-565-1633 Quebec 1-514-283-2333 or 1-866-283-2333 Ontario 1-416-325-3000 or 1-800-268-6060 Manitoba 1-204-944-4888 Saskatchewan 1-800-667-7525 Alberta 1-780-422-4205 or 1-800-222-6514 Nunavut 1-867-920-8130 Northwest Territories 1-867-920-8130 British Columbia 1-800-663-3456 Yukon 1-867-667-7244\n\n[6] (guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.3 (p. 20), part 2 of 2\n4.1.3 How to report to ECCC. Information collected under the E2 Regulations, 2019 may be released to public safety authorities and, under limited circumstances, to other federal departments, and levels of government in Canada. Additionally, facility names and location(s) (city) may be made available to the public, if required, through the open data government portal. A regulatee requiring additional protection of their information may submit a written request to the Minister under section 313 of the Canadian Environmental Protection Act 1999. For more information, please consult the Access to Information Act, Privacy Act, and the Canadian Environmental Protection Act.",
+      "law_available": true,
+      "truncated": false,
+      "id": "H12"
+    }
+  ]
+}

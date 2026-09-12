@@ -1,0 +1,1009 @@
+{
+  "run_date": "2026-09-04",
+  "judging": "stage6_rule6",
+  "judge_version": "v3_block",
+  "verdicts": [
+    {
+      "key": "T1#0",
+      "id": "T1",
+      "sentence": "The minimum quantity for anhydrous ammonia is 4.50 tonnes at a minimum concentration of 10% (mass/mass) [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)"
+      ],
+      "evidence": "(regulation) Schedule 1, Part 1, item 163 (Ammonia, anhydrous)\nAmmonia, anhydrous - Schedule 1, Part 1, item 163\n    CAS number            : 7664-41-7\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 4.50 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence specifies \"Ammonia, anhydrous\" with \"minimum concentration 10% (mass/mass)\" and \"minimum quantity : 4.50 tonnes\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "T2#0",
+      "id": "T2",
+      "sentence": "Chlorine has a minimum quantity of 1.13 tonnes at a minimum concentration of 10% (mass/mass) [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "Schedule 1, Part 1, item 173 (Chlorine)"
+      ],
+      "evidence": "(regulation) Schedule 1, Part 1, item 173 (Chlorine)\nChlorine - Schedule 1, Part 1, item 173\n    CAS number            : 7782-50-5\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 1.13 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly specifies \"minimum concentration 10% (mass/mass)\" and \"minimum quantity : 1.13 tonnes\" for Chlorine.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "T3#0",
+      "id": "T3",
+      "sentence": "For mercury, the minimum quantity is 1.00 tonnes and no minimum concentration applies [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "Schedule 1, Part 1, item 153 (Mercury)"
+      ],
+      "evidence": "(regulation) Schedule 1, Part 1, item 153 (Mercury)\nMercury - Schedule 1, Part 1, item 153\n    CAS number            : 7439-97-6\n    no minimum concentration applies\n    minimum quantity      : 1.00 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly states for Mercury that \"no minimum concentration applies\" and \"minimum quantity : 1.00 tonnes\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "T4#0",
+      "id": "T4",
+      "sentence": "The UN number for chlorine is 1017 [2].",
+      "markers": [
+        2
+      ],
+      "carried": false,
+      "tier": "reference",
+      "stem": "",
+      "citations": [
+        "ECCC list of hazardous substances - UN number for Chlorine"
+      ],
+      "evidence": "(reference) ECCC list of hazardous substances - UN number for Chlorine\nChlorine (CAS 7782-50-5) - UN number 1017.\nSource: ECCC list of hazardous substances. The Environmental Emergency Regulations do not assign UN numbers; Schedule 2, item 3(c) requires a UN number to be reported if applicable.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly states \"Chlorine (CAS 7782-50-5) - UN number 1017.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O1#0",
+      "id": "O1",
+      "sentence": "(a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated; and [1]",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 7"
+      ],
+      "evidence": "(regulation) section 7\n7 (1) A responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) as follows: (a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated; and (b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated. Cycle for simulation exercises (2) For the purposes of paragraph (1)(a), a simulation exercise conducted in respect of a substance belonging to a given hazard category must simulate a different environmental emergency for each subsequent simulation exercise until all of the environmental emergencies identified under paragraph 4(2)(d) for each of the substances belonging to that hazard category have been simulated, after which the environmental emergencies must be cycled through again. Exception (3) Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b).",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The sentence quotes the evidence verbatim: \"(a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise...\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O1#1",
+      "id": "O1",
+      "sentence": "(b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 7"
+      ],
+      "evidence": "(regulation) section 7\n7 (1) A responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) as follows: (a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated; and (b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated. Cycle for simulation exercises (2) For the purposes of paragraph (1)(a), a simulation exercise conducted in respect of a substance belonging to a given hazard category must simulate a different environmental emergency for each subsequent simulation exercise until all of the environmental emergencies identified under paragraph 4(2)(d) for each of the substances belonging to that hazard category have been simulated, after which the environmental emergencies must be cycled through again. Exception (3) Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b).",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The sentence quotes the evidence word-for-word: \"(b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise...\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O1#2",
+      "id": "O1",
+      "sentence": "Exception: Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b) [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 7"
+      ],
+      "evidence": "(regulation) section 7\n7 (1) A responsible person must conduct simulation exercises in relation to each environmental emergency plan that is prepared under subsection 4(1) as follows: (a) each year, beginning on the day on which the plan is brought into effect, a simulation exercise in respect of one substance from each of the hazard categories referred to in column 5 of Parts 1 and 2 of Schedule 1, using an environmental emergency identified under paragraph 4(2)(d) as the emergency being simulated; and (b) every five years, beginning on the day on which the plan is brought into effect, a full-scale simulation exercise in respect of any one substance, using an environmental emergency referred to in paragraph 4(2)(e) or (f) as the emergency being simulated. Cycle for simulation exercises (2) For the purposes of paragraph (1)(a), a simulation exercise conducted in respect of a substance belonging to a given hazard category must simulate a different environmental emergency for each subsequent simulation exercise until all of the environmental emergencies identified under paragraph 4(2)(d) for each of the substances belonging to that hazard category have been simulated, after which the environmental emergencies must be cycled through again. Exception (3) Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b).",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly states, \"Exception (3) Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O1#3",
+      "id": "O1",
+      "sentence": "The first annual simulation exercise must be completed within one year of the plan being brought into effect, and the plan must then be exercised at least once every 365 days from the day the plan was brought into effect [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "ECCC guidance: simulation exercises — When must the E2 Plan be exercised"
+      ],
+      "evidence": "(guidance) ECCC guidance: simulation exercises — When must the E2 Plan be exercised\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. When must the E2 Plan be exercised. Annual simulation exercise: - The first annual simulation exercise must be completed within one year of the E2 Plan being brought into effect (as per Section 6 & 7(1)(a)) - For an annual simulation exercise, if your facility has Schedule 1 substances from more than one of the six hazard categories, you must simulate one environmental emergency from each hazard category. For example, if you have substances from three hazard categories, you must test all three during the annual simulation exercise - If your facility has more than one Schedule 1 substance from the same hazard category, you must simulate one environmental emergency identified in the E2 Plan for one substance in that hazard category. A different substance should be selected each year - The E2 Plan must then be exercised at least once every 365 days from the day the plan was brought into effect. A different environmental emergency scenario must be exercised each subsequent year so that all of the environmental emergencies identified in the E2 Plan have been simulated - Notices are not required for annual simulations, however, records need to be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility Full-Scale simulation exercise: - A full-scale simulation involving deployment of equipment and resources must be completed within five years of the E2 Plan being brought into effect (as per Section 7(1)(b) - Only one Schedule 1 substance at the facility is required to be part of the full-scale simulation exercise. This substance can be from any of the six hazard categories - Once the full-scale exercise is completed, a Notice Regarding Simulation Exercises Conducted in Relation to an E2 Plan (Schedule 5) must be submitted - The annual simulation exercise is not required in the same year a full-scale simulation is conducted",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states \"The first annual simulation exercise must be completed within one year\" and \"must then be exercised at least once every 365 days\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O1#4",
+      "id": "O1",
+      "sentence": "A full-scale simulation must be completed within five years of the plan being brought into effect [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "ECCC guidance: simulation exercises — When must the E2 Plan be exercised"
+      ],
+      "evidence": "(guidance) ECCC guidance: simulation exercises — When must the E2 Plan be exercised\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. When must the E2 Plan be exercised. Annual simulation exercise: - The first annual simulation exercise must be completed within one year of the E2 Plan being brought into effect (as per Section 6 & 7(1)(a)) - For an annual simulation exercise, if your facility has Schedule 1 substances from more than one of the six hazard categories, you must simulate one environmental emergency from each hazard category. For example, if you have substances from three hazard categories, you must test all three during the annual simulation exercise - If your facility has more than one Schedule 1 substance from the same hazard category, you must simulate one environmental emergency identified in the E2 Plan for one substance in that hazard category. A different substance should be selected each year - The E2 Plan must then be exercised at least once every 365 days from the day the plan was brought into effect. A different environmental emergency scenario must be exercised each subsequent year so that all of the environmental emergencies identified in the E2 Plan have been simulated - Notices are not required for annual simulations, however, records need to be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility Full-Scale simulation exercise: - A full-scale simulation involving deployment of equipment and resources must be completed within five years of the E2 Plan being brought into effect (as per Section 7(1)(b) - Only one Schedule 1 substance at the facility is required to be part of the full-scale simulation exercise. This substance can be from any of the six hazard categories - Once the full-scale exercise is completed, a Notice Regarding Simulation Exercises Conducted in Relation to an E2 Plan (Schedule 5) must be submitted - The annual simulation exercise is not required in the same year a full-scale simulation is conducted",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "The evidence specifies that the simulation must be one \"involving deployment of equipment and resources,\" which is omitted from the sentence.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O2#0",
+      "id": "O2",
+      "sentence": "Under the law, a responsible person must bring an environmental emergency plan into effect within 12 months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1) [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 6"
+      ],
+      "evidence": "(regulation) section 6\n6 Within 12 months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1), a responsible person must bring the plan into effect and submit a notice to the Minister that contains the information referred to in Schedule 4.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It matches section 6: \"a responsible person must bring the plan into effect\" \"Within 12 months after the day on which\" it is required.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O2#1",
+      "id": "O2",
+      "sentence": "for uncontained E2 substances: within 12 months of meeting or exceeding the quantity threshold in Schedule 1 of the E2 Regulations for that substance [6];",
+      "markers": [
+        6
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 6.0 (p. 70), part 1 of 3"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 6.0 (p. 70), part 1 of 3\n6.0 Bringing the E2 Plan into Effect. Bringing the E2 Plan into Effect 6. Within 12 months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1), a responsible person must bring the plan into effect and submit a notice to the Minister that contains the information referred to in Schedule 4. The E2 Plan requires that a number of measures related to a facility’s prevention, preparedness and response to an environmental emergency be described. This includes the identification of elements such as: roles and responsibilities of key personnel, training, emergency response equipment, and advance public notification. Section 6 of the E2 Regulations requires that the E2 Plan be brought into effect within 12 months of the date that it is required to be prepared under subsection 4(1): - For uncontained E2 substances - within 12 months of meeting or exceeding the quantity threshold in Schedule 1 of the E2 Regulations for that substance - For E2 substances stored in a container system - within 12 months of meeting or exceeding both the substance quantity and the container capacity thresholds identified in Schedule 1 of the E2 Regulations. This means that the responsible person must take the necessary steps to advance past the mere completion of the E2 Plan to ensuring that the elements described therein are implemented and/or ready to be actioned. Specific examples of what this entails are described below in Table 6. Table 6. Requirements for Bringing an E2 Plan into Effect Section of E2 Requirement For Bringing the E2 Plan Into Effect Regulations 4(2)(g) - The preventative measures described in the E2 Plan (e.g., process safety management system, hazard control program, mitigative barriers, safety barriers, etc.) must be in place and functioning as intended.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly states: \"For uncontained E2 substances - within 12 months of meeting or exceeding the quantity threshold in Schedule 1\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O2#2",
+      "id": "O2",
+      "sentence": "for E2 substances stored in a container system: within 12 months of meeting or exceeding both the substance quantity and the container capacity thresholds identified in Schedule 1 of the E2 Regulations [6].",
+      "markers": [
+        6
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 6.0 (p. 70), part 1 of 3"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 6.0 (p. 70), part 1 of 3\n6.0 Bringing the E2 Plan into Effect. Bringing the E2 Plan into Effect 6. Within 12 months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1), a responsible person must bring the plan into effect and submit a notice to the Minister that contains the information referred to in Schedule 4. The E2 Plan requires that a number of measures related to a facility’s prevention, preparedness and response to an environmental emergency be described. This includes the identification of elements such as: roles and responsibilities of key personnel, training, emergency response equipment, and advance public notification. Section 6 of the E2 Regulations requires that the E2 Plan be brought into effect within 12 months of the date that it is required to be prepared under subsection 4(1): - For uncontained E2 substances - within 12 months of meeting or exceeding the quantity threshold in Schedule 1 of the E2 Regulations for that substance - For E2 substances stored in a container system - within 12 months of meeting or exceeding both the substance quantity and the container capacity thresholds identified in Schedule 1 of the E2 Regulations. This means that the responsible person must take the necessary steps to advance past the mere completion of the E2 Plan to ensuring that the elements described therein are implemented and/or ready to be actioned. Specific examples of what this entails are described below in Table 6. Table 6. Requirements for Bringing an E2 Plan into Effect Section of E2 Requirement For Bringing the E2 Plan Into Effect Regulations 4(2)(g) - The preventative measures described in the E2 Plan (e.g., process safety management system, hazard control program, mitigative barriers, safety barriers, etc.) must be in place and functioning as intended.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states, \"For E2 substances stored in a container system - within 12 months of meeting or exceeding both the substance quantity and the container capacity thresholds\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O2#3",
+      "id": "O2",
+      "sentence": "Guidance also states the plan must be implemented within one year of the facility becoming subject to the Regulations [5].",
+      "markers": [
+        5
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "ECCC guidance: simulation exercises — Introduction"
+      ],
+      "evidence": "(guidance) ECCC guidance: simulation exercises — Introduction\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. Introduction. The Environmental Emergency Regulations, 2019 require that a facility prepare and exercise an environmental emergency plan (E2 Plan). The E2 Plan must be created within six months, and implemented within one year of the facility becoming subject to the Regulations. The first annual simulation exercise must be completed within the first year of the E2 Plan implementation. Environmental emergency plan simulation exercises (PDF)",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The guidance confirms the plan must be \"implemented within one year of the facility becoming subject to the Regulations.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O3#0",
+      "id": "O3",
+      "sentence": "A responsible person must inform the Minister that they have prepared the plan or are using a previously prepared plan in accordance with subsection 4(3) within six months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1), by submitting a notice that contains the information referred to in Schedule 3 [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 5"
+      ],
+      "evidence": "(regulation) section 5\n5 Within six months after the day on which an environmental emergency plan is required to be prepared under subsection 4(1), a responsible person must inform the Minister that they have prepared the plan or are using a previously prepared plan in accordance with subsection 4(3) by submitting a notice that contains the information referred to in Schedule 3.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states: \"a responsible person must inform the Minister that they have prepared the plan... within six months... by submitting a notice\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O4#0",
+      "id": "O4",
+      "sentence": "Records of simulation exercises must be kept for a period of not less than seven years beginning on the day on which they are prepared [3].",
+      "markers": [
+        3
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 21"
+      ],
+      "evidence": "(regulation) section 21\n21 (1) Any records prepared in accordance with sections 8 and 10 must be kept at the facility referred to in subsection 4(1). Seven years (2) The records referred to in subsection (1) must be kept for a period of not less than seven years beginning on the day on which they are prepared.",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "The evidence specifies records under \"sections 8 and 10\" must be kept for \"not less than seven years\", but does not mention \"simulation exercises\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O4#1",
+      "id": "O4",
+      "sentence": "Guidance states that records need to be maintained for the previous seven years starting from the day the Regulations apply to a facility [6].",
+      "markers": [
+        6
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "ECCC guidance: simulation exercises — When must the E2 Plan be exercised"
+      ],
+      "evidence": "(guidance) ECCC guidance: simulation exercises — When must the E2 Plan be exercised\nEnvironmental Emergency Regulations, 2019: Environmental emergency plan simulation exercises. When must the E2 Plan be exercised. Annual simulation exercise: - The first annual simulation exercise must be completed within one year of the E2 Plan being brought into effect (as per Section 6 & 7(1)(a)) - For an annual simulation exercise, if your facility has Schedule 1 substances from more than one of the six hazard categories, you must simulate one environmental emergency from each hazard category. For example, if you have substances from three hazard categories, you must test all three during the annual simulation exercise - If your facility has more than one Schedule 1 substance from the same hazard category, you must simulate one environmental emergency identified in the E2 Plan for one substance in that hazard category. A different substance should be selected each year - The E2 Plan must then be exercised at least once every 365 days from the day the plan was brought into effect. A different environmental emergency scenario must be exercised each subsequent year so that all of the environmental emergencies identified in the E2 Plan have been simulated - Notices are not required for annual simulations, however, records need to be maintained at the facility for the previous seven years starting from the day the Regulations apply to a facility Full-Scale simulation exercise: - A full-scale simulation involving deployment of equipment and resources must be completed within five years of the E2 Plan being brought into effect (as per Section 7(1)(b) - Only one Schedule 1 substance at the facility is required to be part of the full-scale simulation exercise. This substance can be from any of the six hazard categories - Once the full-scale exercise is completed, a Notice Regarding Simulation Exercises Conducted in Relation to an E2 Plan (Schedule 5) must be submitted - The annual simulation exercise is not required in the same year a full-scale simulation is conducted",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "The evidence specifies that records must be maintained \"at the facility\" and places this requirement in the context of annual simulation exercises.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O5#0",
+      "id": "O5",
+      "sentence": "A responsible person must review the environmental emergency plan at least once a year to ensure that it continues to meet the requirements of subsection 4(2) [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 10"
+      ],
+      "evidence": "(regulation) section 10\n10 A responsible person must review and, if necessary, update the environmental emergency plan at least once a year to ensure that it continues to meet the requirements of subsection 4(2) and keep a record of the date of the review.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states \"A responsible person must review... the environmental emergency plan at least once a year to ensure that it continues to meet the requirements\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "O5#1",
+      "id": "O5",
+      "sentence": "Guidance adds that the plan must be reviewed as required based on the outcome of simulation exercises [6].",
+      "markers": [
+        6
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)\n7.0 Simulation Exercises. Environmental emergency exercises involve a simulation relating to an emergency scenario that has been identified in the E2 Plan. Exercising the E2 Plan provides those who are responsible for the facility with valuable information regarding their readiness and ability to respond to one or multiple elements of an environmental emergency. The E2 Regulations require that E2 Plans be exercised on an annual basis. A full-scale exercise must also be conducted every five years. Based on the outcome of these exercises, the E2 plans must be reviewed and updated, as required. The responsible person is required to keep a record of these annual and full-scale simulation exercises, including the date, a summary of the exercise, the results of the exercise, and any modifications made to the plan as a result. ECCC recommends that an appropriate exercise design process be composed of the following four main steps: 1. Planning the annual exercise(s); 2. Conducting the exercise(s); 3. Evaluating and reporting on the outcomes; and 4. Updating the E2 Plan(s) with lessons learned. The main objective is to ensure that all aspects of the E2 Plan are fully evaluated over the five-year testing cycle. Further information on exercising emergency response plans can be found in some of the suggested references in Appendix 6. Guidance on performing exercises with mixtures can be found in Appendix 2 of this document.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The text explicitly states, \"Based on the outcome of these exercises, the E2 plans must be reviewed and updated, as required.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#0",
+      "id": "C1",
+      "sentence": "(a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It exactly quotes section 4(2)(a): \"a description of the properties and characteristics of the substance and the maximum expected quantity of the substance\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#1",
+      "id": "C1",
+      "sentence": "(b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence explicitly requires \"(b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#2",
+      "id": "C1",
+      "sentence": "(c) a description of the facility and surrounding area that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It directly matches \"(c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#3",
+      "id": "C1",
+      "sentence": "(d) an identification of any environmental emergency reasonably expected to occur at the facility that would likely cause harm to the environment or constitute a danger to human life or health, including the emergency referred to in paragraph (e) and, if applicable, the emergency more likely to occur than that in paragraph (e) having the longest impact distance outside the boundary of the facility [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Section 4(2)(d) explicitly requires \"an identification of any environmental emergency that could reasonably be expected to occur at the facility...\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#4",
+      "id": "C1",
+      "sentence": "(e) an identification of the harm to the environment or danger to human life or health likely to result from an environmental emergency involving the release of (i) the maximum quantity that could be contained in the container system with the largest maximum capacity, if a quantity is in a container system, and (ii) the maximum expected quantity that will not be in a container system, if a quantity is not in a container system [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The text accurately paraphrases paragraph (e), identifying harm or danger from releasing the maximum capacity in a container system or outside one.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#5",
+      "id": "C1",
+      "sentence": "(f) an identification of the harm to the environment or danger to human life or health likely to result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than that in paragraph (e) and would have the longest impact distance outside the boundary of the facility [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It matches section 4(2)(f), requiring \"an identification of the harm to the environment or danger to human life or health that would likely result\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#6",
+      "id": "C1",
+      "sentence": "(g) a description of measures to be taken to prevent and prepare for the emergencies identified under paragraph (d), and measures that will be taken to respond to and recover from them if they occur [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Evidence explicitly requires \"(g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d)\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#7",
+      "id": "C1",
+      "sentence": "(h) a list of position titles of persons who will make decisions and take a leadership role in an environmental emergency, and a description of their roles and responsibilities [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It matches \"(h) a list of the position titles of the persons who will make decisions and take a leadership role... and a description\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#8",
+      "id": "C1",
+      "sentence": "(i) a list of environmental emergency training provided or to be provided to prepare personnel at the facility who will respond to an emergency identified under paragraph (d) [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It matches 4(2)(i): \"a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#9",
+      "id": "C1",
+      "sentence": "(j) a list of necessary emergency response equipment for measures described in paragraph (g) and the equipment's location [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "It matches section 4(2)(j): \"a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#10",
+      "id": "C1",
+      "sentence": "(k) a description of measures to be taken by a responsible person, or jointly with local authorities, to communicate before an emergency occurs with members of the public who may be adversely affected by the emergency referred to in paragraph (f) to inform them of (i) the possibility of occurrence, (ii) potential effects on the environment and human life or health taking into account paragraphs (a) to (c), and (iii) protection measures and means of communication if an emergency occurs [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Section 4(2)(k) explicitly requires \"a description of the measures that will be taken by a responsible person or by a responsible person and local authorities\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#11",
+      "id": "C1",
+      "sentence": "(l) a description of measures to be taken by a responsible person, or jointly with local authorities, to communicate during and after a release with adversely affected members of the public to provide guidance on actions they can take to reduce harm or danger, including an explanation of how those actions help [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "4(2)(l) requires describing measures taken by a responsible person, or jointly with local authorities, to communicate guidance to adversely affected public during and after emergencies.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#12",
+      "id": "C1",
+      "sentence": "(m) the position title of the person who will communicate with the public referred to in paragraphs (k) and (l) [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Evidence states \"(m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l)\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#13",
+      "id": "C1",
+      "sentence": "(n) a description of consultations had with local authorities, if any, regarding the measures referred to in paragraphs (k) and (l) [1];",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The regulation requires \"a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#14",
+      "id": "C1",
+      "sentence": "(o) a plan of the facility showing the location of any substances in relation to physical features of the facility [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(2)"
+      ],
+      "evidence": "(regulation) section 4(2)\n4(2) Required contents (2) The environmental emergency plan must include the following: (a) a description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility; (b) a description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility; (c) a description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies; (d) an identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility; (e) an identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system; (f) an identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility; (g) a description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur; (h) a list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities; (i) a list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs; (j) a list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location; (k) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs; (l) a description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger; (m) the position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l); (n) a description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l); and (o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Evidence explicitly states \"(o) a plan of the facility showing the location of any substances in relation to the physical features of the facility.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#15",
+      "id": "C1",
+      "sentence": "The plan must be site-specific [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2\n5.0 Environmental Emergency Plans. The E2 Regulations require facilities that meet or exceed established container capacity and / or quantity thresholds for E2 substances to develop an Environmental Emergency Plan (E2 Plan). The complexity of an E2 Plan may vary depending upon the circumstances, but the following basic factors always need to be taken into consideration: - The E2 Plan must be site specific. If a regulatee owns several facilities, they must prepare an E2 Plan and submit separate notices and reports for each facility. - A single E2 Plan may deal with one or more substances as long as it addresses the full range of potential hazards present on the site and the elements of prevention, preparedness, response and recovery for identified E2 scenarios. - Site specific training and emergency response equipment must be identified in the E2 Plan - The E2 Plan must contain a process for notification of environmental emergencies with members of the public who may be adversely affected. - Records of annual simulation exercises and any subsequent updates to the E2 Plan must be kept at the facility. Who Should Prepare an E2 Plan? An E2 Plan is required of any person who owns or has the charge, management or control of any of the regulated substances located at a facility, under certain conditions. To see if you are required to prepare, implement and carry out an E2 Plan, refer to Section 4 of these Guidelines. It is important to realize that it is the Notice Regarding the Preparation of an Environmental Emergency Plan (Schedule 3) and the Notice Regarding the Bringing into Effect of an Environmental Emergency Plan (Schedule 4) that are submitted to ECCC and NOT the E2 Plan itself. However, E2 Plans can be requested by ECCC’s Enforcement Branch to conduct a compliance inspection.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence explicitly states, \"The E2 Plan must be site specific.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C1#16",
+      "id": "C1",
+      "sentence": "A single plan may cover one or more substances if it addresses the full range of potential hazards on site and the prevention, preparedness, response, and recovery elements for identified scenarios [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2\n5.0 Environmental Emergency Plans. The E2 Regulations require facilities that meet or exceed established container capacity and / or quantity thresholds for E2 substances to develop an Environmental Emergency Plan (E2 Plan). The complexity of an E2 Plan may vary depending upon the circumstances, but the following basic factors always need to be taken into consideration: - The E2 Plan must be site specific. If a regulatee owns several facilities, they must prepare an E2 Plan and submit separate notices and reports for each facility. - A single E2 Plan may deal with one or more substances as long as it addresses the full range of potential hazards present on the site and the elements of prevention, preparedness, response and recovery for identified E2 scenarios. - Site specific training and emergency response equipment must be identified in the E2 Plan - The E2 Plan must contain a process for notification of environmental emergencies with members of the public who may be adversely affected. - Records of annual simulation exercises and any subsequent updates to the E2 Plan must be kept at the facility. Who Should Prepare an E2 Plan? An E2 Plan is required of any person who owns or has the charge, management or control of any of the regulated substances located at a facility, under certain conditions. To see if you are required to prepare, implement and carry out an E2 Plan, refer to Section 4 of these Guidelines. It is important to realize that it is the Notice Regarding the Preparation of an Environmental Emergency Plan (Schedule 3) and the Notice Regarding the Bringing into Effect of an Environmental Emergency Plan (Schedule 4) that are submitted to ECCC and NOT the E2 Plan itself. However, E2 Plans can be requested by ECCC’s Enforcement Branch to conduct a compliance inspection.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Evidence states: \"A single E2 Plan may deal with one or more substances as long as it addresses the full range of potential hazards\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "C2#0",
+      "id": "C2",
+      "sentence": "Confirmation that the annual simulation exercises referred to in paragraph 7(1)(a) of the Regulations were conducted [3].\n(a) the date on which the full-scale simulation exercise was conducted [2];\n(b) a description of the environmental emergency simulated during the full-scale simulation exercise [2];\n(c) the name, CAS registry number and, if applicable, UN number of the substance in respect of which the full-scale simulation exercise was conducted and the hazard category to which that substance belongs [2];\n(d) if applicable, a list of all the local authorities and local community or interest groups that were involved in the full-scale simulation exercise [2]; and\n(e) the name and position title of the person who was in charge of conducting the full-scale simulation exercise [2].",
+      "markers": [
+        2,
+        3
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "Schedule 5, item 3",
+        "Schedule 5, item 2"
+      ],
+      "evidence": "(regulation) Schedule 5, item 3\nSCHEDULE 5, item 3. 3 The following information for each full-scale simulation exercise conducted under paragraph 7(1)(b) of the Regulations: (a) the date on which the full-scale simulation exercise was conducted; (b) a description of the environmental emergency simulated during the full-scale simulation exercise; (c) the name, CAS registry number and, if applicable, UN number of the substance in respect of which the full-scale simulation exercise was conducted and the hazard category to which that substance belongs; (d) if applicable, a list of all the local authorities and local community or interest groups that were involved in the full-scale simulation exercise; and (e) the name and position title of the person who was in charge of conducting the full-scale simulation exercise.\n\n(regulation) Schedule 5, item 2\nSCHEDULE 5, item 2. 2 Confirmation that the annual simulation exercises referred to in paragraph 7(1)(a) of the Regulations were conducted.",
+      "missing_evidence": [],
+      "verdict": "NOT SUPPORTED",
+      "because": "The evidence attaches items (a) to (e) to \"each full-scale simulation exercise conducted under paragraph 7(1)(b)\", not the \"annual simulation exercises\" under 7(1)(a).",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S1#0",
+      "id": "S1",
+      "sentence": "(b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 3(1)"
+      ],
+      "evidence": "(regulation) section 3(1)\n3(1) (1) A responsible person must, within 90 days after the day on which either of the following situations occurs, submit to the Minister a notice containing the information referred to in Schedule 2 for each facility at which a substance is located: (a) the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence explicitly states \"(b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to...\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S1#1",
+      "id": "S1",
+      "sentence": "For anhydrous ammonia (Schedule 1, Part 1, item 163), the minimum concentration is 10% (mass/mass) and the minimum quantity set out in column 4 is 4.50 tonnes [7].\n(i) under paragraph 3(d) of Schedule 2, a maximum expected quantity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance, and\n(ii) under paragraph 3(f) of Schedule 2, a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance [2].",
+      "markers": [
+        2,
+        7
+      ],
+      "carried": true,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(1)",
+        "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)"
+      ],
+      "evidence": "(regulation) section 4(1)\n4(1) (1) A responsible person must, for each facility at which a substance is located, prepare an environmental emergency plan with respect to the substance under the following circumstances: (a) if some or all of the substance is not in a container system, a responsible person has reported a maximum expected quantity under paragraph 3(d) of Schedule 2 that is equal to or greater than the quantity set out in column 4 of Part 1 of Schedule 1 for that substance; or (b) if the substance is in a container system, a responsible person has reported (i) under paragraph 3(d) of Schedule 2, a maximum expected quantity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance, and (ii) under paragraph 3(f) of Schedule 2, a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.\n\n(regulation) Schedule 1, Part 1, item 163 (Ammonia, anhydrous)\nAmmonia, anhydrous - Schedule 1, Part 1, item 163\n    CAS number            : 7664-41-7\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 4.50 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "It omits the requirement to prepare an environmental emergency plan and the condition \"if the substance is in a container system\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S4#0",
+      "id": "S4",
+      "sentence": "For anhydrous ammonia (CAS 7664-41-7), the minimum concentration is 10% (mass/mass) and the minimum quantity set out in column 4 of Part 1 of Schedule 1 is 4.50 tonnes [7].",
+      "markers": [
+        7
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)"
+      ],
+      "evidence": "(regulation) Schedule 1, Part 1, item 163 (Ammonia, anhydrous)\nAmmonia, anhydrous - Schedule 1, Part 1, item 163\n    CAS number            : 7664-41-7\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 4.50 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "The evidence lists \"minimum quantity : 4.50 tonnes\" in \"Schedule 1, Part 1\", but does not mention \"column 4\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S4#1",
+      "id": "S4",
+      "sentence": "Storing 6 tonnes meets or exceeds this threshold [7].\n(a) the total quantity of the substance, whether it is in a container system or not, is equal to or greater than 4.50 tonnes; or\n(b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than 4.50 tonnes [1][7].\n(a) if some or all of the substance is not in a container system, a responsible person has reported a maximum expected quantity under paragraph 3(d) of Schedule 2 that is equal to or greater than 4.50 tonnes; or\n(b) if the substance is in a container system, a responsible person has reported\n(i) under paragraph 3(d) of Schedule 2, a maximum expected quantity that is equal to or greater than 4.50 tonnes, and\n(ii) under paragraph 3(f) of Schedule 2, a maximum capacity that is equal to or greater than 4.50 tonnes [2][7].",
+      "markers": [
+        1,
+        2,
+        7
+      ],
+      "carried": true,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 3(1)",
+        "section 4(1)",
+        "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)"
+      ],
+      "evidence": "(regulation) section 3(1)\n3(1) (1) A responsible person must, within 90 days after the day on which either of the following situations occurs, submit to the Minister a notice containing the information referred to in Schedule 2 for each facility at which a substance is located: (a) the total quantity of the substance, whether it is in a container system or not, is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance; or (b) a quantity of the substance is placed in a container system that has a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.\n\n(regulation) section 4(1)\n4(1) (1) A responsible person must, for each facility at which a substance is located, prepare an environmental emergency plan with respect to the substance under the following circumstances: (a) if some or all of the substance is not in a container system, a responsible person has reported a maximum expected quantity under paragraph 3(d) of Schedule 2 that is equal to or greater than the quantity set out in column 4 of Part 1 of Schedule 1 for that substance; or (b) if the substance is in a container system, a responsible person has reported (i) under paragraph 3(d) of Schedule 2, a maximum expected quantity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance, and (ii) under paragraph 3(f) of Schedule 2, a maximum capacity that is equal to or greater than the quantity set out in column 4 of Part 1 or 2 of Schedule 1 for that substance.\n\n(regulation) Schedule 1, Part 1, item 163 (Ammonia, anhydrous)\nAmmonia, anhydrous - Schedule 1, Part 1, item 163\n    CAS number            : 7664-41-7\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 4.50 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "The evidence specifies \"minimum quantity : 4.50 tonnes\", supporting the conditions, but it does not mention storing \"6 tonnes\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S4#2",
+      "id": "S4",
+      "sentence": "Quantities of anhydrous ammonia located at a farming operation for on-site use as an agricultural nutrient are excluded from quantity calculations, provided the nutrient is used at the site at which it is located and is not stored for retail distribution or for use at other farming operations [6].",
+      "markers": [
+        6
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(e) – Agricultural Nutrients” (p. 155)"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(e) – Agricultural Nutrients” (p. 155)\n3(2)(e) – Agricultural Nutrients. The quantity exclusion reads as follows: Quantities of a substance set out in item 163 of Part 1 of Schedule 1 or item 5 or 9 of Part 2 of that Schedule that are located at a farming operation for on-site use as an agricultural nutrient This exclusion applies to: anhydrous ammonia, ammonium hydroxide, and/or ammonia solution that is used as an agricultural nutrient at a farming operation. The nutrient(s) must be used at the site at which they are located. If these substances are stored for retail distribution, or for use at other farming opertions, the exclusion does not apply. If an accidental release of any of the substance onsite occurs, both verbal and written report are required under Section 18 of the E2 Regulations. Appendix 5: Additional Guidance on Exclusions Figure 12. Flowchart for the Evaluation of the Propane Exemption Step 1 Does the container system Determine the capacity of have a maximum No capacity of less than the propane container 10 tonnes? Yes The quantity of propane is not excluded in the maximum quantity calculations of this Step 2 substance on-site. Is the edge of the container Determine the location of system located at least 360 No the propane container metres away from all points system along the boundary of the facility? Yes The quantity of propane is excluded in the maximum quantity calculations of this substance on site.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence describes the \"quantity exclusion\" for \"anhydrous ammonia\" at a \"farming operation\" used on-site, not for \"retail distribution, or for use at other farming opertions.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S4#3",
+      "id": "S4",
+      "sentence": "If an accidental release of any of the substance onsite occurs at such an operation, both verbal and written reports are required under Section 18 of the Regulations [6].",
+      "markers": [
+        6
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(e) – Agricultural Nutrients” (p. 155)"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), “3(2)(e) – Agricultural Nutrients” (p. 155)\n3(2)(e) – Agricultural Nutrients. The quantity exclusion reads as follows: Quantities of a substance set out in item 163 of Part 1 of Schedule 1 or item 5 or 9 of Part 2 of that Schedule that are located at a farming operation for on-site use as an agricultural nutrient This exclusion applies to: anhydrous ammonia, ammonium hydroxide, and/or ammonia solution that is used as an agricultural nutrient at a farming operation. The nutrient(s) must be used at the site at which they are located. If these substances are stored for retail distribution, or for use at other farming opertions, the exclusion does not apply. If an accidental release of any of the substance onsite occurs, both verbal and written report are required under Section 18 of the E2 Regulations. Appendix 5: Additional Guidance on Exclusions Figure 12. Flowchart for the Evaluation of the Propane Exemption Step 1 Does the container system Determine the capacity of have a maximum No capacity of less than the propane container 10 tonnes? Yes The quantity of propane is not excluded in the maximum quantity calculations of this Step 2 substance on-site. Is the edge of the container Determine the location of system located at least 360 No the propane container metres away from all points system along the boundary of the facility? Yes The quantity of propane is excluded in the maximum quantity calculations of this substance on site.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states, \"If an accidental release of any of the substance onsite occurs, both verbal and written report are required under Section 18\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S4#4",
+      "id": "S4",
+      "sentence": "If the facility has the substance onsite at a concentration meeting or exceeding 10% (mass/mass) but is not required to submit the Schedule 2 notice, accidental releases must still be reported if they result in an environmental emergency [5][7].",
+      "markers": [
+        5,
+        7
+      ],
+      "carried": false,
+      "tier": "law+guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1 (p. 18)",
+        "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1 (p. 18)\n4.1 The E2 Regulations - Reporting Requirements. A facility may be subject to a number of reporting requirements under the E2 Regulations. This section is designed to help identify these requirements and describe the timelines and methods for their submission. Do you own a Facility that has E2 Substances Onsite but is not required to Submit the Notice Identified in Schedule 2 of the Regulations? If the concentration of the substance meets or exceeds the concentration in column 3 of Schedule 1 in the Regulations, you will still be required to report any accidental releases from your facility if they result in an environmental emergency. Please refer to Chapter 8 for more detailed information.\n\n(regulation) Schedule 1, Part 1, item 163 (Ammonia, anhydrous)\nAmmonia, anhydrous - Schedule 1, Part 1, item 163\n    CAS number            : 7664-41-7\n    minimum concentration 10% (mass/mass)\n    minimum quantity      : 4.50 tonnes\n    hazard category       : I (inhalation hazard)",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "Evidence states if concentration \"meets or exceeds\" Schedule 1's \"10% (mass/mass)\" without Schedule 2 notice, you must \"report any accidental releases... result in an environmental emergency.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S2#0",
+      "id": "S2",
+      "sentence": "A responsible person who intends to cease operations for a period of one year or more at a facility where a substance is located, for any purpose other than maintenance, must submit a notice containing the information referred to in Schedule 7 to the Minister at least 30 days before the day on which operations are to cease, or as soon as feasible in the case of extraordinary circumstances such as fire, major accident, vandalism, natural disaster or act of terrorism [1].\n(a) the date of the cessation of operations at the facility; [2]\n(b) for each substance in respect of which a notice was submitted under subsection 3(1) of the Regulations,\n(i) the quantity of the substance that remains at the facility on the day on which the notice is submitted, [2]\n(ii) the number of container systems containing the substance that remain at the facility on the day on which the notice is submitted, and [2]\n(iii) the maximum capacity of the largest container system in which the substance is contained on the day on which the notice is submitted; and [2]\n(c) a description of the measures taken to prevent and prepare for the occurrence of an environmental emergency after operations cease at the facility and the measures that will be taken to respond to and recover from such an emergency if it were to occur. [2]",
+      "markers": [
+        1,
+        2
+      ],
+      "carried": true,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 16",
+        "Schedule 7, item 2"
+      ],
+      "evidence": "(regulation) section 16\n16 A responsible person who intends to cease operations for a period of one year or more at a facility where a substance is located, for any purpose other than maintenance, must submit a notice containing the information referred to in Schedule 7 to the Minister at least 30 days before the day on which operations are to cease, or as soon as feasible in the case of extraordinary circumstances such as fire, major accident, vandalism, natural disaster or act of terrorism.\n\n(regulation) Schedule 7, item 2\nSCHEDULE 7, item 2. 2 If the notice concerns a cessation of operations, the following information: (a) the date of the cessation of operations at the facility; (b) for each substance in respect of which a notice was submitted under subsection 3(1) of the Regulations, (i) the quantity of the substance that remains at the facility on the day on which the notice is submitted, (ii) the number of container systems containing the substance that remain at the facility on the day on which the notice is submitted, and (iii) the maximum capacity of the largest container system in which the substance is contained on the day on which the notice is submitted; and (c) a description of the measures taken to prevent and prepare for the occurrence of an environmental emergency after operations cease at the facility and the measures that will be taken to respond to and recover from such an emergency if it were to occur.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The passage directly quotes section 16 and Schedule 7, item 2, including all conditions, timeframes, and required information.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S2#1",
+      "id": "S2",
+      "sentence": "According to guidance, this submission is titled Schedule 7: Notice of Cessation of Operations or Transfer of Ownership [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8\n4.1.4 Description of Notices and Reports. notice every five years. It is recommended that the user review all of their previously submitted notices in order to fully understand the impact of the associated changes. Schedule 7: Notice of Cessation of Operations or Transfer of Ownership Submission of this notice informs ECCC that either the facility will stop its operation for one year or more, for reasons other than maintenance; or that the ownership of the facility has changed. In the latter case, the regulatee is required to provide the date of the transfer, and the name of the new owner. A Schedule 7 submission is not created automatically by the E2 Online Reporting System; it must be added by the user in the dashboard. The system will not allow this to occur until after a Schedule 2 notice has been submitted. Please note that the information displayed on the Facility Information page of the Schedule 7 notice is pre-populated based on the information in the Schedule 2 notice and cannot be modified. If this information needs to be changed, the Schedule 2 notice must be edited and then re-submitted. Once submitted, the information in the Schedule 7 notice can be modified at any time. The submission of a Schedule 7 notice modifies a facility’s information such that it is no longer considered Active in the system. It also causes the E2 Online Reporting System to automatically update and archive any previously submitted Schedules along with the status of the facility. Should a facility wish to change their status to Active in the system at some point in the future, they must make the request through a Regional Compliance Promotion Officer, who can be reached at: ec.ue_gigue2_swim.ec@canada.ca. Note that if the facility has transferred ownership, the new owners will have to resubmit",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The guidance directly lists the notice as \"Schedule 7: Notice of Cessation of Operations or Transfer of Ownership\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S2#2",
+      "id": "S2",
+      "sentence": "It is not created automatically by the E2 Online Reporting System and must be added by the user in the dashboard, which cannot occur until after a Schedule 2 notice has been submitted [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8\n4.1.4 Description of Notices and Reports. notice every five years. It is recommended that the user review all of their previously submitted notices in order to fully understand the impact of the associated changes. Schedule 7: Notice of Cessation of Operations or Transfer of Ownership Submission of this notice informs ECCC that either the facility will stop its operation for one year or more, for reasons other than maintenance; or that the ownership of the facility has changed. In the latter case, the regulatee is required to provide the date of the transfer, and the name of the new owner. A Schedule 7 submission is not created automatically by the E2 Online Reporting System; it must be added by the user in the dashboard. The system will not allow this to occur until after a Schedule 2 notice has been submitted. Please note that the information displayed on the Facility Information page of the Schedule 7 notice is pre-populated based on the information in the Schedule 2 notice and cannot be modified. If this information needs to be changed, the Schedule 2 notice must be edited and then re-submitted. Once submitted, the information in the Schedule 7 notice can be modified at any time. The submission of a Schedule 7 notice modifies a facility’s information such that it is no longer considered Active in the system. It also causes the E2 Online Reporting System to automatically update and archive any previously submitted Schedules along with the status of the facility. Should a facility wish to change their status to Active in the system at some point in the future, they must make the request through a Regional Compliance Promotion Officer, who can be reached at: ec.ue_gigue2_swim.ec@canada.ca. Note that if the facility has transferred ownership, the new owners will have to resubmit",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states a Schedule 7 submission is \"not created automatically by the E2 Online Reporting System; it must be added by the user in the dashboard.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S2#3",
+      "id": "S2",
+      "sentence": "Owners of several facilities must submit separate notices and keep separate records for each facility [5].",
+      "markers": [
+        5
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)\n4.1.1 Reporting to ECCC. The E2 Regulations stipulate that any required information be provided to ECCC through a Notice of Submission or written report. Many of these notices were identified in the quick reference diagram on the previous page. The information to be included in each notice or report is identified in Schedules 2 through 8 of the E2 Regulations. This information allows the Department to fulfil its mandate by keeping a record of potential risks to the environment and human health within Canada as identified in CEPA 1999. IMPORTANT: Do you own several facilities? You must submit separate notices and Do you own several facilities? reports for each facility. You must submit separate notices and keep separate records for each facility.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly asks, \"Do you own several facilities?\" and specifies, \"You must submit separate notices and keep separate records for each facility.\"",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S3#0",
+      "id": "S3",
+      "sentence": "If there is a transfer of the ownership of a facility where a substance is located, a responsible person must, if a notice has been submitted under subsection 3(1) in respect of the substance, submit a notice containing the information referred to in Schedule 7 to the Minister on or before the date of the transfer [1].",
+      "markers": [
+        1
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 17"
+      ],
+      "evidence": "(regulation) section 17\n17 If there is a transfer of the ownership of a facility where a substance is located, a responsible person must, if a notice has been submitted under subsection 3(1) in respect of the substance, submit a notice containing the information referred to in Schedule 7 to the Minister on or before the date of the transfer.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The sentence matches the evidence verbatim: \"submit a notice containing the information referred to in Schedule 7 to the Minister on or before the date\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "S3#1",
+      "id": "S3",
+      "sentence": "Guidance adds that for a transfer of ownership, this notice informs ECCC of the change and requires providing the date of the transfer and the name of the new owner [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 24), part 6 of 8\n4.1.4 Description of Notices and Reports. notice every five years. It is recommended that the user review all of their previously submitted notices in order to fully understand the impact of the associated changes. Schedule 7: Notice of Cessation of Operations or Transfer of Ownership Submission of this notice informs ECCC that either the facility will stop its operation for one year or more, for reasons other than maintenance; or that the ownership of the facility has changed. In the latter case, the regulatee is required to provide the date of the transfer, and the name of the new owner. A Schedule 7 submission is not created automatically by the E2 Online Reporting System; it must be added by the user in the dashboard. The system will not allow this to occur until after a Schedule 2 notice has been submitted. Please note that the information displayed on the Facility Information page of the Schedule 7 notice is pre-populated based on the information in the Schedule 2 notice and cannot be modified. If this information needs to be changed, the Schedule 2 notice must be edited and then re-submitted. Once submitted, the information in the Schedule 7 notice can be modified at any time. The submission of a Schedule 7 notice modifies a facility’s information such that it is no longer considered Active in the system. It also causes the E2 Online Reporting System to automatically update and archive any previously submitted Schedules along with the status of the facility. Should a facility wish to change their status to Active in the system at some point in the future, they must make the request through a Regional Compliance Promotion Officer, who can be reached at: ec.ue_gigue2_swim.ec@canada.ca. Note that if the facility has transferred ownership, the new owners will have to resubmit",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence states notice submission informs ECCC ownership changed, and \"the regulatee is required to provide the date of the transfer, and the name\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "P1#0",
+      "id": "P1",
+      "sentence": "For the purposes of subsection 4(1), a responsible person may use an environmental emergency plan that has been prepared for another government, on a voluntary basis, or under another Act of Parliament, if that plan meets the requirements of subsection 4(2) or is amended so that it meets those requirements [2].\n(a) amend the plan so that it meets all of those requirements; or\n(b) prepare an additional environmental emergency plan that meets the remainder of those requirements [3].",
+      "markers": [
+        2,
+        3
+      ],
+      "carried": true,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(3)",
+        "CEPA 1999, section 199(5)"
+      ],
+      "evidence": "(regulation) section 4(3)\n4(3) Existing plan (3) For the purposes of subsection (1), a responsible person may use an environmental emergency plan that has been prepared on a voluntary basis, or for another government or under another Act of Parliament, if that plan meets the requirements of subsection (2) or is amended so that it meets those requirements.\n\n(act) CEPA 1999, section 199(5)\n199(5) Where partial requirements met (5) Where a person uses a plan under subsection (4) that does not meet all of the requirements of the notice, the person shall (a) amend the plan so that it meets all of those requirements; or (b) prepare an additional environmental emergency plan that meets the remainder of those requirements.",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "It omits the condition in section 199(5): \"Where a person uses a plan under subsection (4) that does not meet all of the requirements\".",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "P2#0",
+      "id": "P2",
+      "sentence": "A responsible person may use an environmental emergency plan that has been prepared on a voluntary basis, or for another government or under another Act of Parliament, if that plan meets the requirements of subsection 4(2) or is amended so that it meets those requirements [2].",
+      "markers": [
+        2
+      ],
+      "carried": false,
+      "tier": "law",
+      "stem": "",
+      "citations": [
+        "section 4(3)"
+      ],
+      "evidence": "(regulation) section 4(3)\n4(3) Existing plan (3) For the purposes of subsection (1), a responsible person may use an environmental emergency plan that has been prepared on a voluntary basis, or for another government or under another Act of Parliament, if that plan meets the requirements of subsection (2) or is amended so that it meets those requirements.",
+      "missing_evidence": [],
+      "verdict": "PARTLY SUPPORTED",
+      "because": "The sentence omits the condition \"For the purposes of subsection (1),\" which specifies the scope under which a responsible person \"may use\" the plan.",
+      "judge_model": "models/gemini-3.8-flash"
+    },
+    {
+      "key": "P2#1",
+      "id": "P2",
+      "sentence": "Guidance adds that the plan must be site specific; if a regulatee owns several facilities, they must prepare an E2 Plan and submit separate notices and reports for each facility [4].",
+      "markers": [
+        4
+      ],
+      "carried": false,
+      "tier": "guidance",
+      "stem": "",
+      "citations": [
+        "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2"
+      ],
+      "evidence": "(guidance) Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2\n5.0 Environmental Emergency Plans. The E2 Regulations require facilities that meet or exceed established container capacity and / or quantity thresholds for E2 substances to develop an Environmental Emergency Plan (E2 Plan). The complexity of an E2 Plan may vary depending upon the circumstances, but the following basic factors always need to be taken into consideration: - The E2 Plan must be site specific. If a regulatee owns several facilities, they must prepare an E2 Plan and submit separate notices and reports for each facility. - A single E2 Plan may deal with one or more substances as long as it addresses the full range of potential hazards present on the site and the elements of prevention, preparedness, response and recovery for identified E2 scenarios. - Site specific training and emergency response equipment must be identified in the E2 Plan - The E2 Plan must contain a process for notification of environmental emergencies with members of the public who may be adversely affected. - Records of annual simulation exercises and any subsequent updates to the E2 Plan must be kept at the facility. Who Should Prepare an E2 Plan? An E2 Plan is required of any person who owns or has the charge, management or control of any of the regulated substances located at a facility, under certain conditions. To see if you are required to prepare, implement and carry out an E2 Plan, refer to Section 4 of these Guidelines. It is important to realize that it is the Notice Regarding the Preparation of an Environmental Emergency Plan (Schedule 3) and the Notice Regarding the Bringing into Effect of an Environmental Emergency Plan (Schedule 4) that are submitted to ECCC and NOT the E2 Plan itself. However, E2 Plans can be requested by ECCC’s Enforcement Branch to conduct a compliance inspection.",
+      "missing_evidence": [],
+      "verdict": "SUPPORTED",
+      "because": "The evidence directly states, \"The E2 Plan must be site specific. If a regulatee owns several facilities, they must prepare an E2 Plan...\"",
+      "judge_model": "models/gemini-3.8-flash"
+    }
+  ]
+}

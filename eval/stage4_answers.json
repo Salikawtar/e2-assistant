@@ -1,0 +1,433 @@
+{
+  "run_date": "2026-08-29",
+  "model": "models/gemini-3.6-flash",
+  "temperature": 0,
+  "prompt_version": "stage4_final",
+  "results": [
+    {
+      "question": "How often must a facility conduct a simulation exercise?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Schedule 5, item 3",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 8",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — When must the E2 Plan be exercised",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 7.0 (p. 72)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC guidance: simulation exercises — What are the different types of E2 Plan exercises",
+          "source_type": "guidance",
+          "as_of": "2022-08-16"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nUnder the law, a responsible person must conduct a simulation exercise each year, beginning on the day on which the plan is brought into effect [1]. A responsible person must conduct a full-scale simulation exercise every five years, beginning on the day on which the plan is brought into effect [1]. Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b) [1].\n\nGuidance adds that the annual simulation exercise must be conducted at least once every 365 days from the day the plan was brought into effect [4].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "Under the law, a responsible person must conduct a simulation exercise each year, beginning on the day on which the plan is brought into effect [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "A responsible person must conduct a full-scale simulation exercise every five years, beginning on the day on which the plan is brought into effect [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "Paragraph (1)(a) does not apply in respect of a year during which a full-scale simulation exercise is conducted under paragraph (1)(b) [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "Guidance adds that the annual simulation exercise must be conducted at least once every 365 days from the day the plan was brought into effect [4]."
+          }
+        ],
+        "claims": 4,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 3,
+          "guidance": 1
+        },
+        "obligation_on_guidance": [
+          "Guidance adds that the annual simulation exercise must be conducted at least once every 365 days from the day the plan was brought into effect [4]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "expected": "ANSWERED",
+      "expected_because": "section 7 states both the annual and five-year duties",
+      "abstention_gap": 0
+    },
+    {
+      "question": "What is the minimum quantity threshold for anhydrous ammonia?",
+      "route": "LOOKUP",
+      "route_reasons": [
+        "a Schedule 1 substance is named (Ammonia, anhydrous)",
+        "and the question uses table words: minimum, quantity, threshold"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "Schedule 1, Part 1, item 163 (Ammonia, anhydrous)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\nThe minimum quantity for Ammonia, anhydrous is 4.50 tonnes at a minimum concentration of 10% (mass/mass) [1].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "The minimum quantity for Ammonia, anhydrous is 4.50 tonnes at a minimum concentration of 10% (mass/mass) [1]."
+          }
+        ],
+        "claims": 1,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 1
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [],
+        "problems": []
+      },
+      "expected": "ANSWERED",
+      "expected_because": "Schedule 1, Part 1, item 163 gives quantity and concentration",
+      "abstention_gap": 0
+    },
+    {
+      "question": "What must an environmental emergency plan contain?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 12",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 7",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Checklist for the Preparation of an E2 Plan” (p. 169), part 7 of 15",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 5.0 (p. 26), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "ECCC factsheet: Reporting an Environmental Emergency, “What Kind of Incident to Report:” (p. 1)",
+          "source_type": "guidance",
+          "as_of": "2019"
+        }
+      ],
+      "answer": "STATUS: ANSWERED\n\n(a) A description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility [1].\n(b) A description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility [1].\n(c) A description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies [1].\n(d) An identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility [1].\n(e) An identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system [1].\n(f) An identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility [1].\n(g) A description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur [1].\n(h) A list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities [1].\n(i) A list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs [1].\n(j) A list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location [1].\n(k) A description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs [1].\n(l) A description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger [1].\n(m) The position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l) [1].\n(n) A description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l) [1].\n(o) A plan of the facility showing the location of any substances in relation to the physical features of the facility [1].\n\nThe plan must be site-specific, and a single plan may cover one or more substances as long as it addresses the full range of potential hazards on the site and the elements of prevention, preparedness, response, and recovery for identified scenarios [5].",
+      "report": {
+        "status": "ANSWERED",
+        "not_covered": "",
+        "rows": [
+          {
+            "tier": "law",
+            "sentence": "(a) A description of the properties and characteristics of the substance and the maximum expected quantity of the substance at the facility [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) A description of the commercial, manufacturing, processing or other activity involving the substance that takes place at the facility [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(c) A description of the facility and of the area surrounding the facility that may be affected by an environmental emergency referred to in paragraph (d), including any hospitals, schools, residential, commercial or industrial buildings and any highways, public transit infrastructure, parks, forests, wildlife habitats, water sources or water bodies [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(d) An identification of any environmental emergency that could reasonably be expected to occur at the facility and that would likely cause harm to the environment or constitute a danger to human life or health, including the environmental emergency referred to in paragraph (e) and, if applicable, the environmental emergency that is more likely to occur than the environmental emergency referred to in paragraph (e) and that would have the longest impact distance outside the boundary of the facility [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(e) An identification of the harm to the environment or danger to human life or health that would likely result from an environmental emergency involving the release of (i) the maximum quantity of the substance that could be contained in the container system that has the largest maximum capacity, if a quantity of the substance is in a container system, and (ii) the maximum expected quantity of the substance that will not be in a container system, if a quantity of the substance is not in a container system [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(f) An identification of the harm to the environment or danger to human life or health that would likely result from the environmental emergency identified under paragraph (d), if any, that is more likely to occur than the environmental emergency referred to in paragraph (e) and would have the longest impact distance outside the boundary of the facility [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(g) A description of the measures to be taken to prevent and prepare for the environmental emergencies identified under paragraph (d) and the measures that will be taken to respond to and recover from such emergencies if they were to occur [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(h) A list of the position titles of the persons who will make decisions and take a leadership role in the event of an environmental emergency and a description of their roles and responsibilities [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(i) A list of the environmental emergency training that has been or will be provided to prepare personnel at the facility who will respond in the event that an environmental emergency identified under paragraph (d) occurs [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(j) A list of the emergency response equipment that is necessary for the measures described in paragraph (g) and the equipment’s location [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(k) A description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to communicate with the members of the public who may be adversely affected by the environmental emergency referred to in paragraph (f) to inform them, before the environmental emergency occurs, of (i) the possibility that the environmental emergency could occur, (ii) the potential effects of the environmental emergency on the environment and on human life or health, taking into account the factors referred to in paragraphs (a) to (c), and (iii) the measures that will be taken by the responsible person to protect the environment and human life or health, and the means by which the responsible person will communicate with them, in the event that the environmental emergency occurs [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(l) A description of the measures that will be taken by a responsible person or by a responsible person and local authorities, acting jointly, to, in the event that an environmental emergency involving the release of a substance occurs, communicate with the members of the public who may be adversely affected to provide them, during and after its occurrence, with information and guidance concerning the actions that could be taken by them to reduce the potential harm to the environment and danger to human life or health, including an explanation of how those actions may help to reduce the harm or danger [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(m) The position title of the person who will communicate with the members of the public referred to in paragraphs (k) and (l) [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(n) A description of the consultations that a responsible person had with local authorities, if any, with respect to the measures referred to in paragraph (k) and (l) [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "(o) A plan of the facility showing the location of any substances in relation to the physical features of the facility [1]."
+          },
+          {
+            "tier": "guidance",
+            "sentence": "The plan must be site-specific, and a single plan may cover one or more substances as long as it addresses the full range of potential hazards on the site and the elements of prevention, preparedness, response, and recovery for identified scenarios [5]."
+          }
+        ],
+        "claims": 16,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {
+          "law": 15,
+          "guidance": 1
+        },
+        "obligation_on_guidance": [
+          "The plan must be site-specific, and a single plan may cover one or more substances as long as it addresses the full range of potential hazards on the site and the elements of prevention, preparedness, response, and recovery for identified scenarios [5]."
+        ],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "problems": []
+      },
+      "expected": "ANSWERED",
+      "expected_because": "section 4(2) lists the required contents",
+      "abstention_gap": 0
+    },
+    {
+      "question": "Does an Ontario Environmental Compliance Approval satisfy the E2 plan requirement?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "CEPA 1999, section 199(5)",
+          "source_type": "act",
+          "as_of": "2026-03-31"
+        },
+        {
+          "citation": "Schedule 3, item 2",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 4(2)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “APPENDIX 7 Checklist to Prepare an E2 Plan” (p. 163)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), “Checklist for the Preparation of an E2 Plan” (p. 167), part 5 of 15",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 10.0 (p. 86)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: PARTIAL\nNOT COVERED: Whether an Ontario Environmental Compliance Approval specifically satisfies the environmental emergency plan requirements.\n\nWhere a person uses a plan that does not meet all of the requirements of the notice, the person shall\n(a) amend the plan so that it meets all of those requirements; or\n(b) prepare an additional environmental emergency plan that meets the remainder of those requirements [1].\n\nIf an environmental emergency plan is based on an existing plan prepared for another government or under another Act of Parliament, it must include a statement to that effect and the name of the government or Act of Parliament [2].",
+      "report": {
+        "status": "PARTIAL",
+        "not_covered": "Whether an Ontario Environmental Compliance Approval specifically satisfies the environmental emergency plan requirements.",
+        "rows": [
+          {
+            "tier": "uncited",
+            "sentence": "Where a person uses a plan that does not meet all of the requirements of the notice, the person shall"
+          },
+          {
+            "tier": "law",
+            "sentence": "(a) amend the plan so that it meets all of those requirements; or",
+            "carried": true
+          },
+          {
+            "tier": "law",
+            "sentence": "(b) prepare an additional environmental emergency plan that meets the remainder of those requirements [1]."
+          },
+          {
+            "tier": "law",
+            "sentence": "If an environmental emergency plan is based on an existing plan prepared for another government or under another Act of Parliament, it must include a statement to that effect and the name of the government or Act of Parliament [2]."
+          }
+        ],
+        "claims": 4,
+        "uncited": [
+          "Where a person uses a plan that does not meet all of the requirements of the notice, the person shall"
+        ],
+        "cited_share": 0.75,
+        "tiers": {
+          "uncited": 1,
+          "law": 3
+        },
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "expected": "PARTIAL",
+      "expected_because": "the law covers plans prepared for another government, but never names Ontario approvals",
+      "abstention_gap": 0
+    },
+    {
+      "question": "What penalty applies if a facility fails to submit a notice on time?",
+      "route": "RETRIEVE",
+      "route_reasons": [
+        "no substance and no table words"
+      ],
+      "model": "models/gemini-3.6-flash",
+      "attempts": 1,
+      "sources": [
+        {
+          "citation": "section 15",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 3(1)",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "section 14",
+          "source_type": "regulation",
+          "as_of": "2021-10-20"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.4 (p. 21), part 1 of 8",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.2 (p. 18), part 1 of 2",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        },
+        {
+          "citation": "Technical Guidelines for the E2 Regulations, 2019 (v2.0), s. 4.1.1 (p. 18)",
+          "source_type": "guidance",
+          "as_of": "2020-12"
+        }
+      ],
+      "answer": "STATUS: REFUSED\nNOT COVERED: penalties for failing to submit a notice on time.\n\nThe provided evidence does not contain information regarding penalties for failing to submit a notice on time.",
+      "report": {
+        "status": "REFUSED",
+        "not_covered": "penalties for failing to submit a notice on time.",
+        "rows": [
+          {
+            "tier": "refusal",
+            "sentence": "The provided evidence does not contain information regarding penalties for failing to submit a notice on time."
+          }
+        ],
+        "claims": 0,
+        "uncited": [],
+        "cited_share": 1.0,
+        "tiers": {},
+        "obligation_on_guidance": [],
+        "invented_markers": [],
+        "invented_refs": [],
+        "quoted_refs": [],
+        "unused_evidence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "problems": []
+      },
+      "expected": "REFUSED",
+      "expected_because": "penalties are in CEPA Part 10, which is not in the corpus",
+      "abstention_gap": 0
+    }
+  ]
+}

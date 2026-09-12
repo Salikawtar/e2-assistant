@@ -1,0 +1,23 @@
+id,family,question,expected,got,usable,verdict,passed,missing_facts,missing_cites,forbidden_present,claims,uncited,obligations_on_guidance,route,model
+T1,threshold,What is the minimum quantity threshold for anhydrous ammonia?,ANSWERED,ANSWERED,True,match,True,,,,1,0,0,LOOKUP,models/gemini-3.8-flash
+T2,threshold,How much chlorine triggers the Environmental Emergency Regulations?,ANSWERED,ANSWERED,True,match,True,,,,1,0,0,LOOKUP,models/gemini-3.8-flash
+T3,threshold,What is the threshold for mercury?,ANSWERED,ANSWERED,True,match,True,,,,1,0,0,LOOKUP,models/gemini-3.8-flash
+T4,threshold,What is the UN number for chlorine?,ANSWERED,ANSWERED,True,match,True,,,,1,0,0,LOOKUP,models/gemini-3.8-flash
+T5,threshold,Is sodium chloride listed in Schedule 1?,REFUSED,REFUSED,True,match,True,,,,0,0,0,RETRIEVE,models/gemini-3.8-flash
+O1,obligation,How often must a facility conduct a simulation exercise?,ANSWERED,ANSWERED,True,match,True,,,,5,0,2,RETRIEVE,models/gemini-3.8-flash
+O2,obligation,When must an environmental emergency plan be brought into effect?,ANSWERED,ANSWERED,True,match,True,,,,3,0,0,RETRIEVE,models/gemini-3.8-flash
+O3,obligation,When must a responsible person tell the Minister that the plan has been prepared?,ANSWERED,ANSWERED,True,match,True,,,,1,0,0,RETRIEVE,models/gemini-3.8-flash
+O4,obligation,How long must records of simulation exercises be kept?,ANSWERED,ANSWERED,True,match,True,,,,2,0,1,RETRIEVE,models/gemini-3.8-flash
+O5,obligation,How often must the environmental emergency plan be reviewed?,ANSWERED,ANSWERED,True,match,True,,,,2,0,1,RETRIEVE,models/gemini-3.8-flash
+C1,contents,What must an environmental emergency plan contain?,ANSWERED,ANSWERED,True,match,True,,,,16,0,1,RETRIEVE,models/gemini-3.8-flash
+C2,contents,What information must be included in the notice about simulation exercises?,ANSWERED,PARTIAL,True,OVER-abstained,False,,,,7,0,0,RETRIEVE,models/gemini-3.8-flash
+S1,situational,Our facility stores 6 tonnes of anhydrous ammonia in a single tank with a maximum capacity of 10 tonnes. We are not a farming operation and no exclusion applies. What do we have to do?,ANSWERED,ANSWERED,True,match,False,plan,section 4,,2,0,0,BOTH,models/gemini-3.8-flash
+S4,situational,We store 6 tonnes of anhydrous ammonia at our facility. What do we have to do?,PARTIAL,PARTIAL,True,match,False,,section 4,,9,0,1,BOTH,models/gemini-3.8-flash
+S2,situational,We are closing a facility for two years. What must we submit?,ANSWERED,ANSWERED,True,match,True,,,,4,0,2,RETRIEVE,models/gemini-3.8-flash
+S3,situational,Our facility is being sold to another company. Do we have to notify the Minister?,ANSWERED,ANSWERED,True,match,True,,,,6,0,3,RETRIEVE,models/gemini-3.8-flash
+U1,unanswerable,What penalty applies if a facility fails to submit a notice on time?,REFUSED,REFUSED,True,match,True,,,,0,0,0,RETRIEVE,models/gemini-3.8-flash
+U2,unanswerable,How much does it cost to submit a Schedule 2 notice?,REFUSED,REFUSED,True,match,True,,,,0,0,0,RETRIEVE,models/gemini-3.8-flash
+U3,unanswerable,Which substances must be reported to the National Pollutant Release Inventory?,REFUSED,REFUSED,True,match,True,,,,0,0,0,RETRIEVE,models/gemini-3.8-flash
+U4,unanswerable,Do the Environmental Emergency Regulations apply in Quebec?,REFUSED,PARTIAL,True,UNDER-abstained,False,,,,6,1,1,RETRIEVE,models/gemini-3.8-flash
+P1,partial,Does an Ontario Environmental Compliance Approval satisfy the E2 plan requirement?,PARTIAL,PARTIAL,True,match,True,,,,3,0,0,RETRIEVE,models/gemini-3.8-flash
+P2,partial,Can we use our corporate emergency response plan as the E2 plan?,PARTIAL,PARTIAL,True,match,True,,,,2,0,1,RETRIEVE,models/gemini-3.8-flash
