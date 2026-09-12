@@ -61,11 +61,23 @@ first commit:
 git ls-files --error-unmatch .env    # should say the file is not tracked
 ```
 
+**Build the index before the first run.** `data/vectors/` is excluded from the
+repository, so a fresh clone has no embeddings and the app will fail its own
+startup check. This only needs to be done once per machine, and again if
+`chunks.jsonl` changes:
+
+```bash
+python src/embed_corpus.py
+```
+
 Then start the page, **from the project folder and not from inside `src`**:
 
 ```bash
 streamlit run src/app.py
 ```
+
+The page is served by this process on this machine, at `localhost:8501`. It is
+not hosted anywhere. Stopping the process stops the page.
 
 ---
 
