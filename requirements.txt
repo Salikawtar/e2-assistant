@@ -1,0 +1,9 @@
+google-genai==2.18.1
+numpy==2.4.6
+lxml==6.1.1
+rank-bm25==0.2.2
+python-dotenv==1.2.3
+pandas==3.0.5
+ipykernel==7.3.0
+streamlit==1.61.1
+pdfplumber==0.11.10
