@@ -4,6 +4,14 @@ Download the E2 corpus and record a manifest of what was downloaded.
 The CORPUS list below is the single source of truth for what this
 assistant is allowed to read. If a document is not in this list,
 it does not exist as far as the system is concerned.
+
+Run order when this file is executed directly:
+    1. download_all()      fetch anything missing, skip what we already have
+    2. verify_manifest()   compare what is on disk against the existing manifest
+    3. build_manifest()    rewrite the manifest from the files actually present
+
+Step 2 exists because step 1 skips files that already exist. Without it,
+a file can drift on disk and the script will still report "have already".
 """
 
 import csv
@@ -142,13 +150,26 @@ def fetch(url, opener, referer=None):
         return response.read()
 
 
+def read_existing_manifest():
+    """The manifest as it stands, keyed by document_id. Empty if there is none."""
+    if not MANIFEST_PATH.exists():
+        return {}
+    with MANIFEST_PATH.open(newline="", encoding="utf-8") as handle:
+        return {row["document_id"]: row for row in csv.DictReader(handle)}
+
+
 def download(doc, attempts=3):
-    """Download one document, verify it, then save."""
+    """Download one document, verify it, then save.
+
+    Returns True only if this run actually fetched the file over the network.
+    Returns False if the file was already on disk, or if the download failed.
+    The caller needs that distinction so retrieved_date stays truthful.
+    """
     target = RAW_DIR / doc["filename"]
 
     if target.exists():
         print(f"  have already   {doc['filename']}")
-        return
+        return False
 
     source_format = doc["source_format"]
 
@@ -166,12 +187,12 @@ def download(doc, attempts=3):
 
             if not looks_correct(data, source_format):
                 raise ValueError(
-                    f"not a {source_format} file — starts with {data.lstrip()[:20]!r}"
+                    f"not a {source_format} file, starts with {data.lstrip()[:20]!r}"
                 )
 
             target.write_bytes(data)
             print(f"  downloaded     {doc['filename']}  ({len(data):,} bytes)")
-            return
+            return True
 
         except Exception as error:
             if attempt < attempts:
@@ -180,21 +201,98 @@ def download(doc, attempts=3):
             else:
                 print(f"  FAILED         {doc['filename']}  --  {error}")
 
+    return False
 
-def build_manifest():
-    """Write one row per document, describing the file we actually have."""
+
+def download_all():
+    """Fetch anything we do not already have. Returns the ids fetched this run."""
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"Corpus download - {date.today()}")
+
+    fetched = set()
+    for doc in CORPUS:
+        if download(doc):
+            fetched.add(doc["document_id"])
+
+    print("Done.")
+    return fetched
+
+
+def verify_manifest():
+    """Compare the files on disk against the manifest we already have.
+
+    download() skips files that already exist, so nothing else in this script
+    would ever notice a file changing underneath us. This is the check that does.
+    Returns the list of document_ids whose fingerprint no longer matches.
+    """
+    existing = read_existing_manifest()
+    if not existing:
+        print("\nNo manifest yet, nothing to verify.")
+        return []
+
+    print(f"\nVerifying {len(existing)} files against {MANIFEST_PATH}")
+    drifted = []
+
+    for doc in CORPUS:
+        row = existing.get(doc["document_id"])
+        path = RAW_DIR / doc["filename"]
+
+        if row is None:
+            print(f"  NEW            {doc['filename']}  (not in the manifest yet)")
+            continue
+        if not path.exists():
+            print(f"  MISSING        {doc['filename']}  (in the manifest, not on disk)")
+            drifted.append(doc["document_id"])
+            continue
+
+        data = path.read_bytes()
+        actual = hashlib.sha256(data).hexdigest()
+
+        if actual == row["sha256"]:
+            print(f"  ok             {doc['filename']}  sha256 {actual[:12]}...")
+        else:
+            drifted.append(doc["document_id"])
+            print(f"  CHANGED        {doc['filename']}")
+            print(f"                 manifest {int(row['bytes']):>10,} B  {row['sha256'][:12]}...")
+            print(f"                 on disk  {len(data):>10,} B  {actual[:12]}...")
+
+    if drifted:
+        print(f"\n  {len(drifted)} of {len(existing)} files no longer match the manifest.")
+        print("  The indexed text may not be the text on disk. Check why before rebuilding.")
+    else:
+        print("\n  All files match. The corpus is byte-for-byte what was indexed.")
+
+    return drifted
+
+
+def build_manifest(fetched_this_run=None):
+    """Write one row per document, describing the file we actually have.
+
+    retrieved_date is the date WE took our copy. It is only set to today for
+    documents actually fetched in this run. For everything else the existing
+    manifest date is carried forward, because a file that was not re-fetched
+    was not re-retrieved, and stamping today on it would falsify provenance.
+    """
+    fetched_this_run = fetched_this_run or set()
     today = date.today().isoformat()
+    existing = read_existing_manifest()
     rows = []
 
     for doc in CORPUS:
         path = RAW_DIR / doc["filename"]
         if not path.exists():
-            print(f"  MISSING        {doc['filename']} — not in the manifest")
+            print(f"  MISSING        {doc['filename']}, not in the manifest")
             continue
 
         data = path.read_bytes()
         row = {key: doc.get(key, "") for key in MANIFEST_COLUMNS}
-        row["retrieved_date"] = today
+
+        previous = existing.get(doc["document_id"])
+        if doc["document_id"] in fetched_this_run or previous is None:
+            row["retrieved_date"] = today
+        else:
+            row["retrieved_date"] = previous["retrieved_date"]
+
         row["bytes"] = len(data)
         row["sha256"] = hashlib.sha256(data).hexdigest()
         rows.append(row)
@@ -208,17 +306,11 @@ def build_manifest():
     print(f"\nManifest written: {MANIFEST_PATH}  ({len(rows)} documents)")
     for row in rows:
         print(f"  {row['document_id']:<22} {row['source_type']:<11} "
-              f"{row['bytes']:>9,} B   sha256 {row['sha256'][:12]}…")
-
-
-def download_all():
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"Corpus download — {date.today()}")
-    for doc in CORPUS:
-        download(doc)
-    print("Done.")
+              f"{row['bytes']:>9,} B   retrieved {row['retrieved_date']}   "
+              f"sha256 {row['sha256'][:12]}...")
 
 
 if __name__ == "__main__":
-    download_all()
-    build_manifest()
+    fetched = download_all()
+    verify_manifest()
+    build_manifest(fetched)
