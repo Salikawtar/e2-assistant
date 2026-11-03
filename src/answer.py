@@ -157,6 +157,14 @@ Then the answer. Seven rules.
    specific case you were asked about, or if the evidence covers a broader
    category that includes the subject but not the subject itself. Say in
    NOT COVERED exactly what it cannot settle.
+   A fact the question does not give about the asker's own situation (a
+   concentration, a container, a quantity) is NOT a gap in the evidence. If
+   the evidence settles the question once that fact is known, choose
+   ANSWERED and give the answer with its condition: "Yes, if ...".
+   If the question states something the evidence contradicts (a wrong
+   frequency, deadline or quantity), the subject IS addressed. Choose
+   ANSWERED or PARTIAL, never REFUSED: say plainly that the evidence says
+   otherwise, give what it says with its citation, then answer the rest.
 7. Write only the final answer. No reasoning, no headings, no preamble.
 
 Evidence:

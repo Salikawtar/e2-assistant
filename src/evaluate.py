@@ -68,14 +68,14 @@ GIVE_UP_AFTER = 3
 #                   every later number is measured against, because a fix
 #                   compared to a two-model baseline measures the fix and the
 #                   model together.
-RUN_LABEL = "stage6_rule6"
+RUN_LABEL = "stage6_premise"
 
 RUN_PATH = Path(f"eval/{RUN_LABEL}_run.json")
 CSV_PATH = Path(f"eval/{RUN_LABEL}_results.csv")
 
 # The prompt this run measures. If the prompt changes, the saved answers
 # describe a different system and must not be reused.
-PROMPT_VERSION = "stage6_rule6"
+PROMPT_VERSION = "stage6_premise"
 
 # A reply that reached one of these is an answer we can talk about. Anything
 # else is a failed generation, and its sentences are not claims.

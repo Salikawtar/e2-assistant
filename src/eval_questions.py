@@ -224,7 +224,7 @@ QUESTIONS = [
         "id": "S4",
         "family": "situational",
         "question": "We store 6 tonnes of anhydrous ammonia at our facility. What do we have to do?",
-        "expected_status": "PARTIAL",
+        "expected_status": "ANSWERED",
         "must_include": [["container", "capacity", "exclusion", "farming"]],
         "must_cite": ["section 3", "section 4"],
         "must_not_include": [],
@@ -236,7 +236,12 @@ QUESTIONS = [
                "applies, which excludes this exact substance at a farming "
                "operation used as an agricultural nutrient. A good answer "
                "states the threshold, states what follows, and names the "
-               "missing facts. Answering flatly is under-abstention.",
+               "missing facts. Answering flatly is under-abstention."
+               " CHANGED 2026-11-03 (prompt stage6_premise), decided BEFORE the "
+               "run: missing facts about the asker's own facility are not a gap "
+               "in the evidence, so the status is ANSWERED with the conditions "
+               "stated. Was PARTIAL. must_include still requires the container "
+               "and farming conditions, so a flat answer still fails.",
     },
     {
         "id": "S2",
@@ -347,14 +352,19 @@ QUESTIONS = [
         "id": "P2",
         "family": "partial",
         "question": "Can we use our corporate emergency response plan as the E2 plan?",
-        "expected_status": "PARTIAL",
+        "expected_status": "ANSWERED",
         "must_include": [["4(2)", "requirements"]],
         "must_cite": ["section 4"],
         "must_not_include": [],
         "why": "Same shape as P1 with a different instrument. Section 4(3) "
                "allows a plan prepared on a voluntary basis to be used if it "
                "meets 4(2). Whether a particular corporate plan does is not "
-               "something the corpus can say.",
+               "something the corpus can say."
+               " CHANGED 2026-11-03 (prompt stage6_premise), decided BEFORE the "
+               "run: what the asker's own plan contains is a fact about them, "
+               "not a gap in the evidence, so the status is ANSWERED with the "
+               "condition (if it meets 4(2)). Was PARTIAL. P1 stays PARTIAL: "
+               "there the corpus cannot say what an Ontario ECA requires.",
     },
 ]
 
